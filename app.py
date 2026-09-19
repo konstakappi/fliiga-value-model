@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import time
 from pathlib import Path
 
 import pandas as pd
+import requests
 import streamlit as st
 
 from fliiga_model.collector import FliigaCollector
@@ -16,12 +18,30 @@ from fliiga_model.odds import (
     market_anchored_two_way_probabilities,
 )
 from fliiga_model.predict import predict_fixtures
+from fliiga_model.quick_input import parse_bookmaker_odds
 
 ROOT = Path(__file__).parent
 GAMES_PATH = ROOT / "data" / "fliiga_men_history.csv"
 FIXTURES_PATH = ROOT / "data" / "fliiga_men_fixtures.csv"
 ODDS_DB_PATH = ROOT / "data" / "odds.db"
-BOOKMAKERS = ["Coolbet", "Unibet", "bet365", "Paf"]
+BOOKMAKERS = ["Coolbet", "Unibet", "bet365", "Paf", "Veikkaus"]
+
+
+def refresh_match_data_if_stale(max_age_hours: float = 12.0) -> bool:
+    """Refresh match files automatically when the bundled data is old."""
+    if not GAMES_PATH.exists() or not FIXTURES_PATH.exists():
+        is_stale = True
+    else:
+        newest_required_update = min(
+            GAMES_PATH.stat().st_mtime, FIXTURES_PATH.stat().st_mtime
+        )
+        is_stale = time.time() - newest_required_update > max_age_hours * 3_600
+    if not is_stale:
+        return False
+    collected = FliigaCollector().collect()
+    collected.completed.to_csv(GAMES_PATH, index=False)
+    collected.fixtures.to_csv(FIXTURES_PATH, index=False)
+    return True
 
 
 def fixture_label(row: pd.Series) -> str:
@@ -64,6 +84,13 @@ with st.sidebar:
         half_life = st.slider("Puoliintumisaika (päivää)", 30, 365, 120)
         l2 = st.slider("Regularisointi", 0.0, 10.0, 1.0, 0.1)
         ev_limit = st.slider("Value-raja", 0.0, 0.25, 0.05, 0.01)
+
+if "automatic_data_refresh_done" not in st.session_state:
+    try:
+        with st.spinner("Tarkistetaan tuoreimmat F-liiga-ottelut..."):
+            st.session_state.automatic_data_refresh_done = refresh_match_data_if_stale()
+    except (OSError, RuntimeError, ValueError, requests.RequestException):
+        st.session_state.automatic_data_refresh_done = False
 
 try:
     games = load_games(GAMES_PATH)
@@ -194,7 +221,7 @@ with calculator_tab:
         )
 
 with compare_tab:
-    st.subheader("Vertaa neljää vedonvälittäjää samalla kertaa")
+    st.subheader("Vertaa viittä vedonvälittäjää samalla kertaa")
     st.write(
         "Valitse ottelu ja liitä kertoimet taulukkoon. Voit kopioida useita "
         "Excel-/CSV-soluja ja liittää ne taulukkoon yhdellä Ctrl+V-painalluksella."
@@ -210,14 +237,29 @@ with compare_tab:
         compare_reliability * (compare_home_goals + compare_away_goals)
         + (1.0 - compare_reliability) * league_total_prior
     )
-    compare_line = round(compare_total_mean - 0.5) + 0.5
+    suggested_compare_line = round(compare_total_mean - 0.5) + 0.5
+    compare_line = st.number_input(
+        "Maaliraja kaikille vedonvälittäjille",
+        min_value=0.5,
+        value=float(suggested_compare_line),
+        step=0.5,
+    )
+    with st.expander("Liitä kaikki kertoimet yhdellä kertaa"):
+        st.caption(
+            "Yksi vedonvälittäjä per rivi, esimerkiksi: Coolbet 1,75 1,96. "
+            "Ensimmäinen luku on Over ja toinen Under."
+        )
+        pasted_totals = st.text_area(
+            "Kerroinrivit", key="pasted_totals", placeholder="Coolbet 1,75 1,96\nVeikkaus 1,82 1,90"
+        )
+        st.link_button("Avaa OddsPortal", "https://www.oddsportal.com/")
+    parsed_totals = parse_bookmaker_odds(pasted_totals, BOOKMAKERS)
 
     odds_grid = pd.DataFrame(
         {
             "Vedonvälittäjä": BOOKMAKERS,
-            "Maaliraja": [compare_line] * len(BOOKMAKERS),
-            "Over": [None] * len(BOOKMAKERS),
-            "Under": [None] * len(BOOKMAKERS),
+            "Over": [parsed_totals.get(book, (None, None))[0] for book in BOOKMAKERS],
+            "Under": [parsed_totals.get(book, (None, None))[1] for book in BOOKMAKERS],
         }
     )
     edited_odds = st.data_editor(
@@ -226,20 +268,18 @@ with compare_tab:
         hide_index=True,
         disabled=["Vedonvälittäjä"],
         column_config={
-            "Maaliraja": st.column_config.NumberColumn(min_value=0.5, step=0.5),
             "Over": st.column_config.NumberColumn(min_value=1.01, step=0.01),
             "Under": st.column_config.NumberColumn(min_value=1.01, step=0.01),
         },
-        key=f"odds_{compare_home}_{compare_away}",
+        key=f"odds_{compare_home}_{compare_away}_{hash(pasted_totals)}",
     )
 
     if st.button("Laske ja järjestä parhaat", type="primary", width="stretch"):
         rows: list[dict[str, object]] = []
         for quote in edited_odds.itertuples(index=False):
-            line = pd.to_numeric(quote.Maaliraja, errors="coerce")
             over = pd.to_numeric(quote.Over, errors="coerce")
             under = pd.to_numeric(quote.Under, errors="coerce")
-            if pd.isna(line) or pd.isna(over) or pd.isna(under):
+            if pd.isna(over) or pd.isna(under):
                 continue
             if float(over) <= 1.0 or float(under) <= 1.0:
                 continue
@@ -248,7 +288,7 @@ with compare_tab:
                 compare_date,
                 compare_home,
                 compare_away,
-                float(line),
+                float(compare_line),
                 float(over),
                 float(under),
             )
@@ -270,7 +310,7 @@ with compare_tab:
                     {
                         "Vedonvälittäjä": quote.Vedonvälittäjä,
                         "Puoli": "Over",
-                        "Raja": line,
+                        "Raja": compare_line,
                         "Kerroin": over,
                         "Reilu kerroin": fair_odds_with_push(
                             adjusted_over, prediction.push_probability
@@ -282,7 +322,7 @@ with compare_tab:
                     {
                         "Vedonvälittäjä": quote.Vedonvälittäjä,
                         "Puoli": "Under",
-                        "Raja": line,
+                        "Raja": compare_line,
                         "Kerroin": under,
                         "Reilu kerroin": fair_odds_with_push(
                             adjusted_under, prediction.push_probability
@@ -331,13 +371,32 @@ with handicap_tab:
     suggested_handicap = round(
         -(handicap_home_xg - handicap_away_xg) * 2
     ) / 2
+    common_handicap = st.number_input(
+        f"{handicap_home}:n tasoitus kaikille vedonvälittäjille",
+        value=float(suggested_handicap),
+        step=0.5,
+    )
+    with st.expander("Liitä kaikki tasoituskertoimet yhdellä kertaa"):
+        st.caption(
+            "Yksi vedonvälittäjä per rivi. Ensimmäinen luku on kotijoukkueen "
+            "ja toinen vierasjoukkueen kerroin."
+        )
+        pasted_handicaps = st.text_area(
+            "Tasoituskertoimet",
+            key="pasted_handicaps",
+            placeholder="Coolbet 1,90 1,90\nVeikkaus 1,85 1,95",
+        )
+    parsed_handicaps = parse_bookmaker_odds(pasted_handicaps, BOOKMAKERS)
 
     handicap_grid = pd.DataFrame(
         {
             "Vedonvälittäjä": BOOKMAKERS,
-            "Kotitasoitus": [suggested_handicap] * len(BOOKMAKERS),
-            "Koti": [None] * len(BOOKMAKERS),
-            "Vieras": [None] * len(BOOKMAKERS),
+            "Koti": [
+                parsed_handicaps.get(book, (None, None))[0] for book in BOOKMAKERS
+            ],
+            "Vieras": [
+                parsed_handicaps.get(book, (None, None))[1] for book in BOOKMAKERS
+            ],
         }
     )
     edited_handicaps = st.data_editor(
@@ -346,11 +405,10 @@ with handicap_tab:
         hide_index=True,
         disabled=["Vedonvälittäjä"],
         column_config={
-            "Kotitasoitus": st.column_config.NumberColumn(step=0.5),
             "Koti": st.column_config.NumberColumn(min_value=1.01, step=0.01),
             "Vieras": st.column_config.NumberColumn(min_value=1.01, step=0.01),
         },
-        key=f"handicaps_{handicap_home}_{handicap_away}",
+        key=f"handicaps_{handicap_home}_{handicap_away}_{hash(pasted_handicaps)}",
     )
 
     st.caption(
@@ -367,15 +425,14 @@ with handicap_tab:
     if st.button("Laske tasoitusvedot", type="primary", width="stretch"):
         handicap_rows: list[dict[str, object]] = []
         for quote in edited_handicaps.itertuples(index=False):
-            line = pd.to_numeric(quote.Kotitasoitus, errors="coerce")
             home_odds = pd.to_numeric(quote.Koti, errors="coerce")
             away_odds = pd.to_numeric(quote.Vieras, errors="coerce")
-            if pd.isna(line) or pd.isna(home_odds) or pd.isna(away_odds):
+            if pd.isna(home_odds) or pd.isna(away_odds):
                 continue
             if float(home_odds) <= 1.0 or float(away_odds) <= 1.0:
                 continue
             handicap = model.predict_handicap(
-                handicap_home, handicap_away, float(line)
+                handicap_home, handicap_away, float(common_handicap)
             )
             adjusted_home, adjusted_away = market_anchored_two_way_probabilities(
                 handicap.home_cover_probability,
@@ -385,8 +442,8 @@ with handicap_tab:
                 handicap_reliability,
             )
             sides = (
-                (handicap_home, float(line), float(home_odds), adjusted_home),
-                (handicap_away, -float(line), float(away_odds), adjusted_away),
+                (handicap_home, float(common_handicap), float(home_odds), adjusted_home),
+                (handicap_away, -float(common_handicap), float(away_odds), adjusted_away),
             )
             for team, team_line, odds, probability in sides:
                 ev = expected_value_with_push(

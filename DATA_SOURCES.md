@@ -12,9 +12,9 @@ No bookmaker odds are redistributed with this repository. Import only data that
 you are permitted to use with `fliiga-model odds-import` or
 `fliiga-model totals-backtest`.
 
-The normalized format supports Coolbet, Unibet, bet365, Paf and other books via
+The normalized format supports Coolbet, Unibet, bet365, Paf, Veikkaus and other books via
 the `bookmaker` column. There is currently no stable, unauthenticated public API
-for the four named bookmakers that provides full historical F-liiga totals.
+for the five named bookmakers that provides full historical F-liiga totals.
 
 OddsPortal publicly displays F-liiga results back to 2007/08 and some match-level
 over/under closing prices. It is not integrated: its terms restrict copying,

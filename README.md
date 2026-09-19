@@ -1,4 +1,4 @@
-# F-liiga Value Model v0.7.0
+# F-liiga Value Model v0.8.0
 
 GitHub-valmis miesten F-liigan maalimäärä- ja 1X2-todennäköisyyksien arviointiin.
 Malli sovittaa ottelutuloksiin joukkuekohtaiset hyökkäys- ja puolustusvahvuudet,
@@ -55,9 +55,21 @@ chmod +x kaynnista_mac_linux.sh
 ./kaynnista_mac_linux.sh
 ```
 
-Käyttöliittymässä tuleva ottelu valitaan suoraan listasta. Neljän vedonvälittäjän
+Käyttöliittymässä tuleva ottelu valitaan suoraan listasta. Viiden vedonvälittäjän
 kertoimet voi liittää samaan taulukkoon kerralla, minkä jälkeen ohjelma järjestää
 Over- ja Under-vaihtoehdot odotusarvon mukaan.
+
+Versiossa 0.8 ottelutiedot tarkistetaan automaattisesti enintään 12 tunnin välein.
+Maaliraja tai tasoitus syötetään vain kerran kaikille vedonvälittäjille. Kertoimet
+voi täyttää taulukkoon tai liittää kaikki kerralla tekstinä, esimerkiksi:
+
+```text
+Coolbet 1,75 1,96
+Unibet 1,82 1,91
+bet365 1,80 1,95
+Paf 1,78 1,98
+Veikkaus 1,85 1,90
+```
 
 **Tasoitukset**-välilehdellä kotijoukkueen tasoitus merkitään kotijoukkueen
 näkökulmasta. Esimerkiksi `-1,5` vaatii kotijoukkueelta vähintään kahden maalin

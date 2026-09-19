@@ -1,4 +1,4 @@
-# Model card – F-liiga Value Model 0.7.0
+# Model card – F-liiga Value Model 0.8.0
 
 ## Käyttötarkoitus
 
