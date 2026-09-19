@@ -11,7 +11,11 @@ import pandas as pd
 
 from .data import load_fixtures, load_games
 from .model import PoissonStrengthModel
-from .odds import expected_value_with_push, fair_odds_with_push
+from .odds import (
+    expected_value_with_push,
+    fair_odds_with_push,
+    market_anchored_total_probabilities,
+)
 
 ODDS_COLUMNS = {
     "bookmaker",
@@ -247,9 +251,35 @@ def build_value_report(
 
     model = PoissonStrengthModel(half_life_days=half_life, l2=l2).fit(games)
     results: list[dict[str, object]] = []
+    price_keys = [
+        "bookmaker", "event_start", "home_key", "away_key", "total_line", "side"
+    ]
+    price_lookup = joined.set_index(price_keys)["decimal_odds"].to_dict()
     for row in joined.itertuples(index=False):
+        opposite_side = "under" if row.side == "over" else "over"
+        opposite_odds = price_lookup.get(
+            (
+                row.bookmaker,
+                row.event_start,
+                row.home_key,
+                row.away_key,
+                row.total_line,
+                opposite_side,
+            )
+        )
+        if opposite_odds is None:
+            continue
         total = model.predict_total(row.home_team_fixture, row.away_team_fixture, row.total_line)
-        probability = total.over_probability if row.side == "over" else total.under_probability
+        over_odds = row.decimal_odds if row.side == "over" else opposite_odds
+        under_odds = row.decimal_odds if row.side == "under" else opposite_odds
+        over_probability, under_probability = market_anchored_total_probabilities(
+            total.over_probability,
+            total.push_probability,
+            over_odds,
+            under_odds,
+            model.match_reliability(row.home_team_fixture, row.away_team_fixture),
+        )
+        probability = over_probability if row.side == "over" else under_probability
         ev = expected_value_with_push(probability, total.push_probability, row.decimal_odds)
         full_kelly = max(0.0, ev / max(row.decimal_odds - 1.0, 1e-12))
         results.append(

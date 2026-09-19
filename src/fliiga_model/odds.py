@@ -24,6 +24,31 @@ def two_way_devig(first: float, second: float) -> tuple[float, float]:
     return inverse[0] / total, inverse[1] / total
 
 
+def market_anchored_total_probabilities(
+    model_over: float,
+    push_probability: float,
+    over_odds: float,
+    under_odds: float,
+    reliability: float,
+) -> tuple[float, float]:
+    """Blend a totals model with the no-vig market when team data is sparse."""
+    if not 0 <= reliability <= 1:
+        raise ValueError("Reliability must be between 0 and 1")
+    if not 0 <= push_probability < 1:
+        raise ValueError("Push probability must be between 0 and 1")
+    non_push = 1.0 - push_probability
+    if not 0 <= model_over <= non_push:
+        raise ValueError("Model over probability is inconsistent with push probability")
+    market_over, _ = two_way_devig(over_odds, under_odds)
+    model_over_conditional = model_over / non_push
+    blended_over_conditional = (
+        reliability * model_over_conditional + (1.0 - reliability) * market_over
+    )
+    over = blended_over_conditional * non_push
+    under = (1.0 - blended_over_conditional) * non_push
+    return over, under
+
+
 def expected_value(probability: float, decimal_odds: float) -> float:
     return probability * decimal_odds - 1.0
 

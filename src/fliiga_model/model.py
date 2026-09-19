@@ -44,6 +44,7 @@ class PoissonStrengthModel:
         self.params_: np.ndarray | None = None
         self.fit_date_: pd.Timestamp | None = None
         self.total_dispersion_: float | None = None
+        self.team_effective_games_: dict[str, float] = {}
 
     def fit(self, games: pd.DataFrame, as_of: pd.Timestamp | str | None = None) -> PoissonStrengthModel:
         required = {"date", "home_team", "away_team", "home_goals", "away_goals"}
@@ -70,6 +71,11 @@ class PoissonStrengthModel:
         away_goals = data["away_goals"].to_numpy(dtype=float)
         age_days = (self.fit_date_ - data["date"]).dt.total_seconds().to_numpy() / 86_400
         weights = np.power(0.5, np.maximum(age_days, 0.0) / self.half_life_days)
+        effective_games = np.bincount(home_idx, weights=weights, minlength=n_teams)
+        effective_games += np.bincount(away_idx, weights=weights, minlength=n_teams)
+        self.team_effective_games_ = {
+            team: float(effective_games[index]) for team, index in self.team_index.items()
+        }
 
         mean_goals = max((home_goals.sum() + away_goals.sum()) / (2 * len(data)), 0.1)
         initial = np.zeros(2 + 2 * n_teams)
@@ -132,6 +138,22 @@ class PoissonStrengthModel:
         home = np.exp(intercept + home_advantage + attack[home_idx] - defence[away_idx])
         away = np.exp(intercept + attack[away_idx] - defence[home_idx])
         return float(home), float(away)
+
+    def match_reliability(
+        self, home_team: str, away_team: str, prior_games: float = 12.0
+    ) -> float:
+        """Return a conservative 0–1 data reliability weight for a matchup."""
+        if self.params_ is None:
+            raise RuntimeError("Fit the model before estimating reliability")
+        if prior_games <= 0:
+            raise ValueError("prior_games must be positive")
+        unknown = {home_team, away_team} - set(self.team_index)
+        if unknown:
+            raise ValueError(f"Unknown teams: {sorted(unknown)}")
+        effective_games = min(
+            self.team_effective_games_[home_team], self.team_effective_games_[away_team]
+        )
+        return float(effective_games / (effective_games + prior_games))
 
     def predict(self, home_team: str, away_team: str) -> MatchPrediction:
         home_xg, away_xg = self.expected_goals(home_team, away_team)
