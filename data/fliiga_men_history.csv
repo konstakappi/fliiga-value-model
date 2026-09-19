@@ -1,0 +1,1441 @@
+match_id,date,season,competition,round,home_team,away_team,source_url,home_goals,away_goals
+466405,2020-09-20 17:00:00,2020-2021,,,Classic,Welhot,https://fliiga.com/ottelut/miehet/classic-welhot-20-9-2020/,7,5
+466407,2020-09-20 17:00:00,2020-2021,,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-20-9-2020/,4,8
+466410,2020-09-20 17:00:00,2020-2021,,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-20-9-2020/,6,3
+466412,2020-09-20 17:00:00,2020-2021,,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-20-9-2020/,4,6
+466414,2020-09-20 17:00:00,2020-2021,,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-20-9-2020/,5,6
+466417,2020-09-20 17:00:00,2020-2021,,,Steelers,TPS,https://fliiga.com/ottelut/miehet/steelers-tps-20-9-2020/,2,3
+466419,2020-09-20 17:00:00,2020-2021,,,Tiikerit,EräViikingit,https://fliiga.com/ottelut/miehet/tiikerit-eraviikingit-20-9-2020/,0,3
+466421,2020-09-25 18:30:00,2020-2021,,,Jymy,Steelers,https://fliiga.com/ottelut/miehet/jymy-steelers-25-9-2020/,2,5
+466422,2020-09-25 18:30:00,2020-2021,,,Nokian KrP,Welhot,https://fliiga.com/ottelut/miehet/nokian-krp-welhot-25-9-2020/,6,3
+466423,2020-09-25 18:30:00,2020-2021,,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-25-9-2020/,6,1
+466424,2020-09-25 18:30:00,2020-2021,,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-25-9-2020/,2,10
+466426,2020-09-26 17:00:00,2020-2021,,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-26-9-2020/,2,9
+466428,2020-09-26 17:00:00,2020-2021,,,Steelers,SPV,https://fliiga.com/ottelut/miehet/steelers-spv-26-9-2020/,4,5
+466429,2020-09-26 17:00:00,2020-2021,,,Tiikerit,LASB,https://fliiga.com/ottelut/miehet/tiikerit-lasb-26-9-2020/,5,7
+466432,2020-09-27 17:00:00,2020-2021,,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-27-9-2020/,8,11
+466434,2020-09-27 18:00:00,2020-2021,,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-27-9-2020/,7,11
+466435,2020-09-30 18:30:00,2020-2021,,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-30-9-2020/,8,4
+466438,2020-09-30 18:30:00,2020-2021,,,Welhot,Happee,https://fliiga.com/ottelut/miehet/welhot-happee-30-9-2020/,3,7
+466440,2020-10-01 18:30:00,2020-2021,,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-1-10-2020/,9,4
+466442,2020-10-02 18:30:00,2020-2021,,,Indians,Steelers,https://fliiga.com/ottelut/miehet/indians-steelers-2-10-2020/,10,9
+466444,2020-10-03 17:00:00,2020-2021,,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-3-10-2020/,8,4
+466446,2020-10-03 18:00:00,2020-2021,,,Welhot,SPV,https://fliiga.com/ottelut/miehet/welhot-spv-3-10-2020/,0,11
+466448,2020-10-03 18:30:00,2020-2021,,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-3-10-2020/,6,5
+466450,2020-10-03 18:30:00,2020-2021,,,TPS,Tiikerit,https://fliiga.com/ottelut/miehet/tps-tiikerit-3-10-2020/,10,2
+466451,2020-10-04 17:00:00,2020-2021,,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-4-10-2020/,7,4
+466454,2020-10-04 17:00:00,2020-2021,,,Steelers,OLS,https://fliiga.com/ottelut/miehet/steelers-ols-4-10-2020/,7,14
+466456,2020-10-04 17:00:00,2020-2021,,,Tiikerit,Jymy,https://fliiga.com/ottelut/miehet/tiikerit-jymy-4-10-2020/,5,4
+466458,2020-10-06 18:30:00,2020-2021,,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-6-10-2020/,5,6
+466460,2020-10-07 18:30:00,2020-2021,,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-7-10-2020/,6,2
+466462,2020-10-07 18:30:00,2020-2021,,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-7-10-2020/,5,2
+466464,2020-10-08 18:30:00,2020-2021,,,Steelers,EräViikingit,https://fliiga.com/ottelut/miehet/steelers-eraviikingit-8-10-2020/,3,4
+466468,2020-10-09 18:30:00,2020-2021,,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-9-10-2020/,4,3
+466470,2020-10-09 18:30:00,2020-2021,,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-9-10-2020/,4,3
+466475,2020-10-10 15:00:00,2020-2021,,,Welhot,Oilers,https://fliiga.com/ottelut/miehet/welhot-oilers-10-10-2020/,2,9
+466477,2020-10-10 18:30:00,2020-2021,,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-10-10-2020/,3,7
+466479,2020-10-11 16:00:00,2020-2021,,,LASB,Steelers,https://fliiga.com/ottelut/miehet/lasb-steelers-11-10-2020/,5,2
+466644,2020-10-11 18:00:00,2020-2021,,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-11-10-2020/,2,7
+466487,2020-10-13 18:30:00,2020-2021,,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-13-10-2020/,7,10
+466489,2020-10-23 18:30:00,2020-2021,,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-23-10-2020/,5,3
+466492,2020-10-23 18:30:00,2020-2021,,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-23-10-2020/,9,3
+466496,2020-10-24 17:00:00,2020-2021,,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-24-10-2020/,11,7
+466498,2020-10-24 17:00:00,2020-2021,,,Steelers,Welhot,https://fliiga.com/ottelut/miehet/steelers-welhot-24-10-2020/,10,2
+466500,2020-10-24 17:00:00,2020-2021,,,Tiikerit,SPV,https://fliiga.com/ottelut/miehet/tiikerit-spv-24-10-2020/,4,11
+466501,2020-10-25 17:00:00,2020-2021,,,Happee,Tiikerit,https://fliiga.com/ottelut/miehet/happee-tiikerit-25-10-2020/,10,5
+466504,2020-10-25 18:00:00,2020-2021,,,Classic,Steelers,https://fliiga.com/ottelut/miehet/classic-steelers-25-10-2020/,17,3
+466505,2020-10-25 18:00:00,2020-2021,,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-25-10-2020/,4,8
+466511,2020-10-26 18:30:00,2020-2021,,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-26-10-2020/,5,6
+466514,2020-10-27 18:30:00,2020-2021,,,Welhot,LASB,https://fliiga.com/ottelut/miehet/welhot-lasb-27-10-2020/,3,6
+466516,2020-10-28 18:30:00,2020-2021,,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-28-10-2020/,3,7
+466518,2020-10-29 18:30:00,2020-2021,,,Tiikerit,Nokian KrP,https://fliiga.com/ottelut/miehet/tiikerit-nokian-krp-29-10-2020/,4,11
+466520,2020-10-30 18:30:00,2020-2021,,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-30-10-2020/,6,5
+466521,2020-10-30 18:30:00,2020-2021,,,Oilers,Steelers,https://fliiga.com/ottelut/miehet/oilers-steelers-30-10-2020/,12,2
+466524,2020-10-31 16:00:00,2020-2021,,,LASB,Happee,https://fliiga.com/ottelut/miehet/lasb-happee-31-10-2020/,5,4
+466526,2020-10-31 17:00:00,2020-2021,,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-31-10-2020/,5,6
+466528,2020-10-31 17:00:00,2020-2021,,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-31-10-2020/,3,9
+466529,2020-10-31 18:00:00,2020-2021,,,Welhot,TPS,https://fliiga.com/ottelut/miehet/welhot-tps-31-10-2020/,2,13
+466531,2020-11-01 18:30:00,2020-2021,,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-1-11-2020/,8,4
+466533,2020-11-04 18:30:00,2020-2021,,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-4-11-2020/,4,5
+466534,2020-11-04 18:30:00,2020-2021,,,Steelers,Nokian KrP,https://fliiga.com/ottelut/miehet/steelers-nokian-krp-4-11-2020/,5,9
+466537,2020-11-06 18:30:00,2020-2021,,,Classic,Tiikerit,https://fliiga.com/ottelut/miehet/classic-tiikerit-6-11-2020/,13,2
+466539,2020-11-06 18:30:00,2020-2021,,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-6-11-2020/,4,2
+466541,2020-11-07 15:00:00,2020-2021,,,OLS,Welhot,https://fliiga.com/ottelut/miehet/ols-welhot-7-11-2020/,10,3
+466543,2020-11-07 17:00:00,2020-2021,,,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-7-11-2020/,6,10
+466546,2020-11-09 18:30:00,2020-2021,,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-9-11-2020/,9,5
+466545,2020-11-11 18:30:00,2020-2021,,,Welhot,Jymy,https://fliiga.com/ottelut/miehet/welhot-jymy-11-11-2020/,6,4
+466548,2020-11-11 18:30:00,2020-2021,,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-11-11-2020/,2,6
+466550,2020-11-11 18:30:00,2020-2021,,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-11-11-2020/,4,6
+466552,2020-11-13 18:30:00,2020-2021,,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-13-11-2020/,0,6
+466554,2020-11-14 15:00:00,2020-2021,,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-14-11-2020/,6,7
+466556,2020-11-14 17:00:00,2020-2021,,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-14-11-2020/,4,3
+466558,2020-11-14 17:00:00,2020-2021,,,Tiikerit,Steelers,https://fliiga.com/ottelut/miehet/tiikerit-steelers-14-11-2020/,3,5
+466561,2020-11-14 18:00:00,2020-2021,,,Welhot,Indians,https://fliiga.com/ottelut/miehet/welhot-indians-14-11-2020/,3,11
+466562,2020-11-15 17:00:00,2020-2021,,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-15-11-2020/,14,5
+466566,2020-11-15 18:00:00,2020-2021,,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-15-11-2020/,7,9
+466568,2020-11-15 18:00:00,2020-2021,,,Welhot,EräViikingit,https://fliiga.com/ottelut/miehet/welhot-eraviikingit-15-11-2020/,0,12
+466572,2020-11-18 18:30:00,2020-2021,,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-18-11-2020/,11,2
+466577,2020-11-20 18:30:00,2020-2021,,,Indians,Tiikerit,https://fliiga.com/ottelut/miehet/indians-tiikerit-20-11-2020/,5,6
+466579,2020-11-20 18:30:00,2020-2021,,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-20-11-2020/,9,4
+466586,2020-11-20 18:30:00,2020-2021,,,Happee,Steelers,https://fliiga.com/ottelut/miehet/happee-steelers-20-11-2020/,3,5
+466581,2020-11-21 16:00:00,2020-2021,,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-21-11-2020/,5,4
+466583,2020-11-21 17:00:00,2020-2021,,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-21-11-2020/,9,7
+466472,2020-11-22 18:00:00,2020-2021,,,OLS,Tiikerit,https://fliiga.com/ottelut/miehet/ols-tiikerit-22-11-2020/,8,6
+466574,2020-11-25 18:30:00,2020-2021,,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-25-11-2020/,6,5
+466570,2020-11-27 18:30:00,2020-2021,,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-27-11-2020/,5,3
+466507,2020-11-28 18:30:00,2020-2021,,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-28-11-2020/,9,4
+466602,2020-11-29 17:00:00,2020-2021,,,LASB,Tiikerit,https://fliiga.com/ottelut/miehet/lasb-tiikerit-29-11-2020/,6,2
+466466,2020-11-29 18:30:00,2020-2021,,,Jymy,Happee,https://fliiga.com/ottelut/miehet/jymy-happee-29-11-2020/,4,10
+466494,2020-11-30 18:30:00,2020-2021,,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-30-11-2020/,11,6
+466640,2020-12-11 18:30:00,2020-2021,,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-11-12-2020/,6,4
+466610,2020-12-12 18:00:00,2020-2021,,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-12-12-2020/,8,4
+466606,2020-12-13 17:00:00,2020-2021,,,Steelers,Jymy,https://fliiga.com/ottelut/miehet/steelers-jymy-13-12-2020/,3,4
+466741,2020-12-13 17:00:00,2020-2021,,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-13-12-2020/,6,8
+466485,2020-12-13 18:00:00,2020-2021,,,Welhot,Tiikerit,https://fliiga.com/ottelut/miehet/welhot-tiikerit-13-12-2020/,1,7
+466588,2020-12-18 18:30:00,2020-2021,,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-18-12-2020/,7,4
+466591,2020-12-18 18:30:00,2020-2021,,,EräViikingit,Tiikerit,https://fliiga.com/ottelut/miehet/eraviikingit-tiikerit-18-12-2020/,3,4
+466594,2020-12-19 17:00:00,2020-2021,,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-19-12-2020/,5,4
+466596,2020-12-19 17:00:00,2020-2021,,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-19-12-2020/,3,8
+466598,2020-12-19 17:00:00,2020-2021,,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-19-12-2020/,10,2
+466599,2020-12-19 18:00:00,2020-2021,,,Welhot,Classic,https://fliiga.com/ottelut/miehet/welhot-classic-19-12-2020/,7,11
+466601,2020-12-19 18:30:00,2020-2021,,,TPS,Steelers,https://fliiga.com/ottelut/miehet/tps-steelers-19-12-2020/,9,4
+466604,2020-12-20 17:00:00,2020-2021,,,Happee,EräViikingit,https://fliiga.com/ottelut/miehet/happee-eraviikingit-20-12-2020/,3,6
+466608,2020-12-20 18:00:00,2020-2021,,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-20-12-2020/,1,9
+466481,2020-12-21 18:30:00,2020-2021,,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-21-12-2020/,7,8
+466612,2020-12-27 17:00:00,2020-2021,,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-27-12-2020/,7,4
+466615,2020-12-27 17:00:00,2020-2021,,,SPV,Welhot,https://fliiga.com/ottelut/miehet/spv-welhot-27-12-2020/,9,1
+466619,2020-12-29 18:30:00,2020-2021,,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-29-12-2020/,3,9
+466621,2020-12-30 18:30:00,2020-2021,,,Tiikerit,Welhot,https://fliiga.com/ottelut/miehet/tiikerit-welhot-30-12-2020/,11,5
+466623,2021-01-02 17:00:00,2020-2021,,,EräViikingit,Steelers,https://fliiga.com/ottelut/miehet/eraviikingit-steelers-2-1-2021/,8,4
+466624,2021-01-03 17:00:00,2020-2021,,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-3-1-2021/,6,5
+466626,2021-01-03 17:00:00,2020-2021,,,Steelers,Indians,https://fliiga.com/ottelut/miehet/steelers-indians-3-1-2021/,3,10
+466631,2021-01-03 18:30:00,2020-2021,,,Happee,Welhot,https://fliiga.com/ottelut/miehet/happee-welhot-3-1-2021/,12,5
+466633,2021-01-04 18:30:00,2020-2021,,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-4-1-2021/,9,3
+466564,2021-01-06 17:00:00,2020-2021,,,Tiikerit,Oilers,https://fliiga.com/ottelut/miehet/tiikerit-oilers-6-1-2021/,6,7
+466635,2021-01-06 17:00:00,2020-2021,,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-6-1-2021/,5,6
+466636,2021-01-06 18:00:00,2020-2021,,,Welhot,Nokian KrP,https://fliiga.com/ottelut/miehet/welhot-nokian-krp-6-1-2021/,5,12
+466638,2021-01-08 18:30:00,2020-2021,,,Indians,Happee,https://fliiga.com/ottelut/miehet/indians-happee-8-1-2021/,2,8
+466642,2021-01-09 14:30:00,2020-2021,,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-9-1-2021/,8,3
+466483,2021-01-09 17:00:00,2020-2021,,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-9-1-2021/,8,5
+466646,2021-01-09 17:00:00,2020-2021,,,Jymy,Tiikerit,https://fliiga.com/ottelut/miehet/jymy-tiikerit-9-1-2021/,3,4
+466648,2021-01-09 17:00:00,2020-2021,,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-9-1-2021/,1,11
+466650,2021-01-10 17:00:00,2020-2021,,,EräViikingit,Welhot,https://fliiga.com/ottelut/miehet/eraviikingit-welhot-10-1-2021/,2,3
+466652,2021-01-10 18:00:00,2020-2021,,,OLS,Steelers,https://fliiga.com/ottelut/miehet/ols-steelers-10-1-2021/,7,6
+466655,2021-01-13 18:30:00,2020-2021,,,Nokian KrP,Tiikerit,https://fliiga.com/ottelut/miehet/nokian-krp-tiikerit-13-1-2021/,7,5
+466657,2021-01-13 18:30:00,2020-2021,,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-13-1-2021/,6,5
+466659,2021-01-15 18:30:00,2020-2021,,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-15-1-2021/,3,2
+466661,2021-01-15 18:30:00,2020-2021,,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-15-1-2021/,3,11
+466663,2021-01-15 18:30:00,2020-2021,,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-15-1-2021/,6,4
+466665,2021-01-15 18:30:00,2020-2021,,,Steelers,LASB,https://fliiga.com/ottelut/miehet/steelers-lasb-15-1-2021/,7,4
+466667,2021-01-16 17:00:00,2020-2021,,,Oilers,Welhot,https://fliiga.com/ottelut/miehet/oilers-welhot-16-1-2021/,8,4
+466669,2021-01-16 18:00:00,2020-2021,,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-16-1-2021/,5,4
+466671,2021-01-16 18:30:00,2020-2021,,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-16-1-2021/,21,5
+466673,2021-01-17 16:00:00,2020-2021,,,LASB,Welhot,https://fliiga.com/ottelut/miehet/lasb-welhot-17-1-2021/,8,0
+466676,2021-01-17 17:00:00,2020-2021,,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-17-1-2021/,7,8
+466678,2021-01-17 17:00:00,2020-2021,,,Tiikerit,OLS,https://fliiga.com/ottelut/miehet/tiikerit-ols-17-1-2021/,8,6
+466680,2021-01-22 18:30:00,2020-2021,,,Oilers,Tiikerit,https://fliiga.com/ottelut/miehet/oilers-tiikerit-22-1-2021/,7,3
+466682,2021-01-23 17:00:00,2020-2021,,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-23-1-2021/,2,7
+466683,2021-01-23 18:00:00,2020-2021,,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-23-1-2021/,4,5
+466685,2021-01-23 18:00:00,2020-2021,,,Welhot,Steelers,https://fliiga.com/ottelut/miehet/welhot-steelers-23-1-2021/,3,4
+466687,2021-01-23 18:30:00,2020-2021,,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-23-1-2021/,7,5
+466689,2021-01-24 17:00:00,2020-2021,,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-24-1-2021/,4,1
+466691,2021-01-24 17:00:00,2020-2021,,,SPV,Tiikerit,https://fliiga.com/ottelut/miehet/spv-tiikerit-24-1-2021/,8,3
+466693,2021-01-25 18:30:00,2020-2021,,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-25-1-2021/,5,4
+466698,2021-01-26 18:30:00,2020-2021,,,Steelers,Oilers,https://fliiga.com/ottelut/miehet/steelers-oilers-26-1-2021/,6,12
+466700,2021-01-27 18:30:00,2020-2021,,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-27-1-2021/,8,7
+466701,2021-01-29 18:30:00,2020-2021,,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-29-1-2021/,3,4
+466703,2021-01-29 18:30:00,2020-2021,,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-29-1-2021/,4,14
+466705,2021-01-30 17:00:00,2020-2021,,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-30-1-2021/,8,3
+466714,2021-01-30 17:00:00,2020-2021,,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-30-1-2021/,3,4
+466708,2021-01-30 18:00:00,2020-2021,,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-30-1-2021-2/,11,9
+466712,2021-01-30 18:30:00,2020-2021,,,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-30-1-2021/,6,5
+466716,2021-01-31 17:00:00,2020-2021,,,SPV,Steelers,https://fliiga.com/ottelut/miehet/spv-steelers-31-1-2021/,11,5
+466718,2021-01-31 17:00:00,2020-2021,,,Tiikerit,Happee,https://fliiga.com/ottelut/miehet/tiikerit-happee-31-1-2021/,3,4
+466710,2021-01-31 18:00:00,2020-2021,,,Welhot,OLS,https://fliiga.com/ottelut/miehet/welhot-ols-31-1-2021/,5,4
+466720,2021-02-02 18:30:00,2020-2021,,,Steelers,Classic,https://fliiga.com/ottelut/miehet/steelers-classic-2-2-2021/,7,8
+466617,2021-02-08 18:30:00,2020-2021,,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-8-2-2021/,4,5
+466721,2021-02-10 18:30:00,2020-2021,,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-10-2-2021/,4,9
+466724,2021-02-10 18:30:00,2020-2021,,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-10-2-2021/,5,7
+466725,2021-02-10 18:30:00,2020-2021,,,Steelers,Happee,https://fliiga.com/ottelut/miehet/steelers-happee-10-2-2021/,2,8
+466727,2021-02-12 18:30:00,2020-2021,,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-12-2-2021/,6,3
+466729,2021-02-12 18:30:00,2020-2021,,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-12-2-2021/,7,10
+466731,2021-02-13 17:00:00,2020-2021,,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-13-2-2021/,3,8
+466734,2021-02-13 17:00:00,2020-2021,,,Steelers,Tiikerit,https://fliiga.com/ottelut/miehet/steelers-tiikerit-13-2-2021/,3,7
+466736,2021-02-13 18:00:00,2020-2021,,,Indians,Welhot,https://fliiga.com/ottelut/miehet/indians-welhot-13-2-2021/,9,0
+466739,2021-02-13 18:30:00,2020-2021,,,Happee,OLS,https://fliiga.com/ottelut/miehet/happee-ols-13-2-2021/,7,2
+466742,2021-02-14 17:00:00,2020-2021,,,Tiikerit,Indians,https://fliiga.com/ottelut/miehet/tiikerit-indians-14-2-2021/,4,6
+466585,2021-02-14 18:00:00,2020-2021,,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-14-2-2021/,8,5
+466744,2021-02-14 18:00:00,2020-2021,,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-14-2-2021/,6,7
+466746,2021-02-14 18:30:00,2020-2021,,,TPS,Welhot,https://fliiga.com/ottelut/miehet/tps-welhot-14-2-2021/,10,2
+466748,2021-02-16 18:30:00,2020-2021,,,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-16-2-2021/,7,10
+466592,2021-02-17 18:30:00,2020-2021,,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-17-2-2021/,5,11
+466750,2021-02-17 18:30:00,2020-2021,,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-17-2-2021/,8,6
+466752,2021-02-17 18:30:00,2020-2021,,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-17-2-2021/,10,2
+466629,2021-02-21 17:00:00,2020-2021,,,Tiikerit,TPS,https://fliiga.com/ottelut/miehet/tiikerit-tps-21-2-2021/,1,4
+466754,2021-02-21 18:00:00,2020-2021,,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-21-2-2021/,4,3
+466756,2021-02-24 18:30:00,2020-2021,,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-24-2-2021/,5,9
+466758,2021-02-27 17:00:00,2020-2021,,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-27-2-2021/,11,10
+466760,2021-02-27 17:00:00,2020-2021,,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-27-2-2021/,5,9
+466762,2021-02-27 17:00:00,2020-2021,,,Jymy,Welhot,https://fliiga.com/ottelut/miehet/jymy-welhot-27-2-2021/,15,11
+466764,2021-02-27 17:00:00,2020-2021,,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-27-2-2021/,4,5
+466765,2021-02-27 17:00:00,2020-2021,,,Nokian KrP,Steelers,https://fliiga.com/ottelut/miehet/nokian-krp-steelers-27-2-2021/,14,3
+466767,2021-02-27 17:00:00,2020-2021,,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-27-2-2021/,2,8
+466769,2021-02-27 17:00:00,2020-2021,,,Tiikerit,Classic,https://fliiga.com/ottelut/miehet/tiikerit-classic-27-2-2021/,4,3
+491903,2021-03-04 18:30:00,2020-2021,,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-4-3-2021/,5,4
+491904,2021-03-05 18:30:00,2020-2021,,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-5-3-2021/,13,4
+491906,2021-03-05 18:30:00,2020-2021,,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-5-3-2021/,2,3
+491908,2021-03-05 18:30:00,2020-2021,,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-5-3-2021/,5,6
+491909,2021-03-06 18:00:00,2020-2021,,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-6-3-2021/,4,6
+491910,2021-03-07 16:00:00,2020-2021,,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-7-3-2021/,7,3
+491911,2021-03-07 17:00:00,2020-2021,,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-7-3-2021/,4,8
+491912,2021-03-07 18:30:00,2020-2021,,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-7-3-2021/,2,5
+491913,2021-03-08 18:30:00,2020-2021,,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-8-3-2021/,5,4
+491914,2021-03-09 18:30:00,2020-2021,,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-9-3-2021/,8,2
+491916,2021-03-09 18:30:00,2020-2021,,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-9-3-2021/,10,2
+491917,2021-03-09 18:30:00,2020-2021,,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-9-3-2021/,0,9
+491918,2021-03-10 18:30:00,2020-2021,,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-10-3-2021/,5,3
+491919,2021-03-11 18:30:00,2020-2021,,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-11-3-2021/,2,9
+491920,2021-03-11 18:30:00,2020-2021,,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-11-3-2021/,2,3
+491921,2021-03-11 18:30:00,2020-2021,,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-11-3-2021/,3,2
+491922,2021-03-12 18:30:00,2020-2021,,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-12-3-2021/,7,6
+491923,2021-03-13 16:00:00,2020-2021,,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-13-3-2021/,4,3
+491925,2021-03-13 17:00:00,2020-2021,,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-13-3-2021/,6,5
+491957,2021-03-13 17:00:00,2020-2021,,,Steelers,Jymy,https://fliiga.com/ottelut/miehet/steelers-jymy-13-3-2021/,6,4
+491926,2021-03-13 18:00:00,2020-2021,,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-13-3-2021/,5,4
+491960,2021-03-14 17:00:00,2020-2021,,,Jymy,Steelers,https://fliiga.com/ottelut/miehet/jymy-steelers-14-3-2021/,4,3
+491928,2021-03-15 18:30:00,2020-2021,,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-15-3-2021/,1,2
+491929,2021-03-17 18:30:00,2020-2021,,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-17-3-2021/,8,3
+491962,2021-03-17 18:30:00,2020-2021,,,Steelers,Jymy,https://fliiga.com/ottelut/miehet/steelers-jymy-17-3-2021/,3,8
+491931,2021-03-19 18:30:00,2020-2021,,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-19-3-2021/,6,5
+491930,2021-03-20 16:00:00,2020-2021,,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-20-3-2021/,5,4
+491963,2021-03-20 17:00:00,2020-2021,,,Jymy,Steelers,https://fliiga.com/ottelut/miehet/jymy-steelers-20-3-2021/,2,5
+491965,2021-03-21 17:00:00,2020-2021,,,Steelers,Jymy,https://fliiga.com/ottelut/miehet/steelers-jymy-21-3-2021/,3,4
+491932,2021-03-22 18:30:00,2020-2021,,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-22-3-2021/,7,5
+491933,2021-03-22 18:30:00,2020-2021,,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-22-3-2021/,2,6
+491934,2021-03-24 18:30:00,2020-2021,,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-24-3-2021/,5,4
+491935,2021-03-24 18:30:00,2020-2021,,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-24-3-2021/,4,5
+491936,2021-03-26 18:30:00,2020-2021,,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-26-3-2021/,6,5
+491937,2021-03-26 18:30:00,2020-2021,,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-26-3-2021/,5,9
+491939,2021-03-28 16:00:00,2020-2021,,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-28-3-2021/,2,5
+491938,2021-03-28 18:30:00,2020-2021,,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-28-3-2021/,3,4
+491942,2021-03-30 18:30:00,2020-2021,,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-30-3-2021/,2,7
+491944,2021-03-30 18:30:00,2020-2021,,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-30-3-2021/,2,3
+491945,2021-04-01 18:30:00,2020-2021,,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-1-4-2021/,10,4
+492336,2021-04-02 17:00:00,2020-2021,,,Steelers,Rangers,https://fliiga.com/ottelut/miehet/steelers-rangers-2-4-2021/,8,2
+492338,2021-04-04 16:00:00,2020-2021,,,Rangers,Steelers,https://fliiga.com/ottelut/miehet/rangers-steelers-4-4-2021/,3,8
+491947,2021-04-05 14:30:00,2020-2021,,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-5-4-2021/,3,5
+491949,2021-04-05 16:30:00,2020-2021,,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-5-4-2021/,9,1
+492340,2021-04-07 18:30:00,2020-2021,,,Steelers,Rangers,https://fliiga.com/ottelut/miehet/steelers-rangers-7-4-2021/,8,7
+491951,2021-04-08 18:30:00,2020-2021,,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-8-4-2021/,1,6
+491953,2021-04-09 18:30:00,2020-2021,,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-9-4-2021/,5,3
+491955,2021-04-11 15:30:00,2020-2021,,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-11-4-2021/,3,8
+454336,2021-09-19 17:00:00,2021-2022,Runkosarja,,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-19-9-2021/,8,3
+454337,2021-09-19 17:00:00,2021-2022,Runkosarja,,Karhut,EräViikingit,https://fliiga.com/ottelut/miehet/karhut-eraviikingit-19-9-2021/,5,10
+454338,2021-09-19 17:00:00,2021-2022,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-19-9-2021/,9,8
+454339,2021-09-19 17:00:00,2021-2022,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-19-9-2021/,7,4
+454340,2021-09-19 17:00:00,2021-2022,Runkosarja,,Steelers,OLS,https://fliiga.com/ottelut/miehet/steelers-ols-19-9-2021/,1,7
+454341,2021-09-19 17:00:00,2021-2022,Runkosarja,,Tiikerit,Indians,https://fliiga.com/ottelut/miehet/tiikerit-indians-19-9-2021/,3,4
+454342,2021-09-19 17:00:00,2021-2022,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-19-9-2021/,4,11
+454343,2021-09-22 18:30:00,2021-2022,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-22-9-2021/,5,8
+454345,2021-09-25 15:00:00,2021-2022,Runkosarja,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-25-9-2021/,5,1
+454346,2021-09-25 17:00:00,2021-2022,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-25-9-2021/,7,10
+454347,2021-09-25 17:00:00,2021-2022,Runkosarja,,LASB,Tiikerit,https://fliiga.com/ottelut/miehet/lasb-tiikerit-25-9-2021/,7,4
+454348,2021-09-25 18:30:00,2021-2022,Runkosarja,,Happee,Karhut,https://fliiga.com/ottelut/miehet/happee-karhut-25-9-2021/,5,3
+454349,2021-09-26 17:00:00,2021-2022,Runkosarja,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-26-9-2021/,3,8
+454350,2021-09-26 17:00:00,2021-2022,Runkosarja,,Steelers,LASB,https://fliiga.com/ottelut/miehet/steelers-lasb-26-9-2021/,4,8
+454351,2021-09-26 18:00:00,2021-2022,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-26-9-2021/,5,14
+454352,2021-09-27 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-27-9-2021/,8,7
+454353,2021-09-29 18:30:00,2021-2022,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-29-9-2021/,10,3
+454354,2021-09-29 18:30:00,2021-2022,Runkosarja,,Steelers,EräViikingit,https://fliiga.com/ottelut/miehet/steelers-eraviikingit-29-9-2021/,4,10
+454355,2021-09-30 18:30:00,2021-2022,Runkosarja,,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-30-9-2021/,5,4
+454356,2021-10-01 18:30:00,2021-2022,Runkosarja,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-1-10-2021/,2,8
+454357,2021-10-01 18:30:00,2021-2022,Runkosarja,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-1-10-2021/,4,5
+454358,2021-10-02 15:00:00,2021-2022,Runkosarja,,Karhut,OLS,https://fliiga.com/ottelut/miehet/karhut-ols-2-10-2021/,2,3
+454359,2021-10-02 17:00:00,2021-2022,Runkosarja,,Jymy,Steelers,https://fliiga.com/ottelut/miehet/jymy-steelers-2-10-2021/,4,7
+454360,2021-10-02 17:00:00,2021-2022,Runkosarja,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-2-10-2021/,3,9
+454361,2021-10-03 15:00:00,2021-2022,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-3-10-2021/,7,8
+454362,2021-10-03 17:00:00,2021-2022,Runkosarja,,Karhut,Indians,https://fliiga.com/ottelut/miehet/karhut-indians-3-10-2021/,4,11
+454363,2021-10-03 17:00:00,2021-2022,Runkosarja,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-3-10-2021/,3,8
+454364,2021-10-03 18:30:00,2021-2022,Runkosarja,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-3-10-2021/,7,4
+454365,2021-10-06 18:30:00,2021-2022,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-6-10-2021/,4,5
+454366,2021-10-08 18:30:00,2021-2022,Runkosarja,,Happee,Steelers,https://fliiga.com/ottelut/miehet/happee-steelers-8-10-2021/,11,2
+454367,2021-10-08 18:30:00,2021-2022,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-8-10-2021/,3,4
+454368,2021-10-08 18:30:00,2021-2022,Runkosarja,,Oilers,Tiikerit,https://fliiga.com/ottelut/miehet/oilers-tiikerit-8-10-2021/,10,4
+454369,2021-10-09 17:00:00,2021-2022,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-9-10-2021/,5,8
+454370,2021-10-09 17:00:00,2021-2022,Runkosarja,,LASB,Karhut,https://fliiga.com/ottelut/miehet/lasb-karhut-9-10-2021/,3,5
+454371,2021-10-09 17:00:00,2021-2022,Runkosarja,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-9-10-2021/,4,3
+454372,2021-10-10 17:00:00,2021-2022,Runkosarja,,Indians,Steelers,https://fliiga.com/ottelut/miehet/indians-steelers-10-10-2021/,6,4
+454373,2021-10-10 17:00:00,2021-2022,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-10-10-2021/,2,8
+454374,2021-10-10 17:00:00,2021-2022,Runkosarja,,Tiikerit,Happee,https://fliiga.com/ottelut/miehet/tiikerit-happee-10-10-2021/,2,8
+454375,2021-10-10 18:00:00,2021-2022,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-10-10-2021/,6,4
+454376,2021-10-22 18:30:00,2021-2022,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-22-10-2021/,1,2
+454377,2021-10-22 18:30:00,2021-2022,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-22-10-2021/,4,3
+454378,2021-10-23 15:00:00,2021-2022,Runkosarja,,Karhut,Classic,https://fliiga.com/ottelut/miehet/karhut-classic-23-10-2021/,7,11
+454379,2021-10-23 15:00:00,2021-2022,Runkosarja,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-23-10-2021/,3,8
+454380,2021-10-23 17:00:00,2021-2022,Runkosarja,,SPV,Tiikerit,https://fliiga.com/ottelut/miehet/spv-tiikerit-23-10-2021/,15,6
+454381,2021-10-23 17:00:00,2021-2022,Runkosarja,,Steelers,TPS,https://fliiga.com/ottelut/miehet/steelers-tps-23-10-2021/,4,12
+454382,2021-10-23 18:30:00,2021-2022,Runkosarja,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-23-10-2021/,4,3
+454383,2021-10-24 16:00:00,2021-2022,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-24-10-2021/,5,8
+454384,2021-10-24 17:00:00,2021-2022,Runkosarja,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-24-10-2021/,4,8
+454385,2021-10-24 17:00:00,2021-2022,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-24-10-2021/,4,6
+454386,2021-10-24 17:00:00,2021-2022,Runkosarja,,Steelers,Tiikerit,https://fliiga.com/ottelut/miehet/steelers-tiikerit-24-10-2021/,5,3
+455567,2021-10-24 17:00:00,2021-2022,Runkosarja,,Karhut,Nokian KrP,https://fliiga.com/ottelut/miehet/karhut-nokian-krp-24-10-2021/,4,12
+454387,2021-10-24 18:00:00,2021-2022,Runkosarja,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-24-10-2021/,0,7
+454388,2021-10-27 18:30:00,2021-2022,Runkosarja,,Classic,Steelers,https://fliiga.com/ottelut/miehet/classic-steelers-27-10-2021/,7,1
+454389,2021-10-27 18:30:00,2021-2022,Runkosarja,,TPS,Karhut,https://fliiga.com/ottelut/miehet/tps-karhut-27-10-2021/,7,0
+454390,2021-10-29 18:30:00,2021-2022,Runkosarja,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-29-10-2021/,11,4
+454391,2021-10-29 18:30:00,2021-2022,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-29-10-2021/,5,6
+454392,2021-10-30 17:00:00,2021-2022,Runkosarja,,Tiikerit,OLS,https://fliiga.com/ottelut/miehet/tiikerit-ols-30-10-2021/,4,6
+454393,2021-10-30 18:00:00,2021-2022,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-30-10-2021/,6,5
+454394,2021-10-30 18:00:00,2021-2022,Runkosarja,,Steelers,Oilers,https://fliiga.com/ottelut/miehet/steelers-oilers-30-10-2021/,5,13
+454395,2021-10-31 16:00:00,2021-2022,Runkosarja,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-31-10-2021/,4,5
+454396,2021-10-31 17:00:00,2021-2022,Runkosarja,,Happee,OLS,https://fliiga.com/ottelut/miehet/happee-ols-31-10-2021/,4,3
+454397,2021-11-02 18:30:00,2021-2022,Runkosarja,,Karhut,Oilers,https://fliiga.com/ottelut/miehet/karhut-oilers-2-11-2021/,5,7
+454398,2021-11-03 18:30:00,2021-2022,Runkosarja,,TPS,Tiikerit,https://fliiga.com/ottelut/miehet/tps-tiikerit-3-11-2021/,10,4
+454399,2021-11-03 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-3-11-2021/,6,8
+454400,2021-11-05 18:30:00,2021-2022,Runkosarja,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-5-11-2021/,2,8
+454401,2021-11-05 18:30:00,2021-2022,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-5-11-2021/,8,2
+454402,2021-11-06 14:00:00,2021-2022,Runkosarja,,Karhut,Steelers,https://fliiga.com/ottelut/miehet/karhut-steelers-6-11-2021/,8,5
+454403,2021-11-06 15:00:00,2021-2022,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-6-11-2021/,4,3
+454404,2021-11-06 17:00:00,2021-2022,Runkosarja,,Tiikerit,Nokian KrP,https://fliiga.com/ottelut/miehet/tiikerit-nokian-krp-6-11-2021/,2,6
+454405,2021-11-06 18:30:00,2021-2022,Runkosarja,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-6-11-2021/,6,5
+454406,2021-11-11 18:30:00,2021-2022,Runkosarja,,Karhut,Jymy,https://fliiga.com/ottelut/miehet/karhut-jymy-11-11-2021/,5,6
+454407,2021-11-12 18:30:00,2021-2022,Runkosarja,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-12-11-2021/,8,1
+454408,2021-11-12 18:30:00,2021-2022,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-12-11-2021/,5,9
+454409,2021-11-12 18:30:00,2021-2022,Runkosarja,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-12-11-2021/,5,6
+454410,2021-11-13 17:00:00,2021-2022,Runkosarja,,Classic,Tiikerit,https://fliiga.com/ottelut/miehet/classic-tiikerit-13-11-2021/,14,4
+454411,2021-11-13 17:00:00,2021-2022,Runkosarja,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-13-11-2021/,5,4
+454412,2021-11-13 17:00:00,2021-2022,Runkosarja,,LASB,Happee,https://fliiga.com/ottelut/miehet/lasb-happee-13-11-2021/,6,4
+454413,2021-11-13 18:30:00,2021-2022,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-13-11-2021/,7,2
+454414,2021-11-14 17:00:00,2021-2022,Runkosarja,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-14-11-2021/,5,6
+454415,2021-11-17 18:30:00,2021-2022,Runkosarja,,EräViikingit,Tiikerit,https://fliiga.com/ottelut/miehet/eraviikingit-tiikerit-17-11-2021/,6,8
+454416,2021-11-18 18:30:00,2021-2022,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-18-11-2021/,5,4
+454417,2021-11-19 18:30:00,2021-2022,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-19-11-2021/,6,3
+454418,2021-11-19 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Steelers,https://fliiga.com/ottelut/miehet/nokian-krp-steelers-19-11-2021/,13,1
+454419,2021-11-19 18:30:00,2021-2022,Runkosarja,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-19-11-2021/,7,3
+454422,2021-11-20 15:00:00,2021-2022,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-20-11-2021/,9,8
+454420,2021-11-20 17:00:00,2021-2022,Runkosarja,,Tiikerit,Karhut,https://fliiga.com/ottelut/miehet/tiikerit-karhut-20-11-2021/,4,5
+454421,2021-11-20 18:30:00,2021-2022,Runkosarja,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-20-11-2021/,3,4
+454423,2021-12-15 18:30:00,2021-2022,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-15-12-2021/,4,5
+454424,2021-12-17 18:30:00,2021-2022,Runkosarja,,Tiikerit,LASB,https://fliiga.com/ottelut/miehet/tiikerit-lasb-17-12-2021/,3,8
+454425,2021-12-17 18:30:00,2021-2022,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-17-12-2021/,4,5
+454426,2021-12-18 17:00:00,2021-2022,Runkosarja,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-18-12-2021/,5,6
+454427,2021-12-18 17:00:00,2021-2022,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-18-12-2021/,1,8
+454428,2021-12-18 17:00:00,2021-2022,Runkosarja,,Steelers,SPV,https://fliiga.com/ottelut/miehet/steelers-spv-18-12-2021/,5,6
+454430,2021-12-19 16:00:00,2021-2022,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-19-12-2021/,3,1
+454431,2021-12-19 17:00:00,2021-2022,Runkosarja,,Jymy,Tiikerit,https://fliiga.com/ottelut/miehet/jymy-tiikerit-19-12-2021/,7,6
+454432,2021-12-19 17:00:00,2021-2022,Runkosarja,,Karhut,Happee,https://fliiga.com/ottelut/miehet/karhut-happee-19-12-2021/,4,6
+454433,2021-12-19 17:00:00,2021-2022,Runkosarja,,Steelers,Indians,https://fliiga.com/ottelut/miehet/steelers-indians-19-12-2021/,1,7
+454434,2021-12-19 18:00:00,2021-2022,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-19-12-2021/,10,5
+454436,2021-12-29 18:30:00,2021-2022,Runkosarja,,SPV,Karhut,https://fliiga.com/ottelut/miehet/spv-karhut-29-12-2021/,8,6
+454437,2021-12-29 18:30:00,2021-2022,Runkosarja,,LASB,Steelers,https://fliiga.com/ottelut/miehet/lasb-steelers-29-12-2021/,5,3
+454438,2022-01-02 17:00:00,2021-2022,Runkosarja,,EräViikingit,Karhut,https://fliiga.com/ottelut/miehet/eraviikingit-karhut-2-1-2022/,4,3
+454439,2022-01-02 17:00:00,2021-2022,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-2-1-2022/,3,6
+454440,2022-01-02 17:00:00,2021-2022,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-2-1-2022/,9,4
+454441,2022-01-02 17:00:00,2021-2022,Runkosarja,,Steelers,Jymy,https://fliiga.com/ottelut/miehet/steelers-jymy-2-1-2022/,5,3
+454442,2022-01-02 17:00:00,2021-2022,Runkosarja,,Tiikerit,Oilers,https://fliiga.com/ottelut/miehet/tiikerit-oilers-2-1-2022/,4,10
+454344,2022-01-04 18:30:00,2021-2022,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-4-1-2022/,2,3
+454443,2022-01-04 18:30:00,2021-2022,Runkosarja,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-4-1-2022/,4,5
+454449,2022-01-15 17:00:00,2021-2022,Runkosarja,,Jymy,Happee,https://fliiga.com/ottelut/miehet/jymy-happee-15-1-2022/,5,10
+454435,2022-01-16 17:00:00,2021-2022,Runkosarja,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-16-1-2022/,4,3
+454453,2022-01-16 18:00:00,2021-2022,Runkosarja,,OLS,Karhut,https://fliiga.com/ottelut/miehet/ols-karhut-16-1-2022/,4,3
+454454,2022-01-19 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-19-1-2022/,11,4
+454458,2022-01-19 18:30:00,2021-2022,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-19-1-2022/,9,4
+454456,2022-01-21 18:30:00,2021-2022,Runkosarja,,Indians,Tiikerit,https://fliiga.com/ottelut/miehet/indians-tiikerit-21-1-2022/,6,1
+454457,2022-01-21 18:30:00,2021-2022,Runkosarja,,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-21-1-2022/,7,2
+454460,2022-01-22 17:00:00,2021-2022,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-22-1-2022/,3,11
+454461,2022-01-22 17:00:00,2021-2022,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-22-1-2022/,6,9
+454462,2022-01-23 17:00:00,2021-2022,Runkosarja,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-23-1-2022/,5,2
+455564,2022-01-23 17:00:00,2021-2022,Runkosarja,,Happee,Tiikerit,https://fliiga.com/ottelut/miehet/happee-tiikerit-23-1-2022/,9,3
+455568,2022-01-23 17:00:00,2021-2022,Runkosarja,,Karhut,LASB,https://fliiga.com/ottelut/miehet/karhut-lasb-23-1-2022/,5,4
+454464,2022-01-26 18:30:00,2021-2022,Runkosarja,,Steelers,Happee,https://fliiga.com/ottelut/miehet/steelers-happee-26-1-2022/,5,7
+454465,2022-01-28 18:30:00,2021-2022,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-28-1-2022/,3,6
+454467,2022-01-29 14:00:00,2021-2022,Runkosarja,,Classic,Karhut,https://fliiga.com/ottelut/miehet/classic-karhut-29-1-2022/,11,7
+454468,2022-01-29 14:30:00,2021-2022,Runkosarja,,TPS,Steelers,https://fliiga.com/ottelut/miehet/tps-steelers-29-1-2022/,9,4
+454469,2022-01-29 17:00:00,2021-2022,Runkosarja,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-29-1-2022/,3,7
+454499,2022-01-29 17:00:00,2021-2022,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-29-1-2022/,1,8
+454472,2022-01-29 18:00:00,2021-2022,Runkosarja,,Tiikerit,SPV,https://fliiga.com/ottelut/miehet/tiikerit-spv-29-1-2022/,3,4
+454474,2022-01-30 17:00:00,2021-2022,Runkosarja,,Tiikerit,Jymy,https://fliiga.com/ottelut/miehet/tiikerit-jymy-30-1-2022/,7,8
+454463,2022-02-01 18:30:00,2021-2022,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-1-2-2022/,5,4
+454446,2022-02-05 15:00:00,2021-2022,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-5-2-2022/,7,5
+454448,2022-02-05 15:00:00,2021-2022,Runkosarja,,OLS,Steelers,https://fliiga.com/ottelut/miehet/ols-steelers-5-2-2022/,4,5
+454450,2022-02-05 18:30:00,2021-2022,Runkosarja,,Tiikerit,EräViikingit,https://fliiga.com/ottelut/miehet/tiikerit-eraviikingit-5-2-2022/,5,9
+454455,2022-02-06 15:00:00,2021-2022,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-6-2-2022/,6,7
+454459,2022-02-06 15:00:00,2021-2022,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-6-2-2022/,7,6
+454451,2022-02-06 17:00:00,2021-2022,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-6-2-2022/,5,7
+454475,2022-02-09 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Karhut,https://fliiga.com/ottelut/miehet/nokian-krp-karhut-9-2-2022/,15,8
+454471,2022-02-11 18:30:00,2021-2022,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-11-2-2022/,6,7
+454477,2022-02-11 18:30:00,2021-2022,Runkosarja,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-11-2-2022/,5,6
+454478,2022-02-11 18:30:00,2021-2022,Runkosarja,,Tiikerit,Steelers,https://fliiga.com/ottelut/miehet/tiikerit-steelers-11-2-2022/,5,8
+454480,2022-02-12 17:00:00,2021-2022,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-12-2-2022/,4,5
+454476,2022-02-13 14:00:00,2021-2022,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-13-2-2022/,7,3
+454481,2022-02-13 17:00:00,2021-2022,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-13-2-2022/,3,6
+454482,2022-02-13 18:00:00,2021-2022,Runkosarja,,OLS,Tiikerit,https://fliiga.com/ottelut/miehet/ols-tiikerit-13-2-2022/,8,3
+454483,2022-02-13 18:30:00,2021-2022,Runkosarja,,Steelers,Classic,https://fliiga.com/ottelut/miehet/steelers-classic-13-2-2022/,6,12
+454444,2022-02-16 18:30:00,2021-2022,Runkosarja,,EräViikingit,Steelers,https://fliiga.com/ottelut/miehet/eraviikingit-steelers-16-2-2022/,5,4
+454470,2022-02-16 18:30:00,2021-2022,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-16-2-2022/,4,9
+454484,2022-02-16 18:30:00,2021-2022,Runkosarja,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-16-2-2022/,3,5
+454485,2022-02-18 18:30:00,2021-2022,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-18-2-2022/,6,4
+454486,2022-02-19 15:00:00,2021-2022,Runkosarja,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-19-2-2022/,3,7
+454487,2022-02-19 17:00:00,2021-2022,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-19-2-2022/,5,4
+454466,2022-02-19 18:00:00,2021-2022,Runkosarja,,Indians,Karhut,https://fliiga.com/ottelut/miehet/indians-karhut-19-2-2022/,11,1
+454447,2022-02-20 17:00:00,2021-2022,Runkosarja,,Oilers,Karhut,https://fliiga.com/ottelut/miehet/oilers-karhut-20-2-2022/,14,6
+454429,2022-02-20 18:30:00,2021-2022,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-20-2-2022/,11,1
+454492,2022-02-22 18:30:00,2021-2022,Runkosarja,,Karhut,TPS,https://fliiga.com/ottelut/miehet/karhut-tps-22-2-2022/,2,12
+455565,2022-02-22 18:30:00,2021-2022,Runkosarja,,Happee,EräViikingit,https://fliiga.com/ottelut/miehet/happee-eraviikingit-22-2-2022/,8,4
+454493,2022-02-23 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Tiikerit,https://fliiga.com/ottelut/miehet/nokian-krp-tiikerit-23-2-2022/,14,2
+454494,2022-02-24 18:30:00,2021-2022,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-24-2-2022/,9,3
+454445,2022-02-25 18:30:00,2021-2022,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-25-2-2022/,13,4
+454495,2022-02-25 18:30:00,2021-2022,Runkosarja,,Indians,Happee,https://fliiga.com/ottelut/miehet/indians-happee-25-2-2022/,5,8
+454496,2022-02-25 18:30:00,2021-2022,Runkosarja,,Tiikerit,TPS,https://fliiga.com/ottelut/miehet/tiikerit-tps-25-2-2022/,1,14
+454497,2022-02-26 17:00:00,2021-2022,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-26-2-2022/,6,10
+454498,2022-02-26 17:00:00,2021-2022,Runkosarja,,Steelers,Karhut,https://fliiga.com/ottelut/miehet/steelers-karhut-26-2-2022/,3,8
+454501,2022-02-27 17:00:00,2021-2022,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-27-2-2022/,4,5
+454502,2022-02-27 17:00:00,2021-2022,Runkosarja,,Steelers,Nokian KrP,https://fliiga.com/ottelut/miehet/steelers-nokian-krp-27-2-2022/,1,5
+454503,2022-03-01 18:30:00,2021-2022,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-1-3-2022/,4,7
+454504,2022-03-02 18:30:00,2021-2022,Runkosarja,,Karhut,Tiikerit,https://fliiga.com/ottelut/miehet/karhut-tiikerit-2-3-2022/,11,4
+454505,2022-03-02 18:30:00,2021-2022,Runkosarja,,Oilers,Steelers,https://fliiga.com/ottelut/miehet/oilers-steelers-2-3-2022/,12,3
+454479,2022-03-03 18:30:00,2021-2022,Runkosarja,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-3-3-2022/,2,7
+454506,2022-03-05 17:00:00,2021-2022,Runkosarja,,Tiikerit,Classic,https://fliiga.com/ottelut/miehet/tiikerit-classic-5-3-2022/,3,13
+454507,2022-03-05 17:00:00,2021-2022,Runkosarja,,Jymy,Karhut,https://fliiga.com/ottelut/miehet/jymy-karhut-5-3-2022/,7,6
+454508,2022-03-05 17:00:00,2021-2022,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-5-3-2022/,8,4
+454509,2022-03-05 17:00:00,2021-2022,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-5-3-2022/,5,4
+454510,2022-03-05 17:00:00,2021-2022,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-5-3-2022/,6,3
+455566,2022-03-05 17:00:00,2021-2022,Runkosarja,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-5-3-2022/,4,5
+455569,2022-03-05 17:00:00,2021-2022,Runkosarja,,SPV,Steelers,https://fliiga.com/ottelut/miehet/spv-steelers-5-3-2022/,11,9
+454488,2022-03-06 17:00:00,2021-2022,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-6-3-2022/,11,6
+454489,2022-03-06 17:00:00,2021-2022,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-6-3-2022/,5,4
+454490,2022-03-09 18:30:00,2021-2022,Runkosarja,,Karhut,SPV,https://fliiga.com/ottelut/miehet/karhut-spv-9-3-2022/,5,4
+455563,2022-03-09 18:30:00,2021-2022,Runkosarja,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-9-3-2022/,4,6
+454473,2022-03-11 18:30:00,2021-2022,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-11-3-2022/,7,5
+454491,2022-03-11 18:30:00,2021-2022,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-11-3-2022/,12,1
+454500,2022-03-13 17:00:00,2021-2022,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-13-3-2022/,4,3
+454452,2022-03-13 18:30:00,2021-2022,Runkosarja,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-13-3-2022/,5,4
+501924,2022-03-18 18:30:00,2021-2022,Play offs,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-18-3-2022/,4,3
+501928,2022-03-18 18:30:00,2021-2022,Play offs,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-18-3-2022/,2,0
+501934,2022-03-18 18:30:00,2021-2022,Play offs,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-18-3-2022/,7,2
+501920,2022-03-19 17:00:00,2021-2022,Play offs,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-19-3-2022/,6,2
+501925,2022-03-20 17:00:00,2021-2022,Play offs,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-20-3-2022/,1,10
+501929,2022-03-20 17:30:00,2021-2022,Play offs,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-20-3-2022/,4,9
+501921,2022-03-21 18:30:00,2021-2022,Play offs,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-21-3-2022/,1,5
+501935,2022-03-21 18:30:00,2021-2022,Play offs,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-21-3-2022/,6,4
+501926,2022-03-22 18:30:00,2021-2022,Play offs,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-22-3-2022/,7,4
+501930,2022-03-22 18:30:00,2021-2022,Play offs,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-22-3-2022/,4,5
+501922,2022-03-23 18:30:00,2021-2022,Play offs,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-23-3-2022/,7,6
+501936,2022-03-23 18:30:00,2021-2022,Play offs,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-23-3-2022/,3,2
+501927,2022-03-24 18:30:00,2021-2022,Play offs,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-24-3-2022/,3,5
+501932,2022-03-25 18:30:00,2021-2022,Play offs,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-25-3-2022/,3,5
+501937,2022-03-25 18:30:00,2021-2022,Play offs,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-25-3-2022/,5,7
+501923,2022-03-26 18:00:00,2021-2022,Play offs,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-26-3-2022/,2,14
+501938,2022-03-27 15:00:00,2021-2022,Play offs,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-27-3-2022/,4,3
+501933,2022-03-28 18:30:00,2021-2022,Play offs,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-28-3-2022/,6,3
+501940,2022-04-03 17:00:00,2021-2022,Play offs,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-3-4-2022/,5,4
+501939,2022-04-04 18:30:00,2021-2022,Play offs,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-4-4-2022/,6,4
+501942,2022-04-05 18:30:00,2021-2022,Play offs,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-5-4-2022/,6,5
+501941,2022-04-06 18:30:00,2021-2022,Play offs,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-6-4-2022/,10,8
+501945,2022-04-07 18:30:00,2021-2022,Play offs,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-7-4-2022/,4,8
+501943,2022-04-08 18:30:00,2021-2022,Play offs,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-8-4-2022/,10,2
+501947,2022-04-09 17:00:00,2021-2022,Play offs,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-9-4-2022/,5,6
+501946,2022-04-10 18:30:00,2021-2022,Play offs,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-10-4-2022/,2,4
+501949,2022-04-11 18:30:00,2021-2022,Play offs,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-11-4-2022/,9,4
+501948,2022-04-12 18:30:00,2021-2022,Play offs,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-12-4-2022/,3,4
+501951,2022-04-13 18:30:00,2021-2022,Play offs,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-13-4-2022/,2,3
+501950,2022-04-14 18:30:00,2021-2022,Play offs,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-14-4-2022/,4,5
+501953,2022-04-20 18:30:00,2021-2022,Play offs,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-20-4-2022/,4,3
+501952,2022-04-22 18:30:00,2021-2022,Play offs,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-22-4-2022/,7,4
+501954,2022-04-22 18:30:00,2021-2022,Play offs,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-22-4-2022/,4,3
+501955,2022-04-24 17:00:00,2021-2022,Play offs,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-24-4-2022/,8,3
+501956,2022-04-27 18:30:00,2021-2022,Play offs,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-27-4-2022/,3,4
+501957,2022-04-29 18:30:00,2021-2022,Play offs,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-29-4-2022/,6,8
+501958,2022-05-02 18:30:00,2021-2022,Play offs,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-2-5-2022/,4,6
+430853,2022-09-15 18:30:00,2022-2023,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-15-9-2022/,3,9
+430666,2022-09-16 18:30:00,2022-2023,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-16-9-2022/,2,8
+430667,2022-09-16 18:30:00,2022-2023,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-16-9-2022/,10,2
+430668,2022-09-16 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-16-9-2022/,4,7
+430669,2022-09-16 18:30:00,2022-2023,Runkosarja,,LASB,Happee,https://fliiga.com/ottelut/miehet/lasb-happee-16-9-2022/,5,10
+430670,2022-09-17 17:00:00,2022-2023,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-17-9-2022/,9,8
+430671,2022-09-17 18:30:00,2022-2023,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-17-9-2022/,6,5
+430672,2022-09-18 15:00:00,2022-2023,Runkosarja,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-18-9-2022/,3,2
+430673,2022-09-18 17:00:00,2022-2023,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-18-9-2022/,5,4
+430674,2022-09-18 17:00:00,2022-2023,Runkosarja,,Oilers,FBC Turku,https://fliiga.com/ottelut/miehet/oilers-fbc-turku-18-9-2022/,7,5
+430675,2022-09-21 18:30:00,2022-2023,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-21-9-2022/,8,5
+430676,2022-09-23 18:30:00,2022-2023,Runkosarja,,FBC Turku,TPS,https://fliiga.com/ottelut/miehet/fbc-turku-tps-23-9-2022/,1,7
+430677,2022-09-24 15:00:00,2022-2023,Runkosarja,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-24-9-2022/,5,8
+430680,2022-09-24 17:00:00,2022-2023,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-24-9-2022/,6,5
+430678,2022-09-24 18:30:00,2022-2023,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-24-9-2022/,5,13
+430679,2022-09-24 18:30:00,2022-2023,Runkosarja,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-24-9-2022/,7,8
+430681,2022-09-25 15:00:00,2022-2023,Runkosarja,,OLS,FBC Turku,https://fliiga.com/ottelut/miehet/ols-fbc-turku-25-9-2022/,7,6
+430682,2022-09-25 15:00:00,2022-2023,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-25-9-2022/,5,4
+430683,2022-09-27 18:30:00,2022-2023,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-27-9-2022/,8,4
+430684,2022-09-28 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-28-9-2022/,5,4
+430685,2022-09-28 18:30:00,2022-2023,Runkosarja,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-28-9-2022/,2,1
+430686,2022-09-30 18:30:00,2022-2023,Runkosarja,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-30-9-2022/,9,1
+430687,2022-09-30 18:30:00,2022-2023,Runkosarja,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-30-9-2022/,5,9
+430688,2022-09-30 18:30:00,2022-2023,Runkosarja,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-30-9-2022/,5,6
+430689,2022-10-01 15:00:00,2022-2023,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-1-10-2022/,4,5
+430690,2022-10-01 17:00:00,2022-2023,Runkosarja,,Jymy,Happee,https://fliiga.com/ottelut/miehet/jymy-happee-1-10-2022/,7,8
+430691,2022-10-01 18:00:00,2022-2023,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-1-10-2022/,7,3
+430692,2022-10-02 16:00:00,2022-2023,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-2-10-2022/,8,6
+430693,2022-10-02 17:00:00,2022-2023,Runkosarja,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-2-10-2022/,7,6
+430694,2022-10-05 18:30:00,2022-2023,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-5-10-2022/,4,5
+430695,2022-10-05 18:30:00,2022-2023,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-5-10-2022/,5,2
+430696,2022-10-07 18:30:00,2022-2023,Runkosarja,,FBC Turku,LASB,https://fliiga.com/ottelut/miehet/fbc-turku-lasb-7-10-2022/,3,2
+430697,2022-10-07 18:30:00,2022-2023,Runkosarja,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-7-10-2022/,3,6
+430698,2022-10-08 14:30:00,2022-2023,Runkosarja,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-8-10-2022/,12,6
+430701,2022-10-08 17:00:00,2022-2023,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-8-10-2022/,4,3
+430699,2022-10-08 18:00:00,2022-2023,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-8-10-2022/,4,3
+430700,2022-10-08 18:30:00,2022-2023,Runkosarja,,Happee,EräViikingit,https://fliiga.com/ottelut/miehet/happee-eraviikingit-8-10-2022/,6,3
+430702,2022-10-09 15:00:00,2022-2023,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-9-10-2022/,11,5
+430703,2022-10-09 16:00:00,2022-2023,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-9-10-2022/,9,8
+430705,2022-10-09 17:00:00,2022-2023,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-9-10-2022/,10,1
+430704,2022-10-09 18:30:00,2022-2023,Runkosarja,,FBC Turku,Happee,https://fliiga.com/ottelut/miehet/fbc-turku-happee-9-10-2022/,1,7
+430706,2022-10-13 18:30:00,2022-2023,Runkosarja,,Nokian KrP,FBC Turku,https://fliiga.com/ottelut/miehet/nokian-krp-fbc-turku-13-10-2022/,11,4
+430854,2022-10-13 18:30:00,2022-2023,Runkosarja,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-13-10-2022/,5,10
+430707,2022-10-14 18:30:00,2022-2023,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-14-10-2022/,5,10
+430708,2022-10-14 18:30:00,2022-2023,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-14-10-2022/,10,1
+430709,2022-10-15 15:00:00,2022-2023,Runkosarja,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-15-10-2022/,4,9
+430710,2022-10-15 17:00:00,2022-2023,Runkosarja,,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-15-10-2022/,2,1
+430711,2022-10-15 17:00:00,2022-2023,Runkosarja,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-15-10-2022/,4,6
+430712,2022-10-15 17:00:00,2022-2023,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-15-10-2022/,9,3
+430713,2022-10-16 15:00:00,2022-2023,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-16-10-2022/,8,6
+430714,2022-10-16 17:00:00,2022-2023,Runkosarja,,SPV,FBC Turku,https://fliiga.com/ottelut/miehet/spv-fbc-turku-16-10-2022/,17,3
+430715,2022-10-19 18:30:00,2022-2023,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-19-10-2022/,2,3
+430716,2022-10-21 18:30:00,2022-2023,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-21-10-2022/,7,4
+430717,2022-10-21 18:30:00,2022-2023,Runkosarja,,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-21-10-2022/,10,5
+430719,2022-10-21 18:30:00,2022-2023,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-21-10-2022/,5,7
+430718,2022-10-22 17:00:00,2022-2023,Runkosarja,,Jymy,FBC Turku,https://fliiga.com/ottelut/miehet/jymy-fbc-turku-22-10-2022/,12,1
+430721,2022-10-22 17:00:00,2022-2023,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-22-10-2022/,1,9
+430720,2022-10-22 18:30:00,2022-2023,Runkosarja,,Happee,OLS,https://fliiga.com/ottelut/miehet/happee-ols-22-10-2022/,8,6
+430722,2022-10-23 17:00:00,2022-2023,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-23-10-2022/,6,7
+430724,2022-10-23 17:00:00,2022-2023,Runkosarja,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-23-10-2022/,7,3
+430723,2022-10-23 18:30:00,2022-2023,Runkosarja,,FBC Turku,OLS,https://fliiga.com/ottelut/miehet/fbc-turku-ols-23-10-2022/,4,10
+430725,2022-11-16 18:30:00,2022-2023,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-16-11-2022/,9,5
+430726,2022-11-18 18:30:00,2022-2023,Runkosarja,,Classic,FBC Turku,https://fliiga.com/ottelut/miehet/classic-fbc-turku-18-11-2022/,8,4
+430727,2022-11-18 18:30:00,2022-2023,Runkosarja,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-18-11-2022/,4,3
+430728,2022-11-18 18:30:00,2022-2023,Runkosarja,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-18-11-2022/,6,5
+430729,2022-11-18 18:30:00,2022-2023,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-18-11-2022/,4,6
+430730,2022-11-18 18:30:00,2022-2023,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-18-11-2022/,2,3
+430731,2022-11-19 14:30:00,2022-2023,Runkosarja,,FBC Turku,SPV,https://fliiga.com/ottelut/miehet/fbc-turku-spv-19-11-2022/,4,7
+430732,2022-11-19 15:00:00,2022-2023,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-19-11-2022/,8,7
+430733,2022-11-19 17:00:00,2022-2023,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-19-11-2022/,5,6
+430734,2022-11-20 15:00:00,2022-2023,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-20-11-2022/,3,17
+430735,2022-11-20 17:00:00,2022-2023,Runkosarja,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-20-11-2022/,7,2
+430736,2022-11-20 17:00:00,2022-2023,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-20-11-2022/,7,8
+430737,2022-11-23 18:30:00,2022-2023,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-23-11-2022/,8,6
+430738,2022-11-23 18:30:00,2022-2023,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-23-11-2022/,10,4
+430739,2022-11-24 18:30:00,2022-2023,Runkosarja,,Indians,Happee,https://fliiga.com/ottelut/miehet/indians-happee-24-11-2022/,4,5
+430855,2022-11-25 18:30:00,2022-2023,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-25-11-2022/,3,6
+430741,2022-11-26 17:00:00,2022-2023,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-26-11-2022/,7,6
+430742,2022-11-26 17:00:00,2022-2023,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-26-11-2022/,6,1
+430740,2022-11-26 18:00:00,2022-2023,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-26-11-2022/,5,8
+430743,2022-11-30 18:30:00,2022-2023,Runkosarja,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-30-11-2022/,3,2
+430744,2022-12-02 18:30:00,2022-2023,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-2-12-2022/,2,10
+430745,2022-12-02 18:30:00,2022-2023,Runkosarja,,FBC Turku,Nokian KrP,https://fliiga.com/ottelut/miehet/fbc-turku-nokian-krp-2-12-2022/,3,7
+430746,2022-12-02 18:30:00,2022-2023,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-2-12-2022/,9,3
+430747,2022-12-03 17:00:00,2022-2023,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-3-12-2022/,6,7
+430749,2022-12-03 17:00:00,2022-2023,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-3-12-2022/,6,7
+430748,2022-12-03 18:30:00,2022-2023,Runkosarja,,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-3-12-2022/,3,4
+430750,2022-12-04 15:00:00,2022-2023,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-4-12-2022/,4,1
+430751,2022-12-04 16:00:00,2022-2023,Runkosarja,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-4-12-2022/,3,5
+430752,2022-12-04 16:00:00,2022-2023,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-4-12-2022/,5,7
+430753,2022-12-07 18:30:00,2022-2023,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-7-12-2022/,5,6
+430754,2022-12-09 18:30:00,2022-2023,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-9-12-2022/,6,5
+430856,2022-12-09 18:30:00,2022-2023,Runkosarja,,EräViikingit,FBC Turku,https://fliiga.com/ottelut/miehet/eraviikingit-fbc-turku-9-12-2022/,5,4
+430755,2022-12-10 15:00:00,2022-2023,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-10-12-2022/,12,2
+430756,2022-12-10 17:00:00,2022-2023,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-10-12-2022/,10,5
+430757,2022-12-10 17:00:00,2022-2023,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-10-12-2022/,6,7
+430758,2022-12-11 15:00:00,2022-2023,Runkosarja,,FBC Turku,Indians,https://fliiga.com/ottelut/miehet/fbc-turku-indians-11-12-2022/,2,5
+430759,2022-12-13 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-13-12-2022/,9,5
+430760,2022-12-15 18:30:00,2022-2023,Runkosarja,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-15-12-2022/,5,4
+430761,2022-12-16 18:30:00,2022-2023,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-16-12-2022/,7,3
+430762,2022-12-16 18:30:00,2022-2023,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-16-12-2022/,4,3
+430763,2022-12-17 15:00:00,2022-2023,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-17-12-2022/,3,9
+430765,2022-12-17 17:00:00,2022-2023,Runkosarja,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-17-12-2022/,6,5
+430764,2022-12-17 18:30:00,2022-2023,Runkosarja,,Happee,FBC Turku,https://fliiga.com/ottelut/miehet/happee-fbc-turku-17-12-2022/,15,1
+430857,2022-12-18 14:00:00,2022-2023,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-18-12-2022/,6,3
+430766,2022-12-18 15:00:00,2022-2023,Runkosarja,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-18-12-2022/,7,8
+430767,2022-12-18 15:30:00,2022-2023,Runkosarja,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-18-12-2022/,5,4
+430768,2022-12-21 18:30:00,2022-2023,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-21-12-2022/,8,6
+430769,2022-12-21 18:30:00,2022-2023,Runkosarja,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-21-12-2022/,5,8
+430770,2022-12-28 18:30:00,2022-2023,Runkosarja,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-28-12-2022/,1,6
+430771,2022-12-28 18:30:00,2022-2023,Runkosarja,,LASB,FBC Turku,https://fliiga.com/ottelut/miehet/lasb-fbc-turku-28-12-2022/,6,5
+430772,2022-12-30 18:30:00,2022-2023,Runkosarja,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-30-12-2022/,5,7
+430773,2022-12-30 18:30:00,2022-2023,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-30-12-2022/,2,4
+430774,2023-01-04 18:30:00,2022-2023,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-4-1-2023/,2,4
+430858,2023-01-05 18:30:00,2022-2023,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-5-1-2023/,6,7
+430775,2023-01-06 17:00:00,2022-2023,Runkosarja,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-6-1-2023/,2,3
+430859,2023-01-06 17:00:00,2022-2023,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-6-1-2023/,5,7
+430776,2023-01-06 18:30:00,2022-2023,Runkosarja,,FBC Turku,Jymy,https://fliiga.com/ottelut/miehet/fbc-turku-jymy-6-1-2023/,5,6
+430777,2023-01-06 18:30:00,2022-2023,Runkosarja,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-6-1-2023/,7,10
+430778,2023-01-11 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-11-1-2023/,10,3
+430779,2023-01-13 18:30:00,2022-2023,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-13-1-2023/,8,4
+430780,2023-01-13 18:30:00,2022-2023,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-13-1-2023/,9,5
+430781,2023-01-13 18:30:00,2022-2023,Runkosarja,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-13-1-2023/,5,2
+430782,2023-01-14 17:00:00,2022-2023,Runkosarja,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-14-1-2023/,3,4
+430784,2023-01-14 17:00:00,2022-2023,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-14-1-2023/,7,6
+430783,2023-01-14 18:30:00,2022-2023,Runkosarja,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-14-1-2023/,3,4
+430785,2023-01-15 14:30:00,2022-2023,Runkosarja,,FBC Turku,Classic,https://fliiga.com/ottelut/miehet/fbc-turku-classic-15-1-2023/,4,12
+430787,2023-01-15 17:00:00,2022-2023,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-15-1-2023/,4,2
+430860,2023-01-15 17:00:00,2022-2023,Runkosarja,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-15-1-2023/,4,2
+430786,2023-01-15 18:30:00,2022-2023,Runkosarja,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-15-1-2023/,6,5
+430788,2023-01-25 18:30:00,2022-2023,Runkosarja,,Classic,FBC Turku,https://fliiga.com/ottelut/miehet/classic-fbc-turku-25-1-2023/,8,2
+430861,2023-01-26 18:30:00,2022-2023,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-26-1-2023/,4,9
+430789,2023-01-27 18:30:00,2022-2023,Runkosarja,,FBC Turku,Nokian KrP,https://fliiga.com/ottelut/miehet/fbc-turku-nokian-krp-27-1-2023/,3,15
+430790,2023-01-27 18:30:00,2022-2023,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-27-1-2023/,5,4
+430791,2023-01-28 16:30:00,2022-2023,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-28-1-2023/,5,6
+430792,2023-01-28 17:00:00,2022-2023,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-28-1-2023/,2,5
+430793,2023-01-28 18:30:00,2022-2023,Runkosarja,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-28-1-2023/,13,6
+430794,2023-01-28 18:30:00,2022-2023,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-28-1-2023/,10,4
+430795,2023-01-29 15:00:00,2022-2023,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-29-1-2023/,4,3
+430796,2023-01-29 16:00:00,2022-2023,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-29-1-2023/,2,11
+430797,2023-01-29 17:00:00,2022-2023,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-29-1-2023/,9,3
+430798,2023-01-30 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-30-1-2023/,10,4
+430799,2023-02-02 18:30:00,2022-2023,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-2-2-2023/,7,6
+430800,2023-02-02 18:30:00,2022-2023,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-2-2-2023/,3,7
+430801,2023-02-03 18:30:00,2022-2023,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-3-2-2023/,5,6
+430802,2023-02-04 15:00:00,2022-2023,Runkosarja,,OLS,FBC Turku,https://fliiga.com/ottelut/miehet/ols-fbc-turku-4-2-2023/,6,2
+430804,2023-02-04 17:00:00,2022-2023,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-4-2-2023/,6,4
+430803,2023-02-04 18:00:00,2022-2023,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-4-2-2023/,5,3
+430806,2023-02-05 16:00:00,2022-2023,Runkosarja,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-5-2-2023/,2,11
+430805,2023-02-05 17:00:00,2022-2023,Runkosarja,,Happee,FBC Turku,https://fliiga.com/ottelut/miehet/happee-fbc-turku-5-2-2023/,6,5
+430807,2023-02-05 17:00:00,2022-2023,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-5-2-2023/,13,1
+430862,2023-02-07 18:30:00,2022-2023,Runkosarja,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-7-2-2023/,1,8
+430808,2023-02-10 18:30:00,2022-2023,Runkosarja,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-10-2-2023/,9,3
+430809,2023-02-10 18:30:00,2022-2023,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-10-2-2023/,7,4
+430810,2023-02-10 18:30:00,2022-2023,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-10-2-2023/,8,4
+430811,2023-02-10 18:30:00,2022-2023,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-10-2-2023/,8,0
+430841,2023-02-10 18:30:00,2022-2023,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-10-2-2023/,8,3
+430812,2023-02-11 15:00:00,2022-2023,Runkosarja,,FBC Turku,SPV,https://fliiga.com/ottelut/miehet/fbc-turku-spv-11-2-2023/,8,7
+430825,2023-02-11 17:00:00,2022-2023,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-11-2-2023/,3,5
+430813,2023-02-12 15:00:00,2022-2023,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-12-2-2023/,5,6
+430815,2023-02-12 16:00:00,2022-2023,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-12-2-2023/,3,4
+430814,2023-02-12 17:00:00,2022-2023,Runkosarja,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-12-2-2023/,3,4
+430816,2023-02-15 18:30:00,2022-2023,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-15-2-2023/,12,5
+430817,2023-02-17 18:30:00,2022-2023,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-17-2-2023/,12,3
+430818,2023-02-17 18:30:00,2022-2023,Runkosarja,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-17-2-2023/,3,7
+430819,2023-02-17 18:30:00,2022-2023,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-17-2-2023/,8,2
+430820,2023-02-18 14:30:00,2022-2023,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-18-2-2023/,3,10
+430821,2023-02-18 17:00:00,2022-2023,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-18-2-2023/,3,6
+430823,2023-02-18 17:00:00,2022-2023,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-18-2-2023/,8,3
+430822,2023-02-18 18:00:00,2022-2023,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-18-2-2023/,4,8
+430826,2023-02-19 16:00:00,2022-2023,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-19-2-2023/,4,5
+430824,2023-02-19 17:00:00,2022-2023,Runkosarja,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-19-2-2023/,2,9
+430863,2023-02-19 17:00:00,2022-2023,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-19-2-2023/,6,3
+430827,2023-02-22 18:30:00,2022-2023,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-22-2-2023/,6,1
+430828,2023-02-25 15:00:00,2022-2023,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-25-2-2023/,7,4
+430829,2023-02-25 17:00:00,2022-2023,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-25-2-2023/,8,6
+430830,2023-02-25 17:00:00,2022-2023,Runkosarja,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-25-2-2023/,4,9
+430831,2023-02-25 18:30:00,2022-2023,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-25-2-2023/,6,5
+430832,2023-02-26 15:00:00,2022-2023,Runkosarja,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-26-2-2023/,4,6
+430833,2023-02-26 17:00:00,2022-2023,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-26-2-2023/,6,7
+430834,2023-02-28 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-28-2-2023/,5,6
+430835,2023-03-01 18:30:00,2022-2023,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-1-3-2023/,5,8
+430836,2023-03-03 18:30:00,2022-2023,Runkosarja,,FBC Turku,LASB,https://fliiga.com/ottelut/miehet/fbc-turku-lasb-3-3-2023/,3,8
+430837,2023-03-03 18:30:00,2022-2023,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-3-3-2023/,3,6
+430838,2023-03-04 17:00:00,2022-2023,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-4-3-2023/,6,5
+430839,2023-03-04 18:00:00,2022-2023,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-4-3-2023/,6,5
+430840,2023-03-05 15:00:00,2022-2023,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-5-3-2023/,4,3
+430843,2023-03-05 16:00:00,2022-2023,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-5-3-2023/,4,6
+430844,2023-03-05 17:00:00,2022-2023,Runkosarja,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-5-3-2023/,6,7
+430842,2023-03-05 18:30:00,2022-2023,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-5-3-2023/,1,9
+430845,2023-03-07 18:30:00,2022-2023,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-7-3-2023/,6,5
+430846,2023-03-08 18:30:00,2022-2023,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-8-3-2023/,4,3
+430847,2023-03-11 17:00:00,2022-2023,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-11-3-2023/,3,4
+430848,2023-03-11 17:00:00,2022-2023,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-11-3-2023/,5,2
+430849,2023-03-11 17:00:00,2022-2023,Runkosarja,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-11-3-2023/,8,5
+430850,2023-03-11 17:00:00,2022-2023,Runkosarja,,Jymy,FBC Turku,https://fliiga.com/ottelut/miehet/jymy-fbc-turku-11-3-2023/,5,6
+430851,2023-03-11 17:00:00,2022-2023,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-11-3-2023/,6,5
+430852,2023-03-11 17:00:00,2022-2023,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-11-3-2023/,5,4
+452091,2023-03-15 18:30:00,2022-2023,Play offs,Puolivälierät,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-15-3-2023/,7,6
+452095,2023-03-15 18:30:00,2022-2023,Play offs,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-15-3-2023/,10,3
+452100,2023-03-16 18:30:00,2022-2023,Play offs,Puolivälierät,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-16-3-2023/,3,2
+452105,2023-03-16 18:30:00,2022-2023,Play offs,Puolivälierät,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-16-3-2023/,6,7
+452096,2023-03-17 18:30:00,2022-2023,Play offs,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-17-3-2023/,4,5
+452092,2023-03-18 14:30:00,2022-2023,Play offs,Puolivälierät,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-18-3-2023/,4,6
+452101,2023-03-18 17:00:00,2022-2023,Play offs,Puolivälierät,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-18-3-2023/,5,8
+452093,2023-03-19 17:00:00,2022-2023,Play offs,Puolivälierät,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-19-3-2023/,7,5
+452097,2023-03-19 17:00:00,2022-2023,Play offs,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-19-3-2023/,2,4
+452106,2023-03-19 18:30:00,2022-2023,Play offs,Puolivälierät,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-19-3-2023/,6,4
+452107,2023-03-20 18:30:00,2022-2023,Play offs,Puolivälierät,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-20-3-2023/,4,7
+452102,2023-03-21 18:30:00,2022-2023,Play offs,Puolivälierät,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-21-3-2023/,10,7
+452094,2023-03-22 18:00:00,2022-2023,Play offs,Puolivälierät,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-22-3-2023/,5,13
+452098,2023-03-22 18:30:00,2022-2023,Play offs,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-22-3-2023/,1,10
+452108,2023-03-22 18:30:00,2022-2023,Play offs,Puolivälierät,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-22-3-2023/,8,7
+452103,2023-03-23 18:30:00,2022-2023,Play offs,Puolivälierät,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-23-3-2023/,4,3
+452099,2023-03-24 18:30:00,2022-2023,Play offs,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-24-3-2023/,10,2
+452104,2023-03-26 17:00:00,2022-2023,Play offs,Puolivälierät,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-26-3-2023/,8,3
+452596,2023-03-31 18:30:00,2022-2023,Play offs,Välierät,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-31-3-2023/,9,6
+452600,2023-03-31 18:30:00,2022-2023,Play offs,Välierät,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-31-3-2023/,4,1
+452597,2023-04-02 17:00:00,2022-2023,Play offs,Välierät,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-2-4-2023/,5,7
+452601,2023-04-02 18:30:00,2022-2023,Play offs,Välierät,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-2-4-2023/,2,9
+452598,2023-04-04 18:30:00,2022-2023,Play offs,Välierät,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-4-4-2023/,10,4
+452602,2023-04-04 18:30:00,2022-2023,Play offs,Välierät,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-4-4-2023/,6,3
+452599,2023-04-07 15:00:00,2022-2023,Play offs,Välierät,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-7-4-2023/,6,10
+452603,2023-04-07 17:00:00,2022-2023,Play offs,Välierät,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-7-4-2023/,2,3
+452995,2023-04-14 18:30:00,2022-2023,Play offs,Finaali,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-14-4-2023/,3,4
+453002,2023-04-14 18:30:00,2022-2023,Play offs,Pronssiottelu,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-14-4-2023/,4,9
+452996,2023-04-16 15:00:00,2022-2023,Play offs,Finaali,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-16-4-2023/,3,4
+452997,2023-04-18 18:30:00,2022-2023,Play offs,Finaali,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-18-4-2023/,7,3
+452998,2023-04-21 18:30:00,2022-2023,Play offs,Finaali,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-21-4-2023/,3,7
+452999,2023-04-23 16:00:00,2022-2023,Play offs,Finaali,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-23-4-2023/,3,6
+453000,2023-04-26 18:30:00,2022-2023,Play offs,Finaali,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-26-4-2023/,4,2
+453001,2023-04-28 18:30:00,2022-2023,Play offs,Finaali,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-28-4-2023/,2,3
+715140,2023-09-15 18:30:00,2023-2024,Runkosarja,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-15-9-2023/,4,5
+715138,2023-09-16 17:00:00,2023-2024,Runkosarja,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-16-9-2023/,8,5
+715139,2023-09-16 17:00:00,2023-2024,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-16-9-2023/,2,9
+715137,2023-09-16 18:00:00,2023-2024,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-16-9-2023/,5,11
+715135,2023-09-17 17:00:00,2023-2024,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-17-9-2023/,7,6
+715136,2023-09-17 17:00:00,2023-2024,Runkosarja,,Jymy,FBC Turku,https://fliiga.com/ottelut/miehet/jymy-fbc-turku-17-9-2023/,5,3
+715134,2023-09-18 18:30:00,2023-2024,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-18-9-2023/,8,11
+715132,2023-09-20 18:30:00,2023-2024,Runkosarja,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-20-9-2023/,3,5
+715133,2023-09-20 18:30:00,2023-2024,Runkosarja,,Jymy,Happee,https://fliiga.com/ottelut/miehet/jymy-happee-20-9-2023/,9,4
+715130,2023-09-22 18:30:00,2023-2024,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-22-9-2023/,9,2
+715131,2023-09-22 18:30:00,2023-2024,Runkosarja,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-22-9-2023/,6,5
+715129,2023-09-23 15:00:00,2023-2024,Runkosarja,,Happee,FBC Turku,https://fliiga.com/ottelut/miehet/happee-fbc-turku-23-9-2023/,9,3
+715127,2023-09-23 17:00:00,2023-2024,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-23-9-2023/,10,3
+715128,2023-09-23 17:00:00,2023-2024,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-23-9-2023/,8,6
+715126,2023-09-24 17:00:00,2023-2024,Runkosarja,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-24-9-2023/,3,6
+715125,2023-09-25 18:30:00,2023-2024,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-25-9-2023/,5,4
+715124,2023-09-27 18:30:00,2023-2024,Runkosarja,,FBC Turku,Nokian KrP,https://fliiga.com/ottelut/miehet/fbc-turku-nokian-krp-27-9-2023/,3,5
+715120,2023-09-29 18:30:00,2023-2024,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-29-9-2023/,5,6
+715121,2023-09-29 18:30:00,2023-2024,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-29-9-2023/,4,3
+715122,2023-09-29 18:30:00,2023-2024,Runkosarja,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-29-9-2023/,5,4
+715123,2023-09-29 18:30:00,2023-2024,Runkosarja,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-29-9-2023/,5,11
+715117,2023-09-30 17:00:00,2023-2024,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-30-9-2023/,7,3
+715118,2023-09-30 17:00:00,2023-2024,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-30-9-2023/,6,5
+715119,2023-09-30 17:00:00,2023-2024,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-30-9-2023/,1,12
+715115,2023-10-01 17:00:00,2023-2024,Runkosarja,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-1-10-2023/,3,7
+715116,2023-10-01 17:00:00,2023-2024,Runkosarja,,FBC Turku,OLS,https://fliiga.com/ottelut/miehet/fbc-turku-ols-1-10-2023/,5,4
+715114,2023-10-02 18:30:00,2023-2024,Runkosarja,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-2-10-2023/,5,3
+715112,2023-10-05 18:30:00,2023-2024,Runkosarja,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-5-10-2023/,5,7
+715113,2023-10-05 18:30:00,2023-2024,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-5-10-2023/,5,10
+715109,2023-10-06 18:30:00,2023-2024,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-6-10-2023/,15,2
+715110,2023-10-06 18:30:00,2023-2024,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-6-10-2023/,5,3
+715111,2023-10-06 18:30:00,2023-2024,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-6-10-2023/,8,3
+715108,2023-10-07 15:00:00,2023-2024,Runkosarja,,FBC Turku,SPV,https://fliiga.com/ottelut/miehet/fbc-turku-spv-7-10-2023/,2,15
+715107,2023-10-07 17:00:00,2023-2024,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-7-10-2023/,1,4
+715106,2023-10-08 18:00:00,2023-2024,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-8-10-2023/,6,5
+715104,2023-10-09 18:30:00,2023-2024,Runkosarja,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-9-10-2023/,10,5
+715105,2023-10-09 18:30:00,2023-2024,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-9-10-2023/,6,7
+715101,2023-10-13 18:30:00,2023-2024,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-13-10-2023/,9,4
+715102,2023-10-13 18:30:00,2023-2024,Runkosarja,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-13-10-2023/,10,4
+715103,2023-10-13 18:30:00,2023-2024,Runkosarja,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-13-10-2023/,6,5
+715099,2023-10-14 17:00:00,2023-2024,Runkosarja,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-14-10-2023/,11,4
+715100,2023-10-14 17:00:00,2023-2024,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-14-10-2023/,7,5
+715098,2023-10-15 16:00:00,2023-2024,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-15-10-2023/,7,1
+715095,2023-10-15 17:00:00,2023-2024,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-15-10-2023/,6,4
+715096,2023-10-15 17:00:00,2023-2024,Runkosarja,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-15-10-2023/,4,8
+715097,2023-10-15 17:00:00,2023-2024,Runkosarja,,FBC Turku,Classic,https://fliiga.com/ottelut/miehet/fbc-turku-classic-15-10-2023/,6,10
+715094,2023-10-16 18:30:00,2023-2024,Runkosarja,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-16-10-2023/,2,6
+715093,2023-10-18 18:30:00,2023-2024,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-18-10-2023/,16,2
+715091,2023-10-20 18:30:00,2023-2024,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-20-10-2023/,10,3
+715092,2023-10-20 18:30:00,2023-2024,Runkosarja,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-20-10-2023/,9,8
+715089,2023-10-21 17:00:00,2023-2024,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-21-10-2023/,10,2
+715090,2023-10-21 17:00:00,2023-2024,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-21-10-2023/,5,4
+715088,2023-10-21 18:00:00,2023-2024,Runkosarja,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-21-10-2023/,7,5
+715085,2023-10-22 17:00:00,2023-2024,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-22-10-2023/,3,4
+715086,2023-10-22 17:00:00,2023-2024,Runkosarja,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-22-10-2023/,3,4
+715087,2023-10-22 17:00:00,2023-2024,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-22-10-2023/,5,6
+715084,2023-10-23 18:30:00,2023-2024,Runkosarja,,Oilers,FBC Turku,https://fliiga.com/ottelut/miehet/oilers-fbc-turku-23-10-2023/,10,4
+715083,2023-10-24 18:30:00,2023-2024,Runkosarja,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-24-10-2023/,9,5
+715081,2023-10-27 18:30:00,2023-2024,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-27-10-2023/,3,8
+715082,2023-10-27 18:30:00,2023-2024,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-27-10-2023/,5,4
+715080,2023-10-28 17:00:00,2023-2024,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-28-10-2023/,1,6
+715079,2023-10-28 18:30:00,2023-2024,Runkosarja,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-28-10-2023/,3,4
+715078,2023-10-29 18:00:00,2023-2024,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-29-10-2023/,5,4
+715077,2023-10-30 18:30:00,2023-2024,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-30-10-2023/,2,7
+715076,2023-10-31 18:30:00,2023-2024,Runkosarja,,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-31-10-2023/,8,5
+715073,2023-11-03 18:30:00,2023-2024,Runkosarja,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-3-11-2023/,7,3
+715074,2023-11-03 18:30:00,2023-2024,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-3-11-2023/,3,10
+715075,2023-11-03 18:30:00,2023-2024,Runkosarja,,FBC Turku,LASB,https://fliiga.com/ottelut/miehet/fbc-turku-lasb-3-11-2023/,5,4
+715071,2023-11-04 17:00:00,2023-2024,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-4-11-2023/,3,8
+715072,2023-11-04 17:00:00,2023-2024,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-4-11-2023/,4,10
+715070,2023-11-05 17:00:00,2023-2024,Runkosarja,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-5-11-2023/,10,4
+715068,2023-11-05 18:00:00,2023-2024,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-5-11-2023/,7,1
+715069,2023-11-05 18:00:00,2023-2024,Runkosarja,,FBC Turku,Jymy,https://fliiga.com/ottelut/miehet/fbc-turku-jymy-5-11-2023/,3,4
+715067,2023-11-06 18:30:00,2023-2024,Runkosarja,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-6-11-2023/,7,5
+715044,2023-11-11 15:00:00,2023-2024,Runkosarja,,OLS,FBC Turku,https://fliiga.com/ottelut/miehet/ols-fbc-turku-11-11-2023/,7,4
+715065,2023-11-15 18:30:00,2023-2024,Runkosarja,,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-15-11-2023/,10,5
+715066,2023-11-15 18:30:00,2023-2024,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-15-11-2023/,5,9
+715064,2023-11-17 18:30:00,2023-2024,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-17-11-2023/,4,5
+715063,2023-11-17 19:00:00,2023-2024,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-17-11-2023/,7,3
+715062,2023-11-18 17:00:00,2023-2024,Runkosarja,,FBC Turku,Happee,https://fliiga.com/ottelut/miehet/fbc-turku-happee-18-11-2023/,7,8
+715061,2023-11-18 18:00:00,2023-2024,Runkosarja,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-18-11-2023/,5,8
+715060,2023-11-19 17:00:00,2023-2024,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-19-11-2023/,9,6
+715059,2023-11-20 18:30:00,2023-2024,Runkosarja,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-20-11-2023/,2,9
+715058,2023-11-22 18:30:00,2023-2024,Runkosarja,,LASB,FBC Turku,https://fliiga.com/ottelut/miehet/lasb-fbc-turku-22-11-2023/,7,3
+715056,2023-11-24 18:30:00,2023-2024,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-24-11-2023/,4,10
+715057,2023-11-24 18:30:00,2023-2024,Runkosarja,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-24-11-2023/,3,8
+715055,2023-11-25 15:00:00,2023-2024,Runkosarja,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-25-11-2023/,9,4
+715054,2023-11-25 16:00:00,2023-2024,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-25-11-2023/,12,8
+715053,2023-11-25 18:30:00,2023-2024,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-25-11-2023/,3,5
+715051,2023-11-26 17:00:00,2023-2024,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-26-11-2023/,7,1
+715052,2023-11-26 17:00:00,2023-2024,Runkosarja,,Happee,OLS,https://fliiga.com/ottelut/miehet/happee-ols-26-11-2023/,6,5
+715050,2023-11-26 18:00:00,2023-2024,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-26-11-2023/,4,5
+715049,2023-11-27 18:30:00,2023-2024,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-27-11-2023/,8,4
+715048,2023-11-29 18:30:00,2023-2024,Runkosarja,,Nokian KrP,FBC Turku,https://fliiga.com/ottelut/miehet/nokian-krp-fbc-turku-29-11-2023/,10,5
+715047,2023-12-01 18:30:00,2023-2024,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-1-12-2023/,7,3
+715046,2023-12-02 15:00:00,2023-2024,Runkosarja,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-2-12-2023/,7,8
+715045,2023-12-02 17:00:00,2023-2024,Runkosarja,,SPV,FBC Turku,https://fliiga.com/ottelut/miehet/spv-fbc-turku-2-12-2023/,7,5
+715042,2023-12-04 18:30:00,2023-2024,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-4-12-2023/,7,2
+715043,2023-12-04 18:30:00,2023-2024,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-4-12-2023/,7,1
+715038,2023-12-07 18:30:00,2023-2024,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-7-12-2023/,2,10
+715041,2023-12-07 18:30:00,2023-2024,Runkosarja,,LASB,Happee,https://fliiga.com/ottelut/miehet/lasb-happee-7-12-2023/,2,6
+715040,2023-12-08 18:30:00,2023-2024,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-8-12-2023/,14,1
+715036,2023-12-09 17:00:00,2023-2024,Runkosarja,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-9-12-2023/,2,4
+715037,2023-12-09 17:00:00,2023-2024,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-9-12-2023/,5,9
+715039,2023-12-09 17:00:00,2023-2024,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-9-12-2023/,10,2
+715035,2023-12-11 18:30:00,2023-2024,Runkosarja,,FBC Turku,Indians,https://fliiga.com/ottelut/miehet/fbc-turku-indians-11-12-2023/,6,7
+715034,2023-12-13 18:30:00,2023-2024,Runkosarja,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-13-12-2023/,7,5
+715033,2023-12-15 18:30:00,2023-2024,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-15-12-2023/,8,4
+715032,2023-12-16 15:00:00,2023-2024,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-16-12-2023/,3,6
+715028,2023-12-16 17:00:00,2023-2024,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-16-12-2023/,1,8
+715029,2023-12-16 17:00:00,2023-2024,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-16-12-2023/,3,11
+715030,2023-12-16 17:00:00,2023-2024,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-16-12-2023/,3,8
+715031,2023-12-16 17:00:00,2023-2024,Runkosarja,,Classic,FBC Turku,https://fliiga.com/ottelut/miehet/classic-fbc-turku-16-12-2023/,10,1
+715026,2023-12-17 18:30:00,2023-2024,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-17-12-2023/,1,5
+715027,2023-12-17 19:00:00,2023-2024,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-17-12-2023/,5,6
+715025,2023-12-18 18:30:00,2023-2024,Runkosarja,,Happee,EräViikingit,https://fliiga.com/ottelut/miehet/happee-eraviikingit-18-12-2023/,8,5
+715024,2023-12-19 18:30:00,2023-2024,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-19-12-2023/,5,2
+715023,2023-12-21 18:30:00,2023-2024,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-21-12-2023/,4,10
+715022,2023-12-29 18:30:00,2023-2024,Runkosarja,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-29-12-2023/,4,6
+715019,2023-12-30 15:00:00,2023-2024,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-30-12-2023/,8,4
+715020,2023-12-30 17:00:00,2023-2024,Runkosarja,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-30-12-2023/,6,7
+715018,2024-01-03 18:30:00,2023-2024,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-3-1-2024/,5,11
+715021,2024-01-03 18:30:00,2023-2024,Runkosarja,,FBC Turku,TPS,https://fliiga.com/ottelut/miehet/fbc-turku-tps-3-1-2024/,6,9
+715015,2024-01-05 18:30:00,2023-2024,Runkosarja,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-5-1-2024/,11,6
+715016,2024-01-05 18:30:00,2023-2024,Runkosarja,,Indians,Happee,https://fliiga.com/ottelut/miehet/indians-happee-5-1-2024/,2,5
+715017,2024-01-05 18:30:00,2023-2024,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-5-1-2024/,8,4
+715014,2024-01-06 16:00:00,2023-2024,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-6-1-2024/,2,7
+715013,2024-01-06 17:00:00,2023-2024,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-6-1-2024/,9,3
+715012,2024-01-07 18:30:00,2023-2024,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-7-1-2024/,3,1
+715011,2024-01-08 18:30:00,2023-2024,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-8-1-2024/,12,5
+715010,2024-01-10 18:30:00,2023-2024,Runkosarja,,LASB,Happee,https://fliiga.com/ottelut/miehet/lasb-happee-10-1-2024/,1,8
+715009,2024-01-11 18:30:00,2023-2024,Runkosarja,,EräViikingit,FBC Turku,https://fliiga.com/ottelut/miehet/eraviikingit-fbc-turku-11-1-2024/,5,3
+715007,2024-01-17 18:30:00,2023-2024,Runkosarja,,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-17-1-2024/,7,2
+715008,2024-01-17 18:30:00,2023-2024,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-17-1-2024/,6,9
+715006,2024-01-18 18:30:00,2023-2024,Runkosarja,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-18-1-2024/,5,4
+715005,2024-01-19 18:30:00,2023-2024,Runkosarja,,Classic,FBC Turku,https://fliiga.com/ottelut/miehet/classic-fbc-turku-19-1-2024/,12,2
+715004,2024-01-20 15:00:00,2023-2024,Runkosarja,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-20-1-2024/,3,4
+715003,2024-01-20 17:00:00,2023-2024,Runkosarja,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-20-1-2024/,2,7
+715002,2024-01-20 18:00:00,2023-2024,Runkosarja,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-20-1-2024/,5,6
+715001,2024-01-21 17:00:00,2023-2024,Runkosarja,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-21-1-2024/,7,6
+715000,2024-01-21 18:00:00,2023-2024,Runkosarja,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-21-1-2024/,4,5
+714999,2024-01-21 18:30:00,2023-2024,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-21-1-2024/,2,15
+714998,2024-01-22 18:30:00,2023-2024,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-22-1-2024/,3,4
+714997,2024-01-24 18:30:00,2023-2024,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-24-1-2024/,16,5
+714996,2024-01-25 18:30:00,2023-2024,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-25-1-2024/,11,3
+714990,2024-01-26 18:30:00,2023-2024,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-26-1-2024/,2,5
+714994,2024-01-26 18:30:00,2023-2024,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-26-1-2024/,9,5
+714995,2024-01-26 18:30:00,2023-2024,Runkosarja,,FBC Turku,Nokian KrP,https://fliiga.com/ottelut/miehet/fbc-turku-nokian-krp-26-1-2024/,1,13
+714993,2024-01-27 16:00:00,2023-2024,Runkosarja,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-27-1-2024/,3,2
+714992,2024-01-27 17:00:00,2023-2024,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-27-1-2024/,8,4
+714987,2024-01-28 15:00:00,2023-2024,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-28-1-2024/,4,2
+714991,2024-01-28 16:00:00,2023-2024,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-28-1-2024/,8,4
+714988,2024-01-28 17:00:00,2023-2024,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-28-1-2024/,6,7
+714989,2024-01-28 17:00:00,2023-2024,Runkosarja,,Happee,OLS,https://fliiga.com/ottelut/miehet/happee-ols-28-1-2024/,8,3
+714985,2024-02-07 18:30:00,2023-2024,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-7-2-2024/,7,9
+714986,2024-02-08 18:30:00,2023-2024,Runkosarja,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-8-2-2024/,6,4
+714984,2024-02-10 15:00:00,2023-2024,Runkosarja,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-10-2-2024/,6,5
+714981,2024-02-10 17:00:00,2023-2024,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-10-2-2024/,16,5
+714982,2024-02-10 17:00:00,2023-2024,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-10-2-2024/,7,5
+714983,2024-02-10 17:00:00,2023-2024,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-10-2-2024/,3,0
+714980,2024-02-11 17:00:00,2023-2024,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-11-2-2024/,2,6
+714979,2024-02-11 18:00:00,2023-2024,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-11-2-2024/,7,2
+714978,2024-02-12 18:30:00,2023-2024,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-12-2-2024/,8,2
+714975,2024-02-14 18:30:00,2023-2024,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-14-2-2024/,2,11
+714976,2024-02-14 18:30:00,2023-2024,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-14-2-2024/,9,4
+714977,2024-02-14 18:30:00,2023-2024,Runkosarja,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-14-2-2024/,2,13
+714973,2024-02-16 18:30:00,2023-2024,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-16-2-2024/,5,7
+714974,2024-02-16 18:30:00,2023-2024,Runkosarja,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-16-2-2024/,4,2
+714972,2024-02-17 17:00:00,2023-2024,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-17-2-2024/,6,5
+714971,2024-02-17 18:30:00,2023-2024,Runkosarja,,FBC Turku,OLS,https://fliiga.com/ottelut/miehet/fbc-turku-ols-17-2-2024/,2,9
+714970,2024-02-18 16:00:00,2023-2024,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-18-2-2024/,4,3
+714969,2024-02-18 17:00:00,2023-2024,Runkosarja,,SPV,FBC Turku,https://fliiga.com/ottelut/miehet/spv-fbc-turku-18-2-2024/,7,3
+714968,2024-02-18 18:30:00,2023-2024,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-18-2-2024/,3,4
+714967,2024-02-19 18:30:00,2023-2024,Runkosarja,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-19-2-2024/,5,3
+714965,2024-02-23 18:30:00,2023-2024,Runkosarja,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-23-2-2024/,9,2
+714966,2024-02-23 18:30:00,2023-2024,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-23-2-2024/,7,8
+714963,2024-02-24 15:00:00,2023-2024,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-24-2-2024/,4,3
+714964,2024-02-24 15:00:00,2023-2024,Runkosarja,,Happee,FBC Turku,https://fliiga.com/ottelut/miehet/happee-fbc-turku-24-2-2024/,14,4
+714962,2024-02-24 18:00:00,2023-2024,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-24-2-2024/,3,6
+714961,2024-02-26 18:30:00,2023-2024,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-26-2-2024/,15,3
+714959,2024-02-28 18:30:00,2023-2024,Runkosarja,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-28-2-2024/,4,5
+714960,2024-02-28 18:30:00,2023-2024,Runkosarja,,FBC Turku,LASB,https://fliiga.com/ottelut/miehet/fbc-turku-lasb-28-2-2024/,3,6
+714956,2024-03-01 18:30:00,2023-2024,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-1-3-2024/,8,2
+714957,2024-03-01 18:30:00,2023-2024,Runkosarja,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-1-3-2024/,5,8
+714958,2024-03-01 18:30:00,2023-2024,Runkosarja,,FBC Turku,Jymy,https://fliiga.com/ottelut/miehet/fbc-turku-jymy-1-3-2024/,4,7
+714955,2024-03-02 18:30:00,2023-2024,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-2-3-2024/,1,4
+714954,2024-03-03 15:00:00,2023-2024,Runkosarja,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-3-3-2024/,5,3
+714952,2024-03-03 17:00:00,2023-2024,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-3-3-2024/,6,5
+714953,2024-03-03 17:00:00,2023-2024,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-3-3-2024/,9,6
+714951,2024-03-03 18:00:00,2023-2024,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-3-3-2024/,4,7
+714949,2024-03-04 18:30:00,2023-2024,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-4-3-2024/,3,4
+714950,2024-03-04 18:30:00,2023-2024,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-4-3-2024/,5,7
+714943,2024-03-09 14:00:00,2023-2024,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-9-3-2024/,6,3
+714944,2024-03-09 17:00:00,2023-2024,Runkosarja,,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-9-3-2024/,8,5
+714945,2024-03-09 17:00:00,2023-2024,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-9-3-2024/,4,5
+714946,2024-03-09 17:00:00,2023-2024,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-9-3-2024/,6,4
+714947,2024-03-09 17:00:00,2023-2024,Runkosarja,,EräViikingit,FBC Turku,https://fliiga.com/ottelut/miehet/eraviikingit-fbc-turku-9-3-2024/,4,2
+714948,2024-03-09 17:00:00,2023-2024,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-9-3-2024/,6,7
+790859,2024-03-13 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-13-3-2024/,13,2
+790867,2024-03-15 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-15-3-2024/,4,3
+790875,2024-03-15 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-15-3-2024/,6,2
+790883,2024-03-15 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-15-3-2024/,3,2
+803866,2024-03-15 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,EräViikingit,Koovee,https://fliiga.com/ottelut/miehet/eraviikingit-koovee-15-3-2024/,7,3
+803878,2024-03-16 15:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,M-Team,SalBa,https://fliiga.com/ottelut/miehet/m-team-salba-16-3-2024/,4,3
+803884,2024-03-16 16:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,FBC Turku,Rangers,https://fliiga.com/ottelut/miehet/fbc-turku-rangers-16-3-2024/,3,2
+803872,2024-03-16 17:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,LNM,Tiikerit,https://fliiga.com/ottelut/miehet/lnm-tiikerit-16-3-2024/,7,4
+790860,2024-03-16 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-16-3-2024/,4,5
+790868,2024-03-16 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-16-3-2024/,4,8
+790884,2024-03-17 15:00:00,2023-2024,Pudotuspelit,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-17-3-2024/,3,2
+803867,2024-03-17 15:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,Koovee,EräViikingit,https://fliiga.com/ottelut/miehet/koovee-eraviikingit-17-3-2024/,3,6
+803873,2024-03-17 15:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,Tiikerit,LNM,https://fliiga.com/ottelut/miehet/tiikerit-lnm-17-3-2024/,5,3
+790876,2024-03-17 17:00:00,2023-2024,Pudotuspelit,Puolivälierät,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-17-3-2024/,6,5
+803879,2024-03-17 17:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,SalBa,M-Team,https://fliiga.com/ottelut/miehet/salba-m-team-17-3-2024/,7,8
+803885,2024-03-17 17:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,Rangers,FBC Turku,https://fliiga.com/ottelut/miehet/rangers-fbc-turku-17-3-2024/,4,6
+790861,2024-03-18 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-18-3-2024/,15,4
+790869,2024-03-19 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-19-3-2024/,5,6
+790877,2024-03-19 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-19-3-2024/,6,1
+790885,2024-03-20 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-20-3-2024/,5,3
+803868,2024-03-20 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,EräViikingit,Koovee,https://fliiga.com/ottelut/miehet/eraviikingit-koovee-20-3-2024/,0,3
+803874,2024-03-20 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,LNM,Tiikerit,https://fliiga.com/ottelut/miehet/lnm-tiikerit-20-3-2024/,3,4
+803880,2024-03-20 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,M-Team,SalBa,https://fliiga.com/ottelut/miehet/m-team-salba-20-3-2024/,9,6
+803886,2024-03-20 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,FBC Turku,Rangers,https://fliiga.com/ottelut/miehet/fbc-turku-rangers-20-3-2024/,10,2
+790862,2024-03-21 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-21-3-2024/,2,7
+790870,2024-03-21 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-21-3-2024/,4,7
+790878,2024-03-22 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-22-3-2024/,5,8
+790886,2024-03-22 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-22-3-2024/,2,4
+803869,2024-03-23 15:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,Koovee,EräViikingit,https://fliiga.com/ottelut/miehet/koovee-eraviikingit-23-3-2024/,4,5
+803875,2024-03-23 17:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 1. kierros,Tiikerit,LNM,https://fliiga.com/ottelut/miehet/tiikerit-lnm-23-3-2024/,8,7
+790871,2024-03-23 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-23-3-2024/,4,7
+790879,2024-03-24 17:00:00,2023-2024,Pudotuspelit,Puolivälierät,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-24-3-2024/,4,5
+790887,2024-03-24 17:00:00,2023-2024,Pudotuspelit,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-24-3-2024/,5,4
+790872,2024-03-25 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-25-3-2024/,3,8
+790880,2024-03-26 18:30:00,2023-2024,Pudotuspelit,Puolivälierät,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-26-3-2024/,2,3
+790891,2024-03-29 18:30:00,2023-2024,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-29-3-2024/,6,3
+803890,2024-03-29 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,EräViikingit,Tiikerit,https://fliiga.com/ottelut/miehet/eraviikingit-tiikerit-29-3-2024/,2,1
+803896,2024-03-30 15:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,M-Team,FBC Turku,https://fliiga.com/ottelut/miehet/m-team-fbc-turku-30-3-2024/,5,6
+803891,2024-03-30 17:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,Tiikerit,EräViikingit,https://fliiga.com/ottelut/miehet/tiikerit-eraviikingit-30-3-2024/,3,4
+790899,2024-03-30 17:30:00,2023-2024,Pudotuspelit,Välierät,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-30-3-2024/,4,10
+790900,2024-03-31 17:00:00,2023-2024,Pudotuspelit,Välierät,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-31-3-2024/,5,6
+803897,2024-04-01 17:00:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,FBC Turku,M-Team,https://fliiga.com/ottelut/miehet/fbc-turku-m-team-1-4-2024/,8,4
+790892,2024-04-01 18:30:00,2023-2024,Pudotuspelit,Välierät,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-1-4-2024/,5,10
+790901,2024-04-02 18:30:00,2023-2024,Pudotuspelit,Välierät,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-2-4-2024/,6,4
+790893,2024-04-03 18:30:00,2023-2024,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-3-4-2024/,6,3
+803892,2024-04-03 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,EräViikingit,Tiikerit,https://fliiga.com/ottelut/miehet/eraviikingit-tiikerit-3-4-2024/,4,3
+803898,2024-04-03 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,M-Team,FBC Turku,https://fliiga.com/ottelut/miehet/m-team-fbc-turku-3-4-2024/,4,3
+790902,2024-04-05 18:30:00,2023-2024,Pudotuspelit,Välierät,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-5-4-2024/,6,3
+803899,2024-04-05 18:30:00,2023-2024,F-liigakarsinnat,Liigakarsinta 2. kierros,FBC Turku,M-Team,https://fliiga.com/ottelut/miehet/fbc-turku-m-team-5-4-2024/,6,4
+790903,2024-04-06 17:30:00,2023-2024,Pudotuspelit,Välierät,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-6-4-2024/,7,4
+790894,2024-04-06 18:30:00,2023-2024,Pudotuspelit,Välierät,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-6-4-2024/,5,4
+790895,2024-04-07 18:30:00,2023-2024,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-7-4-2024/,5,6
+790904,2024-04-08 18:30:00,2023-2024,Pudotuspelit,Välierät,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-8-4-2024/,2,4
+790896,2024-04-09 18:30:00,2023-2024,Pudotuspelit,Välierät,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-9-4-2024/,10,9
+790897,2024-04-12 18:30:00,2023-2024,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-12-4-2024/,4,2
+790907,2024-04-14 15:00:00,2023-2024,Pudotuspelit,Finaali,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-14-4-2024/,4,5
+803493,2024-04-14 18:00:00,2023-2024,Pudotuspelit,Pronssiottelu,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-14-4-2024/,5,3
+790908,2024-04-16 18:30:00,2023-2024,Pudotuspelit,Finaali,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-16-4-2024/,4,3
+790909,2024-04-19 18:30:00,2023-2024,Pudotuspelit,Finaali,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-19-4-2024/,6,5
+790910,2024-04-20 17:30:00,2023-2024,Pudotuspelit,Finaali,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-20-4-2024/,5,8
+790911,2024-04-24 18:30:00,2023-2024,Pudotuspelit,Finaali,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-24-4-2024/,8,6
+790912,2024-04-27 17:00:00,2023-2024,Pudotuspelit,Finaali,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-27-4-2024/,9,4
+790913,2024-04-28 18:00:00,2023-2024,Pudotuspelit,Finaali,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-28-4-2024/,6,4
+822475,2024-09-11 18:30:00,2024-2025,Runkosarja,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-11-9-2024/,6,11
+822473,2024-09-13 18:30:00,2024-2025,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-13-9-2024/,11,4
+822474,2024-09-13 18:30:00,2024-2025,Runkosarja,,EräViikingit,Happee,https://fliiga.com/ottelut/miehet/eraviikingit-happee-13-9-2024/,0,11
+822470,2024-09-14 16:00:00,2024-2025,Runkosarja,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-14-9-2024/,4,6
+822471,2024-09-14 16:00:00,2024-2025,Runkosarja,,Jymy,FBC Turku,https://fliiga.com/ottelut/miehet/jymy-fbc-turku-14-9-2024/,8,9
+822472,2024-09-14 17:30:00,2024-2025,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-14-9-2024/,6,9
+822469,2024-09-14 18:00:00,2024-2025,Runkosarja,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-14-9-2024/,6,7
+822468,2024-09-15 15:00:00,2024-2025,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-15-9-2024/,9,3
+822467,2024-09-15 18:00:00,2024-2025,Runkosarja,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-15-9-2024/,6,5
+822466,2024-09-18 18:30:00,2024-2025,Runkosarja,,FBC Turku,Classic,https://fliiga.com/ottelut/miehet/fbc-turku-classic-18-9-2024/,6,18
+822463,2024-09-20 18:30:00,2024-2025,Runkosarja,,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-20-9-2024/,4,2
+822465,2024-09-20 19:00:00,2024-2025,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-20-9-2024/,4,6
+822460,2024-09-21 15:00:00,2024-2025,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-21-9-2024/,8,7
+822461,2024-09-21 16:00:00,2024-2025,Runkosarja,,LASB,FBC Turku,https://fliiga.com/ottelut/miehet/lasb-fbc-turku-21-9-2024/,2,10
+822464,2024-09-21 16:00:00,2024-2025,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-21-9-2024/,3,4
+822462,2024-09-21 17:30:00,2024-2025,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-21-9-2024/,4,2
+822459,2024-09-22 17:00:00,2024-2025,Runkosarja,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-22-9-2024/,5,4
+822456,2024-09-27 18:30:00,2024-2025,Runkosarja,,Jymy,Happee,https://fliiga.com/ottelut/miehet/jymy-happee-27-9-2024/,4,6
+822457,2024-09-27 18:30:00,2024-2025,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-27-9-2024/,5,4
+822458,2024-09-27 18:30:00,2024-2025,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-27-9-2024/,4,5
+822455,2024-09-28 18:00:00,2024-2025,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-28-9-2024/,3,8
+822454,2024-09-28 18:30:00,2024-2025,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-28-9-2024/,1,4
+822453,2024-09-29 16:00:00,2024-2025,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-29-9-2024/,5,4
+822452,2024-09-29 18:00:00,2024-2025,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-29-9-2024/,6,7
+822451,2024-09-30 18:30:00,2024-2025,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-30-9-2024/,7,6
+822450,2024-10-02 18:30:00,2024-2025,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-2-10-2024/,4,5
+822446,2024-10-04 18:30:00,2024-2025,Runkosarja,,FBC Turku,Happee,https://fliiga.com/ottelut/miehet/fbc-turku-happee-4-10-2024/,6,5
+822447,2024-10-04 18:30:00,2024-2025,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-4-10-2024/,4,3
+822448,2024-10-04 18:30:00,2024-2025,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-4-10-2024/,6,8
+822449,2024-10-04 18:30:00,2024-2025,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-4-10-2024/,2,3
+822443,2024-10-05 17:00:00,2024-2025,Runkosarja,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-5-10-2024/,5,4
+822444,2024-10-05 17:00:00,2024-2025,Runkosarja,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-5-10-2024/,1,6
+822445,2024-10-05 17:00:00,2024-2025,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-5-10-2024/,9,4
+822442,2024-10-06 15:00:00,2024-2025,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-6-10-2024/,2,4
+822441,2024-10-07 18:30:00,2024-2025,Runkosarja,,LASB,Happee,https://fliiga.com/ottelut/miehet/lasb-happee-7-10-2024/,2,4
+822440,2024-10-09 18:30:00,2024-2025,Runkosarja,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-9-10-2024/,6,4
+822439,2024-10-11 18:30:00,2024-2025,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-11-10-2024/,11,4
+822435,2024-10-12 15:00:00,2024-2025,Runkosarja,,TPS,Happee,https://fliiga.com/ottelut/miehet/tps-happee-12-10-2024/,4,2
+822436,2024-10-12 17:00:00,2024-2025,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-12-10-2024/,4,2
+822438,2024-10-12 17:00:00,2024-2025,Runkosarja,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-12-10-2024/,6,5
+822437,2024-10-12 18:00:00,2024-2025,Runkosarja,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-12-10-2024/,5,9
+822434,2024-10-13 15:00:00,2024-2025,Runkosarja,,FBC Turku,Indians,https://fliiga.com/ottelut/miehet/fbc-turku-indians-13-10-2024/,3,9
+822433,2024-10-13 16:00:00,2024-2025,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-13-10-2024/,6,7
+822431,2024-10-14 14:00:00,2024-2025,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-14-10-2024/,5,4
+822430,2024-10-14 18:30:00,2024-2025,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-14-10-2024/,11,1
+822432,2024-10-14 18:30:00,2024-2025,Runkosarja,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-14-10-2024/,3,4
+822429,2024-10-24 18:30:00,2024-2025,Runkosarja,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-24-10-2024/,4,1
+822426,2024-10-25 18:30:00,2024-2025,Runkosarja,,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-25-10-2024/,1,0
+822427,2024-10-25 18:30:00,2024-2025,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-25-10-2024/,10,5
+822428,2024-10-25 18:30:00,2024-2025,Runkosarja,,Classic,FBC Turku,https://fliiga.com/ottelut/miehet/classic-fbc-turku-25-10-2024/,13,4
+822425,2024-10-25 19:00:00,2024-2025,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-25-10-2024/,3,15
+822423,2024-10-26 15:00:00,2024-2025,Runkosarja,,OLS,FBC Turku,https://fliiga.com/ottelut/miehet/ols-fbc-turku-26-10-2024/,4,5
+822424,2024-10-26 17:00:00,2024-2025,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-26-10-2024/,6,3
+822421,2024-10-27 16:00:00,2024-2025,Runkosarja,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-27-10-2024/,3,1
+822422,2024-10-27 18:00:00,2024-2025,Runkosarja,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-27-10-2024/,1,2
+822420,2024-10-30 18:30:00,2024-2025,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-30-10-2024/,3,15
+822418,2024-11-01 18:30:00,2024-2025,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-1-11-2024/,3,15
+822419,2024-11-01 18:30:00,2024-2025,Runkosarja,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-1-11-2024/,9,4
+822416,2024-11-02 17:00:00,2024-2025,Runkosarja,,Happee,Classic,https://fliiga.com/ottelut/miehet/happee-classic-2-11-2024/,4,6
+822413,2024-11-03 16:00:00,2024-2025,Runkosarja,,SPV,FBC Turku,https://fliiga.com/ottelut/miehet/spv-fbc-turku-3-11-2024/,9,3
+822414,2024-11-03 16:00:00,2024-2025,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-3-11-2024/,13,1
+822412,2024-11-04 18:30:00,2024-2025,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-4-11-2024/,4,6
+822411,2024-11-05 18:30:00,2024-2025,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-5-11-2024/,7,4
+822409,2024-11-15 18:30:00,2024-2025,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-15-11-2024/,8,3
+822410,2024-11-15 18:30:00,2024-2025,Runkosarja,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-15-11-2024/,4,9
+822405,2024-11-16 17:00:00,2024-2025,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-16-11-2024/,5,6
+822406,2024-11-16 17:00:00,2024-2025,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-16-11-2024/,9,3
+822408,2024-11-16 18:00:00,2024-2025,Runkosarja,,FBC Turku,Jymy,https://fliiga.com/ottelut/miehet/fbc-turku-jymy-16-11-2024/,7,3
+822407,2024-11-16 18:30:00,2024-2025,Runkosarja,,Happee,EräViikingit,https://fliiga.com/ottelut/miehet/happee-eraviikingit-16-11-2024/,6,5
+822403,2024-11-17 15:00:00,2024-2025,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-17-11-2024/,2,3
+822404,2024-11-17 16:00:00,2024-2025,Runkosarja,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-17-11-2024/,2,9
+822401,2024-11-21 18:30:00,2024-2025,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-21-11-2024/,5,4
+822402,2024-11-21 18:30:00,2024-2025,Runkosarja,,Indians,Happee,https://fliiga.com/ottelut/miehet/indians-happee-21-11-2024/,7,5
+822397,2024-11-22 18:30:00,2024-2025,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-22-11-2024/,6,4
+822398,2024-11-22 18:30:00,2024-2025,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-22-11-2024/,3,2
+822399,2024-11-22 18:30:00,2024-2025,Runkosarja,,FBC Turku,TPS,https://fliiga.com/ottelut/miehet/fbc-turku-tps-22-11-2024/,5,6
+822400,2024-11-22 18:30:00,2024-2025,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-22-11-2024/,5,3
+822396,2024-11-23 17:00:00,2024-2025,Runkosarja,,Happee,OLS,https://fliiga.com/ottelut/miehet/happee-ols-23-11-2024/,3,2
+822395,2024-11-24 15:00:00,2024-2025,Runkosarja,,LASB,FBC Turku,https://fliiga.com/ottelut/miehet/lasb-fbc-turku-24-11-2024/,8,5
+822394,2024-11-26 18:30:00,2024-2025,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-26-11-2024/,7,9
+822393,2024-11-27 18:30:00,2024-2025,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-27-11-2024/,4,5
+822391,2024-11-29 18:30:00,2024-2025,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-29-11-2024/,7,6
+822392,2024-11-29 18:30:00,2024-2025,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-29-11-2024/,6,7
+822387,2024-11-30 15:00:00,2024-2025,Runkosarja,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-30-11-2024/,3,2
+822389,2024-11-30 17:00:00,2024-2025,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-30-11-2024/,9,5
+822390,2024-11-30 17:00:00,2024-2025,Runkosarja,,Happee,Indians,https://fliiga.com/ottelut/miehet/happee-indians-30-11-2024/,2,3
+822388,2024-11-30 18:00:00,2024-2025,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-30-11-2024/,11,4
+822384,2024-12-20 18:30:00,2024-2025,Runkosarja,,Jymy,Happee,https://fliiga.com/ottelut/miehet/jymy-happee-20-12-2024/,4,9
+822385,2024-12-20 18:30:00,2024-2025,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-20-12-2024/,5,6
+822386,2024-12-20 18:30:00,2024-2025,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-20-12-2024/,3,2
+822381,2024-12-21 17:00:00,2024-2025,Runkosarja,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-21-12-2024/,4,2
+822382,2024-12-21 17:00:00,2024-2025,Runkosarja,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-21-12-2024/,8,2
+822383,2024-12-21 18:30:00,2024-2025,Runkosarja,,EräViikingit,FBC Turku,https://fliiga.com/ottelut/miehet/eraviikingit-fbc-turku-21-12-2024/,3,8
+822379,2024-12-27 18:30:00,2024-2025,Runkosarja,,FBC Turku,Happee,https://fliiga.com/ottelut/miehet/fbc-turku-happee-27-12-2024/,4,9
+822380,2024-12-27 18:30:00,2024-2025,Runkosarja,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-27-12-2024/,5,8
+822378,2024-12-27 19:00:00,2024-2025,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-27-12-2024/,2,5
+822375,2024-12-28 17:00:00,2024-2025,Runkosarja,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-28-12-2024/,7,4
+822376,2024-12-28 17:00:00,2024-2025,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-28-12-2024/,8,1
+822377,2024-12-28 17:30:00,2024-2025,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-28-12-2024/,8,4
+822374,2024-12-29 16:00:00,2024-2025,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-29-12-2024/,8,1
+822370,2025-01-03 18:30:00,2024-2025,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-3-1-2025/,5,2
+822371,2025-01-03 18:30:00,2024-2025,Runkosarja,,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-3-1-2025/,9,3
+822372,2025-01-03 18:30:00,2024-2025,Runkosarja,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-3-1-2025/,7,2
+822373,2025-01-03 18:30:00,2024-2025,Runkosarja,,Nokian KrP,FBC Turku,https://fliiga.com/ottelut/miehet/nokian-krp-fbc-turku-3-1-2025/,14,4
+822368,2025-01-04 17:00:00,2024-2025,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-4-1-2025/,8,3
+822369,2025-01-04 17:00:00,2024-2025,Runkosarja,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-4-1-2025/,2,1
+822367,2025-01-05 16:00:00,2024-2025,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-5-1-2025/,3,13
+822365,2025-01-08 12:00:00,2024-2025,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-8-1-2025/,3,6
+822366,2025-01-08 18:30:00,2024-2025,Runkosarja,,FBC Turku,Nokian KrP,https://fliiga.com/ottelut/miehet/fbc-turku-nokian-krp-8-1-2025/,6,13
+822361,2025-01-10 18:30:00,2024-2025,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-10-1-2025/,6,5
+822362,2025-01-10 18:30:00,2024-2025,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-10-1-2025/,7,5
+822363,2025-01-10 18:30:00,2024-2025,Runkosarja,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-10-1-2025/,3,11
+822360,2025-01-11 15:00:00,2024-2025,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-11-1-2025/,9,5
+822359,2025-01-11 17:00:00,2024-2025,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-11-1-2025/,9,5
+822358,2025-01-12 17:00:00,2024-2025,Runkosarja,,FBC Turku,OLS,https://fliiga.com/ottelut/miehet/fbc-turku-ols-12-1-2025/,8,5
+822356,2025-01-16 18:30:00,2024-2025,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-16-1-2025/,4,3
+822353,2025-01-17 18:30:00,2024-2025,Runkosarja,,Happee,Nokian KrP,https://fliiga.com/ottelut/miehet/happee-nokian-krp-17-1-2025/,4,9
+822354,2025-01-17 18:30:00,2024-2025,Runkosarja,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-17-1-2025/,6,4
+822355,2025-01-17 18:30:00,2024-2025,Runkosarja,,Oilers,FBC Turku,https://fliiga.com/ottelut/miehet/oilers-fbc-turku-17-1-2025/,7,6
+822357,2025-01-17 18:30:00,2024-2025,Runkosarja,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-17-1-2025/,3,6
+822352,2025-01-18 17:00:00,2024-2025,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-18-1-2025/,8,2
+822348,2025-01-19 15:00:00,2024-2025,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-19-1-2025/,8,3
+822349,2025-01-19 16:00:00,2024-2025,Runkosarja,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-19-1-2025/,2,7
+822350,2025-01-19 17:00:00,2024-2025,Runkosarja,,FBC Turku,SPV,https://fliiga.com/ottelut/miehet/fbc-turku-spv-19-1-2025/,2,6
+822351,2025-01-19 17:00:00,2024-2025,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-19-1-2025/,8,5
+822347,2025-01-20 18:30:00,2024-2025,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-20-1-2025/,3,2
+822345,2025-01-24 18:30:00,2024-2025,Runkosarja,,Indians,Happee,https://fliiga.com/ottelut/miehet/indians-happee-24-1-2025/,14,1
+822346,2025-01-24 18:30:00,2024-2025,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-24-1-2025/,2,3
+822344,2025-01-24 19:00:00,2024-2025,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-24-1-2025/,4,6
+822343,2025-01-25 17:00:00,2024-2025,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-25-1-2025/,1,5
+822342,2025-01-25 18:00:00,2024-2025,Runkosarja,,OLS,FBC Turku,https://fliiga.com/ottelut/miehet/ols-fbc-turku-25-1-2025/,13,4
+822340,2025-01-26 16:00:00,2024-2025,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-26-1-2025/,7,6
+822341,2025-01-26 18:00:00,2024-2025,Runkosarja,,OLS,Happee,https://fliiga.com/ottelut/miehet/ols-happee-26-1-2025/,2,5
+822338,2025-01-27 18:30:00,2024-2025,Runkosarja,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-27-1-2025/,3,4
+822339,2025-01-27 18:30:00,2024-2025,Runkosarja,,Nokian KrP,FBC Turku,https://fliiga.com/ottelut/miehet/nokian-krp-fbc-turku-27-1-2025/,11,4
+822337,2025-01-29 18:30:00,2024-2025,Runkosarja,,FBC Turku,TPS,https://fliiga.com/ottelut/miehet/fbc-turku-tps-29-1-2025/,2,4
+822334,2025-01-31 18:30:00,2024-2025,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-31-1-2025/,6,9
+822335,2025-01-31 18:30:00,2024-2025,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-31-1-2025/,2,7
+822336,2025-01-31 18:30:00,2024-2025,Runkosarja,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-31-1-2025/,1,8
+822332,2025-02-01 17:00:00,2024-2025,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-1-2-2025/,2,10
+822333,2025-02-01 17:30:00,2024-2025,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-1-2-2025/,6,5
+822331,2025-02-02 17:00:00,2024-2025,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-2-2-2025/,7,2
+822328,2025-02-03 18:30:00,2024-2025,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-3-2-2025/,6,5
+822330,2025-02-03 18:30:00,2024-2025,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-3-2-2025/,4,5
+822329,2025-02-05 18:30:00,2024-2025,Runkosarja,,Happee,LASB,https://fliiga.com/ottelut/miehet/happee-lasb-5-2-2025/,4,9
+822364,2025-02-08 18:00:00,2024-2025,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-8-2-2025/,2,12
+822294,2025-02-10 18:30:00,2024-2025,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-10-2-2025/,6,4
+822327,2025-02-12 18:30:00,2024-2025,Runkosarja,,SPV,Happee,https://fliiga.com/ottelut/miehet/spv-happee-12-2-2025/,7,3
+822326,2025-02-13 18:30:00,2024-2025,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-13-2-2025/,10,2
+822324,2025-02-14 18:30:00,2024-2025,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-14-2-2025/,4,8
+822325,2025-02-14 18:30:00,2024-2025,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-14-2-2025/,3,5
+822320,2025-02-15 17:00:00,2024-2025,Runkosarja,,FBC Turku,Classic,https://fliiga.com/ottelut/miehet/fbc-turku-classic-15-2-2025/,2,10
+822321,2025-02-15 17:00:00,2024-2025,Runkosarja,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-15-2-2025/,10,12
+822322,2025-02-15 17:00:00,2024-2025,Runkosarja,,Happee,Jymy,https://fliiga.com/ottelut/miehet/happee-jymy-15-2-2025/,8,4
+822323,2025-02-15 17:00:00,2024-2025,Runkosarja,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-15-2-2025/,4,3
+822318,2025-02-16 15:00:00,2024-2025,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-16-2-2025/,3,6
+822319,2025-02-16 15:00:00,2024-2025,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-16-2-2025/,5,3
+822317,2025-02-19 18:30:00,2024-2025,Runkosarja,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-19-2-2025/,16,9
+822316,2025-02-20 18:30:00,2024-2025,Runkosarja,,Classic,Happee,https://fliiga.com/ottelut/miehet/classic-happee-20-2-2025/,8,7
+822314,2025-02-21 18:30:00,2024-2025,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-21-2-2025/,5,4
+822315,2025-02-21 18:30:00,2024-2025,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-21-2-2025/,6,2
+822312,2025-02-22 17:00:00,2024-2025,Runkosarja,,Happee,SPV,https://fliiga.com/ottelut/miehet/happee-spv-22-2-2025/,3,2
+822313,2025-02-22 17:00:00,2024-2025,Runkosarja,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-22-2-2025/,7,4
+822417,2025-02-22 18:30:00,2024-2025,Runkosarja,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-22-2-2025/,1,3
+822309,2025-02-23 17:00:00,2024-2025,Runkosarja,,FBC Turku,SPV,https://fliiga.com/ottelut/miehet/fbc-turku-spv-23-2-2025/,6,12
+822311,2025-02-23 17:00:00,2024-2025,Runkosarja,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-23-2-2025/,1,6
+822310,2025-02-23 18:00:00,2024-2025,Runkosarja,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-23-2-2025/,6,8
+822415,2025-02-25 18:30:00,2024-2025,Runkosarja,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-25-2-2025/,4,5
+822308,2025-02-27 18:30:00,2024-2025,Runkosarja,,Oilers,FBC Turku,https://fliiga.com/ottelut/miehet/oilers-fbc-turku-27-2-2025/,9,4
+822304,2025-02-28 18:30:00,2024-2025,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-28-2-2025/,6,2
+822306,2025-02-28 18:30:00,2024-2025,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-28-2-2025/,16,1
+822307,2025-02-28 18:30:00,2024-2025,Runkosarja,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-28-2-2025/,2,3
+822305,2025-02-28 21:00:00,2024-2025,Runkosarja,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-28-2-2025/,4,8
+822302,2025-03-01 16:00:00,2024-2025,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-1-3-2025/,6,5
+822303,2025-03-01 17:00:00,2024-2025,Runkosarja,,Happee,EräViikingit,https://fliiga.com/ottelut/miehet/happee-eraviikingit-1-3-2025/,6,5
+822300,2025-03-02 16:00:00,2024-2025,Runkosarja,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-2-3-2025/,4,3
+822301,2025-03-02 18:00:00,2024-2025,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-2-3-2025/,5,4
+822299,2025-03-03 18:30:00,2024-2025,Runkosarja,,FBC Turku,Indians,https://fliiga.com/ottelut/miehet/fbc-turku-indians-3-3-2025/,3,14
+822298,2025-03-07 18:30:00,2024-2025,Runkosarja,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-7-3-2025/,5,6
+822295,2025-03-08 17:00:00,2024-2025,Runkosarja,,Happee,FBC Turku,https://fliiga.com/ottelut/miehet/happee-fbc-turku-8-3-2025/,5,4
+822296,2025-03-08 17:00:00,2024-2025,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-8-3-2025/,2,9
+822297,2025-03-08 17:30:00,2024-2025,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-8-3-2025/,9,2
+822293,2025-03-09 16:00:00,2024-2025,Runkosarja,,Jymy,FBC Turku,https://fliiga.com/ottelut/miehet/jymy-fbc-turku-9-3-2025/,12,2
+822291,2025-03-09 17:00:00,2024-2025,Runkosarja,,Nokian KrP,Happee,https://fliiga.com/ottelut/miehet/nokian-krp-happee-9-3-2025/,4,9
+822292,2025-03-09 17:00:00,2024-2025,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-9-3-2025/,3,5
+822290,2025-03-10 18:30:00,2024-2025,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-10-3-2025/,5,3
+822289,2025-03-14 18:30:00,2024-2025,Runkosarja,,FBC Turku,LASB,https://fliiga.com/ottelut/miehet/fbc-turku-lasb-14-3-2025/,4,6
+822285,2025-03-15 17:00:00,2024-2025,Runkosarja,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-15-3-2025/,6,4
+822286,2025-03-15 17:00:00,2024-2025,Runkosarja,,Happee,TPS,https://fliiga.com/ottelut/miehet/happee-tps-15-3-2025/,9,3
+822288,2025-03-15 17:30:00,2024-2025,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-15-3-2025/,7,6
+822287,2025-03-15 18:30:00,2024-2025,Runkosarja,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-15-3-2025/,9,4
+822284,2025-03-16 17:00:00,2024-2025,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-16-3-2025/,6,5
+822278,2025-03-19 18:30:00,2024-2025,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-19-3-2025/,6,3
+822279,2025-03-19 18:30:00,2024-2025,Runkosarja,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-19-3-2025/,4,5
+822280,2025-03-19 18:30:00,2024-2025,Runkosarja,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-19-3-2025/,5,3
+822281,2025-03-19 18:30:00,2024-2025,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-19-3-2025/,2,5
+822282,2025-03-19 18:30:00,2024-2025,Runkosarja,,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-19-3-2025/,7,9
+822283,2025-03-19 18:30:00,2024-2025,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-19-3-2025/,4,5
+864688,2025-03-25 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-25-3-2025/,10,11
+864704,2025-03-25 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-25-3-2025/,9,3
+864696,2025-03-26 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-26-3-2025/,4,3
+864760,2025-03-26 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,OLS,Koovee,https://fliiga.com/ottelut/miehet/ols-koovee-26-3-2025/,7,5
+864689,2025-03-27 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-27-3-2025/,4,9
+864712,2025-03-27 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-27-3-2025/,3,2
+864778,2025-03-27 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,LASB,SalBa,https://fliiga.com/ottelut/miehet/lasb-salba-27-3-2025/,5,3
+864705,2025-03-28 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-28-3-2025/,4,2
+864697,2025-03-29 15:00:00,2024-2025,Pudotuspelit,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-29-3-2025/,5,4
+864772,2025-03-29 16:00:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Hawks,M-Team,https://fliiga.com/ottelut/miehet/hawks-m-team-29-3-2025/,5,3
+864706,2025-03-29 17:00:00,2024-2025,Pudotuspelit,Puolivälierät,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-29-3-2025/,11,4
+864713,2025-03-29 17:00:00,2024-2025,Pudotuspelit,Puolivälierät,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-29-3-2025/,7,4
+864690,2025-03-29 17:30:00,2024-2025,Pudotuspelit,Puolivälierät,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-29-3-2025/,8,3
+864779,2025-03-29 17:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,SalBa,LASB,https://fliiga.com/ottelut/miehet/salba-lasb-29-3-2025/,2,3
+864766,2025-03-29 18:00:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,O2-Jyväskylä,Karhut,https://fliiga.com/ottelut/miehet/o2-jyvaskyla-karhut-29-3-2025/,4,9
+864761,2025-03-29 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Koovee,OLS,https://fliiga.com/ottelut/miehet/koovee-ols-29-3-2025/,3,4
+864698,2025-03-30 13:00:00,2024-2025,Pudotuspelit,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-30-3-2025/,6,3
+864767,2025-03-30 15:00:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Karhut,O2-Jyväskylä,https://fliiga.com/ottelut/miehet/karhut-o2-jyvaskyla-30-3-2025/,6,4
+864773,2025-03-30 15:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,M-Team,Hawks,https://fliiga.com/ottelut/miehet/m-team-hawks-30-3-2025/,3,4
+864714,2025-03-30 17:00:00,2024-2025,Pudotuspelit,Puolivälierät,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-30-3-2025/,3,4
+864762,2025-03-30 18:00:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,OLS,Koovee,https://fliiga.com/ottelut/miehet/ols-koovee-30-3-2025/,11,1
+864691,2025-03-31 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-31-3-2025/,0,14
+864780,2025-03-31 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,LASB,SalBa,https://fliiga.com/ottelut/miehet/lasb-salba-31-3-2025/,7,4
+864715,2025-04-01 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-1-4-2025/,4,3
+864774,2025-04-01 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Hawks,M-Team,https://fliiga.com/ottelut/miehet/hawks-m-team-1-4-2025/,4,1
+864692,2025-04-02 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-2-4-2025/,7,2
+864707,2025-04-02 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Happee,Oilers,https://fliiga.com/ottelut/miehet/happee-oilers-2-4-2025/,4,9
+864699,2025-04-03 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-3-4-2025/,1,3
+864716,2025-04-03 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-3-4-2025/,5,6
+864768,2025-04-03 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,O2-Jyväskylä,Karhut,https://fliiga.com/ottelut/miehet/o2-jyvaskyla-karhut-3-4-2025/,1,3
+864700,2025-04-04 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-4-4-2025/,2,1
+864708,2025-04-04 18:30:00,2024-2025,Pudotuspelit,Puolivälierät,Oilers,Happee,https://fliiga.com/ottelut/miehet/oilers-happee-4-4-2025/,5,2
+864720,2025-04-10 18:30:00,2024-2025,Pudotuspelit,Välierät,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-10-4-2025/,5,2
+864728,2025-04-11 18:30:00,2024-2025,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-11-4-2025/,5,6
+864790,2025-04-12 17:00:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Hawks,LASB,https://fliiga.com/ottelut/miehet/hawks-lasb-12-4-2025/,1,3
+864729,2025-04-12 18:00:00,2024-2025,Pudotuspelit,Välierät,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-12-4-2025/,2,6
+864784,2025-04-12 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,OLS,Karhut,https://fliiga.com/ottelut/miehet/ols-karhut-12-4-2025/,10,2
+864721,2025-04-13 18:30:00,2024-2025,Pudotuspelit,Välierät,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-13-4-2025/,3,4
+864785,2025-04-13 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Karhut,OLS,https://fliiga.com/ottelut/miehet/karhut-ols-13-4-2025/,5,6
+864791,2025-04-13 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,LASB,Hawks,https://fliiga.com/ottelut/miehet/lasb-hawks-13-4-2025/,1,9
+864722,2025-04-15 18:30:00,2024-2025,Pudotuspelit,Välierät,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-15-4-2025/,4,3
+864730,2025-04-15 18:30:00,2024-2025,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-15-4-2025/,5,4
+864792,2025-04-15 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,Hawks,LASB,https://fliiga.com/ottelut/miehet/hawks-lasb-15-4-2025/,2,4
+864723,2025-04-17 18:30:00,2024-2025,Pudotuspelit,Välierät,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-17-4-2025/,4,6
+864793,2025-04-17 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,LASB,Hawks,https://fliiga.com/ottelut/miehet/lasb-hawks-17-4-2025/,3,2
+864731,2025-04-18 18:00:00,2024-2025,Pudotuspelit,Välierät,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-18-4-2025/,2,8
+864786,2025-04-18 18:30:00,2024-2025,F-liigakarsinnat,F-liigakarsinnat,OLS,Karhut,https://fliiga.com/ottelut/miehet/ols-karhut-18-4-2025/,5,3
+864732,2025-04-19 17:00:00,2024-2025,Pudotuspelit,Välierät,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-19-4-2025/,4,2
+864744,2025-04-25 18:30:00,2024-2025,Pudotuspelit,Pronssiottelu,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-25-4-2025/,5,1
+864736,2025-04-27 16:00:00,2024-2025,Pudotuspelit,Finaalit,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-27-4-2025/,8,3
+864737,2025-04-29 18:30:00,2024-2025,Pudotuspelit,Finaalit,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-29-4-2025/,8,5
+864738,2025-05-01 16:00:00,2024-2025,Pudotuspelit,Finaalit,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-1-5-2025/,5,9
+864739,2025-05-03 17:00:00,2024-2025,Pudotuspelit,Finaalit,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-3-5-2025/,5,7
+864740,2025-05-04 16:00:00,2024-2025,Pudotuspelit,Finaalit,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-4-5-2025/,4,7
+864741,2025-05-07 18:30:00,2024-2025,Pudotuspelit,Finaalit,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-7-5-2025/,3,10
+864742,2025-05-10 17:00:00,2024-2025,Pudotuspelit,Finaalit,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-10-5-2025/,1,3
+868881,2025-09-10 18:30:00,2025-2026,Runkosarja,,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-10-9-2025/,9,3
+868880,2025-09-12 18:30:00,2025-2026,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-12-9-2025/,6,5
+868875,2025-09-13 17:00:00,2025-2026,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-13-9-2025/,7,8
+868876,2025-09-13 17:00:00,2025-2026,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-13-9-2025/,3,7
+868877,2025-09-13 17:00:00,2025-2026,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-13-9-2025/,3,8
+868879,2025-09-13 17:30:00,2025-2026,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-13-9-2025/,5,11
+868874,2025-09-14 16:00:00,2025-2026,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-14-9-2025/,5,3
+868878,2025-09-14 17:00:00,2025-2026,Runkosarja,,Hawks,FBC Turku,https://fliiga.com/ottelut/miehet/hawks-fbc-turku-14-9-2025/,11,4
+868873,2025-09-15 18:30:00,2025-2026,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-15-9-2025/,1,8
+868872,2025-09-16 18:30:00,2025-2026,Runkosarja,,TPS,Hawks,https://fliiga.com/ottelut/miehet/tps-hawks-16-9-2025/,5,4
+868871,2025-09-17 18:30:00,2025-2026,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-17-9-2025/,2,10
+868867,2025-09-19 18:30:00,2025-2026,Runkosarja,,Oilers,Hawks,https://fliiga.com/ottelut/miehet/oilers-hawks-19-9-2025/,5,3
+868870,2025-09-19 18:30:00,2025-2026,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-19-9-2025/,5,4
+868868,2025-09-20 17:00:00,2025-2026,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-20-9-2025/,6,3
+868869,2025-09-20 17:00:00,2025-2026,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-20-9-2025/,2,3
+868865,2025-09-22 18:30:00,2025-2026,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-22-9-2025/,5,4
+868866,2025-09-22 18:30:00,2025-2026,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-22-9-2025/,7,5
+868863,2025-09-25 18:30:00,2025-2026,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-25-9-2025/,2,5
+868864,2025-09-25 18:30:00,2025-2026,Runkosarja,,Classic,Hawks,https://fliiga.com/ottelut/miehet/classic-hawks-25-9-2025/,13,1
+868860,2025-09-26 18:30:00,2025-2026,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-26-9-2025/,4,5
+868861,2025-09-26 18:30:00,2025-2026,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-26-9-2025/,3,5
+868862,2025-09-26 18:30:00,2025-2026,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-26-9-2025/,4,7
+868859,2025-09-27 16:00:00,2025-2026,Runkosarja,,Hawks,Indians,https://fliiga.com/ottelut/miehet/hawks-indians-27-9-2025/,5,6
+868858,2025-09-27 18:00:00,2025-2026,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-27-9-2025/,6,1
+868857,2025-09-28 16:00:00,2025-2026,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-28-9-2025/,11,5
+868854,2025-10-03 18:30:00,2025-2026,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-3-10-2025/,6,8
+868855,2025-10-03 18:30:00,2025-2026,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-3-10-2025/,6,12
+868853,2025-10-04 15:00:00,2025-2026,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-4-10-2025/,2,6
+868856,2025-10-04 16:00:00,2025-2026,Runkosarja,,Hawks,EräViikingit,https://fliiga.com/ottelut/miehet/hawks-eraviikingit-4-10-2025/,3,4
+868852,2025-10-04 18:00:00,2025-2026,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-4-10-2025/,5,8
+868850,2025-10-05 16:00:00,2025-2026,Runkosarja,,SPV,Hawks,https://fliiga.com/ottelut/miehet/spv-hawks-5-10-2025/,6,5
+868851,2025-10-05 17:00:00,2025-2026,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-5-10-2025/,8,5
+868847,2025-10-10 18:30:00,2025-2026,Runkosarja,,EräViikingit,Jymy,https://fliiga.com/ottelut/miehet/eraviikingit-jymy-10-10-2025/,5,4
+868848,2025-10-10 18:30:00,2025-2026,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-10-10-2025/,7,2
+868849,2025-10-10 18:30:00,2025-2026,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-10-10-2025/,4,3
+868846,2025-10-11 16:00:00,2025-2026,Runkosarja,,Hawks,TPS,https://fliiga.com/ottelut/miehet/hawks-tps-11-10-2025/,5,2
+868845,2025-10-11 17:00:00,2025-2026,Runkosarja,,SPV,Oilers,https://fliiga.com/ottelut/miehet/spv-oilers-11-10-2025/,3,5
+868843,2025-10-12 15:00:00,2025-2026,Runkosarja,,LASB,Indians,https://fliiga.com/ottelut/miehet/lasb-indians-12-10-2025/,0,6
+868838,2025-10-12 16:00:00,2025-2026,Runkosarja,,Jymy,Oilers,https://fliiga.com/ottelut/miehet/jymy-oilers-12-10-2025/,3,7
+868844,2025-10-12 16:30:00,2025-2026,Runkosarja,,FBC Turku,OLS,https://fliiga.com/ottelut/miehet/fbc-turku-ols-12-10-2025/,5,4
+868842,2025-10-15 14:00:00,2025-2026,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-15-10-2025/,6,5
+868840,2025-10-17 18:30:00,2025-2026,Runkosarja,,TPS,SPV,https://fliiga.com/ottelut/miehet/tps-spv-17-10-2025/,1,7
+868841,2025-10-17 18:30:00,2025-2026,Runkosarja,,LASB,FBC Turku,https://fliiga.com/ottelut/miehet/lasb-fbc-turku-17-10-2025/,3,4
+868837,2025-10-18 15:00:00,2025-2026,Runkosarja,,OLS,Indians,https://fliiga.com/ottelut/miehet/ols-indians-18-10-2025/,4,2
+868836,2025-10-18 16:00:00,2025-2026,Runkosarja,,Hawks,LASB,https://fliiga.com/ottelut/miehet/hawks-lasb-18-10-2025/,2,0
+868839,2025-10-18 17:00:00,2025-2026,Runkosarja,,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-18-10-2025/,1,7
+868834,2025-10-19 16:00:00,2025-2026,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-19-10-2025/,7,2
+868835,2025-10-19 17:00:00,2025-2026,Runkosarja,,Oilers,FBC Turku,https://fliiga.com/ottelut/miehet/oilers-fbc-turku-19-10-2025/,13,5
+868833,2025-10-21 18:30:00,2025-2026,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-21-10-2025/,3,4
+868831,2025-10-24 18:30:00,2025-2026,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-24-10-2025/,3,2
+868832,2025-10-24 18:30:00,2025-2026,Runkosarja,,FBC Turku,EräViikingit,https://fliiga.com/ottelut/miehet/fbc-turku-eraviikingit-24-10-2025/,5,10
+868829,2025-10-25 15:00:00,2025-2026,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-25-10-2025/,3,8
+868830,2025-10-25 16:00:00,2025-2026,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-25-10-2025/,3,13
+868828,2025-10-25 17:00:00,2025-2026,Runkosarja,,Nokian KrP,TPS,https://fliiga.com/ottelut/miehet/nokian-krp-tps-25-10-2025/,9,0
+868827,2025-10-25 18:00:00,2025-2026,Runkosarja,,OLS,Hawks,https://fliiga.com/ottelut/miehet/ols-hawks-25-10-2025/,9,1
+868826,2025-10-29 18:30:00,2025-2026,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-29-10-2025/,2,6
+868825,2025-10-30 18:30:00,2025-2026,Runkosarja,,FBC Turku,Classic,https://fliiga.com/ottelut/miehet/fbc-turku-classic-30-10-2025/,0,11
+868822,2025-11-01 15:00:00,2025-2026,Runkosarja,,LASB,Oilers,https://fliiga.com/ottelut/miehet/lasb-oilers-1-11-2025/,5,9
+868824,2025-11-01 18:30:00,2025-2026,Runkosarja,,EräViikingit,OLS,https://fliiga.com/ottelut/miehet/eraviikingit-ols-1-11-2025/,1,6
+868819,2025-11-02 16:00:00,2025-2026,Runkosarja,,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-2-11-2025/,3,2
+868820,2025-11-02 16:00:00,2025-2026,Runkosarja,,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-2-11-2025/,13,3
+868821,2025-11-02 16:00:00,2025-2026,Runkosarja,,Jymy,Hawks,https://fliiga.com/ottelut/miehet/jymy-hawks-2-11-2025/,3,2
+868818,2025-11-03 18:30:00,2025-2026,Runkosarja,,EräViikingit,LASB,https://fliiga.com/ottelut/miehet/eraviikingit-lasb-3-11-2025/,4,3
+868815,2025-11-12 18:30:00,2025-2026,Runkosarja,,TPS,Oilers,https://fliiga.com/ottelut/miehet/tps-oilers-12-11-2025/,2,10
+868816,2025-11-12 18:30:00,2025-2026,Runkosarja,,Nokian KrP,SPV,https://fliiga.com/ottelut/miehet/nokian-krp-spv-12-11-2025/,6,7
+868817,2025-11-12 18:30:00,2025-2026,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-12-11-2025/,8,4
+868812,2025-11-14 18:30:00,2025-2026,Runkosarja,,EräViikingit,Hawks,https://fliiga.com/ottelut/miehet/eraviikingit-hawks-14-11-2025/,8,2
+868813,2025-11-14 18:30:00,2025-2026,Runkosarja,,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-14-11-2025/,3,5
+868814,2025-11-14 18:30:00,2025-2026,Runkosarja,,FBC Turku,TPS,https://fliiga.com/ottelut/miehet/fbc-turku-tps-14-11-2025/,4,8
+868811,2025-11-15 18:00:00,2025-2026,Runkosarja,,OLS,TPS,https://fliiga.com/ottelut/miehet/ols-tps-15-11-2025/,9,6
+868810,2025-11-16 16:00:00,2025-2026,Runkosarja,,Jymy,Indians,https://fliiga.com/ottelut/miehet/jymy-indians-16-11-2025/,3,5
+868809,2025-11-17 18:30:00,2025-2026,Runkosarja,,Nokian KrP,FBC Turku,https://fliiga.com/ottelut/miehet/nokian-krp-fbc-turku-17-11-2025/,14,2
+868807,2025-11-21 18:30:00,2025-2026,Runkosarja,,Indians,Nokian KrP,https://fliiga.com/ottelut/miehet/indians-nokian-krp-21-11-2025/,3,5
+868808,2025-11-21 18:30:00,2025-2026,Runkosarja,,Classic,Jymy,https://fliiga.com/ottelut/miehet/classic-jymy-21-11-2025/,8,3
+868805,2025-11-22 15:00:00,2025-2026,Runkosarja,,LASB,TPS,https://fliiga.com/ottelut/miehet/lasb-tps-22-11-2025/,1,3
+868804,2025-11-22 17:00:00,2025-2026,Runkosarja,,Oilers,Hawks,https://fliiga.com/ottelut/miehet/oilers-hawks-22-11-2025/,14,2
+868806,2025-11-22 17:00:00,2025-2026,Runkosarja,,EräViikingit,SPV,https://fliiga.com/ottelut/miehet/eraviikingit-spv-22-11-2025/,4,8
+868803,2025-11-22 18:00:00,2025-2026,Runkosarja,,OLS,Classic,https://fliiga.com/ottelut/miehet/ols-classic-22-11-2025/,6,5
+868790,2025-11-23 14:00:00,2025-2026,Runkosarja,,Hawks,SPV,https://fliiga.com/ottelut/miehet/hawks-spv-23-11-2025/,1,5
+868802,2025-11-23 16:30:00,2025-2026,Runkosarja,,FBC Turku,Jymy,https://fliiga.com/ottelut/miehet/fbc-turku-jymy-23-11-2025/,2,9
+868801,2025-11-26 18:30:00,2025-2026,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-26-11-2025/,6,2
+868799,2025-11-28 18:30:00,2025-2026,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-28-11-2025/,12,5
+868800,2025-11-28 18:30:00,2025-2026,Runkosarja,,FBC Turku,Indians,https://fliiga.com/ottelut/miehet/fbc-turku-indians-28-11-2025/,1,5
+868796,2025-11-29 15:00:00,2025-2026,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-29-11-2025/,9,7
+868798,2025-11-29 17:00:00,2025-2026,Runkosarja,,EräViikingit,Classic,https://fliiga.com/ottelut/miehet/eraviikingit-classic-29-11-2025/,3,8
+868797,2025-11-29 18:00:00,2025-2026,Runkosarja,,Indians,Hawks,https://fliiga.com/ottelut/miehet/indians-hawks-29-11-2025/,5,0
+868795,2025-11-30 16:00:00,2025-2026,Runkosarja,,SPV,FBC Turku,https://fliiga.com/ottelut/miehet/spv-fbc-turku-30-11-2025/,6,2
+868792,2025-12-05 18:30:00,2025-2026,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-5-12-2025/,7,2
+868793,2025-12-05 18:30:00,2025-2026,Runkosarja,,Nokian KrP,OLS,https://fliiga.com/ottelut/miehet/nokian-krp-ols-5-12-2025/,9,2
+868794,2025-12-05 18:30:00,2025-2026,Runkosarja,,Indians,Hawks,https://fliiga.com/ottelut/miehet/indians-hawks-5-12-2025/,5,1
+868791,2025-12-06 14:00:00,2025-2026,Runkosarja,,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-6-12-2025/,16,3
+868787,2025-12-06 15:00:00,2025-2026,Runkosarja,,Oilers,EräViikingit,https://fliiga.com/ottelut/miehet/oilers-eraviikingit-6-12-2025/,7,2
+868788,2025-12-06 15:00:00,2025-2026,Runkosarja,,LASB,OLS,https://fliiga.com/ottelut/miehet/lasb-ols-6-12-2025/,3,8
+868789,2025-12-07 16:00:00,2025-2026,Runkosarja,,Jymy,Nokian KrP,https://fliiga.com/ottelut/miehet/jymy-nokian-krp-7-12-2025/,3,4
+868786,2025-12-07 18:30:00,2025-2026,Runkosarja,,FBC Turku,Indians,https://fliiga.com/ottelut/miehet/fbc-turku-indians-7-12-2025/,1,8
+868785,2025-12-10 18:30:00,2025-2026,Runkosarja,,TPS,Indians,https://fliiga.com/ottelut/miehet/tps-indians-10-12-2025/,3,6
+868783,2025-12-12 18:30:00,2025-2026,Runkosarja,,FBC Turku,Hawks,https://fliiga.com/ottelut/miehet/fbc-turku-hawks-12-12-2025/,2,5
+868784,2025-12-12 18:30:00,2025-2026,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-12-12-2025/,3,5
+868782,2025-12-13 16:00:00,2025-2026,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-13-12-2025/,5,4
+868777,2025-12-13 17:00:00,2025-2026,Runkosarja,,Oilers,FBC Turku,https://fliiga.com/ottelut/miehet/oilers-fbc-turku-13-12-2025/,10,7
+868781,2025-12-13 17:00:00,2025-2026,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-13-12-2025/,5,4
+868780,2025-12-13 18:00:00,2025-2026,Runkosarja,,Indians,EräViikingit,https://fliiga.com/ottelut/miehet/indians-eraviikingit-13-12-2025/,4,8
+868778,2025-12-14 16:00:00,2025-2026,Runkosarja,,Jymy,Classic,https://fliiga.com/ottelut/miehet/jymy-classic-14-12-2025/,3,8
+868776,2025-12-14 18:00:00,2025-2026,Runkosarja,,OLS,LASB,https://fliiga.com/ottelut/miehet/ols-lasb-14-12-2025/,6,4
+868775,2025-12-17 18:30:00,2025-2026,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-17-12-2025/,12,4
+868774,2025-12-19 18:30:00,2025-2026,Runkosarja,,Indians,Oilers,https://fliiga.com/ottelut/miehet/indians-oilers-19-12-2025/,4,7
+868779,2025-12-20 14:00:00,2025-2026,Runkosarja,,Hawks,TPS,https://fliiga.com/ottelut/miehet/hawks-tps-20-12-2025/,2,3
+868773,2025-12-20 18:30:00,2025-2026,Runkosarja,,EräViikingit,FBC Turku,https://fliiga.com/ottelut/miehet/eraviikingit-fbc-turku-20-12-2025/,7,4
+868770,2025-12-27 16:00:00,2025-2026,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-27-12-2025/,3,2
+868771,2025-12-27 16:00:00,2025-2026,Runkosarja,,Hawks,Oilers,https://fliiga.com/ottelut/miehet/hawks-oilers-27-12-2025/,3,13
+868769,2025-12-27 17:00:00,2025-2026,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-27-12-2025/,8,2
+868772,2025-12-27 17:30:00,2025-2026,Runkosarja,,Classic,SPV,https://fliiga.com/ottelut/miehet/classic-spv-27-12-2025/,9,7
+868768,2025-12-28 15:00:00,2025-2026,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-28-12-2025/,5,4
+868767,2025-12-28 16:00:00,2025-2026,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-28-12-2025/,9,2
+868766,2026-01-02 18:30:00,2025-2026,Runkosarja,,FBC Turku,TPS,https://fliiga.com/ottelut/miehet/fbc-turku-tps-2-1-2026/,4,5
+868764,2026-01-03 16:00:00,2025-2026,Runkosarja,,Hawks,EräViikingit,https://fliiga.com/ottelut/miehet/hawks-eraviikingit-3-1-2026/,4,5
+868763,2026-01-03 17:00:00,2025-2026,Runkosarja,,Nokian KrP,Jymy,https://fliiga.com/ottelut/miehet/nokian-krp-jymy-3-1-2026/,10,5
+868765,2026-01-03 17:30:00,2025-2026,Runkosarja,,Classic,LASB,https://fliiga.com/ottelut/miehet/classic-lasb-3-1-2026/,12,4
+868762,2026-01-05 18:30:00,2025-2026,Runkosarja,,TPS,EräViikingit,https://fliiga.com/ottelut/miehet/tps-eraviikingit-5-1-2026/,3,4
+868758,2026-01-09 18:30:00,2025-2026,Runkosarja,,Jymy,EräViikingit,https://fliiga.com/ottelut/miehet/jymy-eraviikingit-9-1-2026/,4,7
+868759,2026-01-09 18:30:00,2025-2026,Runkosarja,,TPS,Hawks,https://fliiga.com/ottelut/miehet/tps-hawks-9-1-2026/,3,2
+868760,2026-01-09 18:30:00,2025-2026,Runkosarja,,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-9-1-2026/,6,2
+868761,2026-01-09 18:30:00,2025-2026,Runkosarja,,Indians,LASB,https://fliiga.com/ottelut/miehet/indians-lasb-9-1-2026/,2,3
+868757,2026-01-10 15:00:00,2025-2026,Runkosarja,,OLS,FBC Turku,https://fliiga.com/ottelut/miehet/ols-fbc-turku-10-1-2026/,12,2
+868756,2026-01-10 17:00:00,2025-2026,Runkosarja,,SPV,Classic,https://fliiga.com/ottelut/miehet/spv-classic-10-1-2026/,8,6
+868753,2026-01-11 15:00:00,2025-2026,Runkosarja,,LASB,Nokian KrP,https://fliiga.com/ottelut/miehet/lasb-nokian-krp-11-1-2026/,3,8
+868755,2026-01-11 16:00:00,2025-2026,Runkosarja,,Classic,Oilers,https://fliiga.com/ottelut/miehet/classic-oilers-11-1-2026/,9,6
+868754,2026-01-11 17:00:00,2025-2026,Runkosarja,,Hawks,FBC Turku,https://fliiga.com/ottelut/miehet/hawks-fbc-turku-11-1-2026/,4,2
+868752,2026-01-11 18:00:00,2025-2026,Runkosarja,,OLS,Jymy,https://fliiga.com/ottelut/miehet/ols-jymy-11-1-2026/,8,4
+868751,2026-01-15 11:30:00,2025-2026,Runkosarja,,EräViikingit,Oilers,https://fliiga.com/ottelut/miehet/eraviikingit-oilers-15-1-2026/,7,8
+868750,2026-01-16 18:30:00,2025-2026,Runkosarja,,FBC Turku,LASB,https://fliiga.com/ottelut/miehet/fbc-turku-lasb-16-1-2026/,0,3
+868749,2026-01-17 16:00:00,2025-2026,Runkosarja,,Hawks,Classic,https://fliiga.com/ottelut/miehet/hawks-classic-17-1-2026/,3,10
+868746,2026-01-17 17:00:00,2025-2026,Runkosarja,,Oilers,Jymy,https://fliiga.com/ottelut/miehet/oilers-jymy-17-1-2026/,7,3
+868747,2026-01-17 17:00:00,2025-2026,Runkosarja,,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-17-1-2026/,13,3
+868748,2026-01-17 18:00:00,2025-2026,Runkosarja,,Indians,OLS,https://fliiga.com/ottelut/miehet/indians-ols-17-1-2026/,3,4
+868744,2026-01-18 16:00:00,2025-2026,Runkosarja,,SPV,TPS,https://fliiga.com/ottelut/miehet/spv-tps-18-1-2026/,10,3
+868745,2026-01-18 16:00:00,2025-2026,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-18-1-2026/,12,2
+868743,2026-01-19 18:30:00,2025-2026,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-19-1-2026/,5,6
+868742,2026-01-24 14:00:00,2025-2026,Runkosarja,,EräViikingit,FBC Turku,https://fliiga.com/ottelut/miehet/eraviikingit-fbc-turku-24-1-2026/,8,7
+868741,2026-01-24 16:00:00,2025-2026,Runkosarja,,Jymy,LASB,https://fliiga.com/ottelut/miehet/jymy-lasb-24-1-2026/,5,4
+868739,2026-01-24 17:00:00,2025-2026,Runkosarja,,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-24-1-2026/,1,6
+868740,2026-01-24 17:00:00,2025-2026,Runkosarja,,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-24-1-2026/,6,5
+868823,2026-01-24 18:30:00,2025-2026,Runkosarja,,Hawks,Nokian KrP,https://fliiga.com/ottelut/miehet/hawks-nokian-krp-24-1-2026/,4,16
+868738,2026-01-25 16:00:00,2025-2026,Runkosarja,,SPV,LASB,https://fliiga.com/ottelut/miehet/spv-lasb-25-1-2026/,10,5
+868737,2026-01-29 18:30:00,2025-2026,Runkosarja,,FBC Turku,Oilers,https://fliiga.com/ottelut/miehet/fbc-turku-oilers-29-1-2026/,7,15
+868735,2026-01-30 18:30:00,2025-2026,Runkosarja,,Indians,TPS,https://fliiga.com/ottelut/miehet/indians-tps-30-1-2026/,2,5
+868736,2026-01-30 18:30:00,2025-2026,Runkosarja,,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-30-1-2026/,4,1
+868733,2026-01-31 15:00:00,2025-2026,Runkosarja,,LASB,Hawks,https://fliiga.com/ottelut/miehet/lasb-hawks-31-1-2026/,1,4
+868734,2026-01-31 16:00:00,2025-2026,Runkosarja,,Jymy,TPS,https://fliiga.com/ottelut/miehet/jymy-tps-31-1-2026/,6,8
+868732,2026-01-31 18:00:00,2025-2026,Runkosarja,,OLS,SPV,https://fliiga.com/ottelut/miehet/ols-spv-31-1-2026/,4,1
+868731,2026-02-01 16:00:00,2025-2026,Runkosarja,,Oilers,LASB,https://fliiga.com/ottelut/miehet/oilers-lasb-1-2-2026/,14,3
+868730,2026-02-01 18:00:00,2025-2026,Runkosarja,,OLS,EräViikingit,https://fliiga.com/ottelut/miehet/ols-eraviikingit-1-2-2026/,5,6
+868728,2026-02-02 18:30:00,2025-2026,Runkosarja,,Jymy,SPV,https://fliiga.com/ottelut/miehet/jymy-spv-2-2-2026/,4,6
+868729,2026-02-02 18:30:00,2025-2026,Runkosarja,,Classic,FBC Turku,https://fliiga.com/ottelut/miehet/classic-fbc-turku-2-2-2026/,12,3
+868727,2026-02-11 18:30:00,2025-2026,Runkosarja,,Nokian KrP,Hawks,https://fliiga.com/ottelut/miehet/nokian-krp-hawks-11-2-2026/,6,2
+868726,2026-02-12 18:30:00,2025-2026,Runkosarja,,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-12-2-2026/,4,3
+868725,2026-02-13 18:30:00,2025-2026,Runkosarja,,TPS,FBC Turku,https://fliiga.com/ottelut/miehet/tps-fbc-turku-13-2-2026/,5,1
+868723,2026-02-14 15:00:00,2025-2026,Runkosarja,,LASB,EräViikingit,https://fliiga.com/ottelut/miehet/lasb-eraviikingit-14-2-2026/,5,6
+868724,2026-02-14 16:00:00,2025-2026,Runkosarja,,Hawks,Jymy,https://fliiga.com/ottelut/miehet/hawks-jymy-14-2-2026/,5,4
+868722,2026-02-14 18:00:00,2025-2026,Runkosarja,,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-14-2-2026/,4,8
+868721,2026-02-15 16:00:00,2025-2026,Runkosarja,,SPV,Nokian KrP,https://fliiga.com/ottelut/miehet/spv-nokian-krp-15-2-2026/,2,5
+868719,2026-02-16 18:30:00,2025-2026,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-16-2-2026/,6,8
+868720,2026-02-16 18:30:00,2025-2026,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-16-2-2026/,7,8
+868718,2026-02-20 18:30:00,2025-2026,Runkosarja,,Classic,OLS,https://fliiga.com/ottelut/miehet/classic-ols-20-2-2026/,10,2
+868716,2026-02-21 16:00:00,2025-2026,Runkosarja,,Jymy,FBC Turku,https://fliiga.com/ottelut/miehet/jymy-fbc-turku-21-2-2026/,6,5
+868717,2026-02-21 16:00:00,2025-2026,Runkosarja,,Hawks,OLS,https://fliiga.com/ottelut/miehet/hawks-ols-21-2-2026/,6,7
+868715,2026-02-21 17:00:00,2025-2026,Runkosarja,,Nokian KrP,Indians,https://fliiga.com/ottelut/miehet/nokian-krp-indians-21-2-2026/,8,4
+868714,2026-02-21 17:30:00,2025-2026,Runkosarja,,TPS,LASB,https://fliiga.com/ottelut/miehet/tps-lasb-21-2-2026/,3,5
+868712,2026-02-22 16:00:00,2025-2026,Runkosarja,,SPV,EräViikingit,https://fliiga.com/ottelut/miehet/spv-eraviikingit-22-2-2026/,6,2
+868713,2026-02-22 17:00:00,2025-2026,Runkosarja,,Hawks,Oilers,https://fliiga.com/ottelut/miehet/hawks-oilers-22-2-2026/,6,11
+868711,2026-02-25 18:30:00,2025-2026,Runkosarja,,EräViikingit,Indians,https://fliiga.com/ottelut/miehet/eraviikingit-indians-25-2-2026/,5,6
+868709,2026-03-02 18:30:00,2025-2026,Runkosarja,,SPV,Jymy,https://fliiga.com/ottelut/miehet/spv-jymy-2-3-2026/,9,7
+868710,2026-03-02 18:30:00,2025-2026,Runkosarja,,LASB,Classic,https://fliiga.com/ottelut/miehet/lasb-classic-2-3-2026/,4,13
+868707,2026-03-06 18:30:00,2025-2026,Runkosarja,,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-6-3-2026/,2,6
+868708,2026-03-06 18:30:00,2025-2026,Runkosarja,,FBC Turku,Nokian KrP,https://fliiga.com/ottelut/miehet/fbc-turku-nokian-krp-6-3-2026/,3,7
+868705,2026-03-07 17:00:00,2025-2026,Runkosarja,,Oilers,SPV,https://fliiga.com/ottelut/miehet/oilers-spv-7-3-2026/,6,5
+868706,2026-03-07 17:30:00,2025-2026,Runkosarja,,EräViikingit,Hawks,https://fliiga.com/ottelut/miehet/eraviikingit-hawks-7-3-2026/,3,6
+868704,2026-03-08 15:00:00,2025-2026,Runkosarja,,TPS,OLS,https://fliiga.com/ottelut/miehet/tps-ols-8-3-2026/,5,4
+868702,2026-03-13 18:30:00,2025-2026,Runkosarja,,Indians,FBC Turku,https://fliiga.com/ottelut/miehet/indians-fbc-turku-13-3-2026/,8,5
+868703,2026-03-13 18:30:00,2025-2026,Runkosarja,,TPS,Jymy,https://fliiga.com/ottelut/miehet/tps-jymy-13-3-2026/,6,4
+868699,2026-03-14 15:00:00,2025-2026,Runkosarja,,LASB,Jymy,https://fliiga.com/ottelut/miehet/lasb-jymy-14-3-2026/,3,5
+868701,2026-03-14 17:30:00,2025-2026,Runkosarja,,Classic,EräViikingit,https://fliiga.com/ottelut/miehet/classic-eraviikingit-14-3-2026/,14,5
+868698,2026-03-14 18:00:00,2025-2026,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-14-3-2026/,2,12
+868700,2026-03-14 18:30:00,2025-2026,Runkosarja,,Hawks,Indians,https://fliiga.com/ottelut/miehet/hawks-indians-14-3-2026/,7,4
+868696,2026-03-15 15:00:00,2025-2026,Runkosarja,,OLS,Nokian KrP,https://fliiga.com/ottelut/miehet/ols-nokian-krp-15-3-2026/,1,9
+868697,2026-03-15 16:30:00,2025-2026,Runkosarja,,FBC Turku,SPV,https://fliiga.com/ottelut/miehet/fbc-turku-spv-15-3-2026/,3,12
+868691,2026-03-18 18:30:00,2025-2026,Runkosarja,,Oilers,Classic,https://fliiga.com/ottelut/miehet/oilers-classic-18-3-2026/,5,6
+868692,2026-03-18 18:30:00,2025-2026,Runkosarja,,Nokian KrP,LASB,https://fliiga.com/ottelut/miehet/nokian-krp-lasb-18-3-2026/,11,1
+868693,2026-03-18 18:30:00,2025-2026,Runkosarja,,Indians,Jymy,https://fliiga.com/ottelut/miehet/indians-jymy-18-3-2026/,17,3
+868694,2026-03-18 18:30:00,2025-2026,Runkosarja,,FBC Turku,Hawks,https://fliiga.com/ottelut/miehet/fbc-turku-hawks-18-3-2026/,2,7
+868695,2026-03-18 18:30:00,2025-2026,Runkosarja,,EräViikingit,TPS,https://fliiga.com/ottelut/miehet/eraviikingit-tps-18-3-2026/,1,2
+868882,2026-03-18 18:30:00,2025-2026,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-18-3-2026/,10,4
+922443,2026-03-24 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-24-3-2026/,7,2
+922427,2026-03-25 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-25-3-2026/,6,4
+922435,2026-03-25 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-25-3-2026/,5,4
+922451,2026-03-25 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-25-3-2026/,6,2
+922444,2026-03-26 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-26-3-2026/,2,9
+922428,2026-03-27 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-27-3-2026/,3,10
+922436,2026-03-27 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-27-3-2026/,2,1
+922452,2026-03-27 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-27-3-2026/,6,4
+922429,2026-03-29 17:00:00,2025-2026,Pudotuspelit,Puolivälierät,Classic,TPS,https://fliiga.com/ottelut/miehet/classic-tps-29-3-2026/,7,4
+922437,2026-03-29 17:00:00,2025-2026,Pudotuspelit,Puolivälierät,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-29-3-2026/,4,5
+922453,2026-03-29 17:00:00,2025-2026,Pudotuspelit,Puolivälierät,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-29-3-2026/,4,5
+922445,2026-03-29 18:00:00,2025-2026,Pudotuspelit,Puolivälierät,Nokian KrP,EräViikingit,https://fliiga.com/ottelut/miehet/nokian-krp-eraviikingit-29-3-2026/,8,1
+922430,2026-03-30 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,TPS,Classic,https://fliiga.com/ottelut/miehet/tps-classic-30-3-2026/,1,9
+922438,2026-03-31 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-31-3-2026/,9,4
+922446,2026-03-31 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,EräViikingit,Nokian KrP,https://fliiga.com/ottelut/miehet/eraviikingit-nokian-krp-31-3-2026/,3,5
+922454,2026-03-31 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-31-3-2026/,2,4
+923978,2026-04-01 19:00:00,2025-2026,F-liigakarsinnat,F-liigakarsinnat,LASB,Karhut,https://fliiga.com/ottelut/miehet/lasb-karhut-1-4-2026/,4,3
+922439,2026-04-02 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,SPV,Indians,https://fliiga.com/ottelut/miehet/spv-indians-2-4-2026/,3,2
+922455,2026-04-02 18:30:00,2025-2026,Pudotuspelit,Puolivälierät,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-2-4-2026/,6,5
+923979,2026-04-04 16:00:00,2025-2026,F-liigakarsinnat,F-liigakarsinnat,Karhut,LASB,https://fliiga.com/ottelut/miehet/karhut-lasb-4-4-2026/,6,3
+922440,2026-04-04 17:00:00,2025-2026,Pudotuspelit,Puolivälierät,Indians,SPV,https://fliiga.com/ottelut/miehet/indians-spv-4-4-2026/,4,2
+922456,2026-04-04 18:00:00,2025-2026,Pudotuspelit,Puolivälierät,OLS,Oilers,https://fliiga.com/ottelut/miehet/ols-oilers-4-4-2026/,5,3
+922457,2026-04-05 17:00:00,2025-2026,Pudotuspelit,Puolivälierät,Oilers,OLS,https://fliiga.com/ottelut/miehet/oilers-ols-5-4-2026/,5,2
+923980,2026-04-06 18:00:00,2025-2026,F-liigakarsinnat,F-liigakarsinnat,LASB,Karhut,https://fliiga.com/ottelut/miehet/lasb-karhut-6-4-2026/,5,4
+922459,2026-04-08 18:30:00,2025-2026,Pudotuspelit,Välierät,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-8-4-2026/,4,3
+922467,2026-04-09 18:30:00,2025-2026,Pudotuspelit,Välierät,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-9-4-2026/,6,5
+923981,2026-04-09 18:30:00,2025-2026,F-liigakarsinnat,F-liigakarsinnat,Karhut,LASB,https://fliiga.com/ottelut/miehet/karhut-lasb-9-4-2026/,5,4
+922460,2026-04-10 18:30:00,2025-2026,Pudotuspelit,Välierät,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-10-4-2026/,6,5
+923982,2026-04-11 15:00:00,2025-2026,F-liigakarsinnat,F-liigakarsinnat,LASB,Karhut,https://fliiga.com/ottelut/miehet/lasb-karhut-11-4-2026/,5,3
+922461,2026-04-11 17:30:00,2025-2026,Pudotuspelit,Välierät,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-11-4-2026/,4,2
+922468,2026-04-11 18:00:00,2025-2026,Pudotuspelit,Välierät,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-11-4-2026/,6,3
+922469,2026-04-13 18:30:00,2025-2026,Pudotuspelit,Välierät,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-13-4-2026/,4,3
+922462,2026-04-15 18:30:00,2025-2026,Pudotuspelit,Välierät,Indians,Classic,https://fliiga.com/ottelut/miehet/indians-classic-15-4-2026/,4,5
+922470,2026-04-16 18:30:00,2025-2026,Pudotuspelit,Välierät,Oilers,Nokian KrP,https://fliiga.com/ottelut/miehet/oilers-nokian-krp-16-4-2026/,2,5
+922463,2026-04-17 18:30:00,2025-2026,Pudotuspelit,Välierät,Classic,Indians,https://fliiga.com/ottelut/miehet/classic-indians-17-4-2026/,7,5
+922471,2026-04-18 17:00:00,2025-2026,Pudotuspelit,Välierät,Nokian KrP,Oilers,https://fliiga.com/ottelut/miehet/nokian-krp-oilers-18-4-2026/,10,7
+922482,2026-04-24 18:30:00,2025-2026,Pudotuspelit,Pronssiottelu,Oilers,Indians,https://fliiga.com/ottelut/miehet/oilers-indians-24-4-2026/,8,4
+922475,2026-04-26 16:00:00,2025-2026,Pudotuspelit,Finaalit,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-26-4-2026/,5,3
+922476,2026-04-28 18:30:00,2025-2026,Pudotuspelit,Finaalit,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-28-4-2026/,5,4
+922477,2026-05-01 17:00:00,2025-2026,Pudotuspelit,Finaalit,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-1-5-2026/,6,5
+922478,2026-05-03 17:00:00,2025-2026,Pudotuspelit,Finaalit,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-3-5-2026/,5,4
+922479,2026-05-05 18:30:00,2025-2026,Pudotuspelit,Finaalit,Classic,Nokian KrP,https://fliiga.com/ottelut/miehet/classic-nokian-krp-5-5-2026/,4,5
+922480,2026-05-07 18:30:00,2025-2026,Pudotuspelit,Finaalit,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-7-5-2026/,7,5
+929808,2026-09-09 18:30:00,2026-2027,Runkosarja,,Nokian KrP,Classic,https://fliiga.com/ottelut/miehet/nokian-krp-classic-9-9-2026/,7,3
+929728,2026-09-11 18:30:00,2026-2027,Runkosarja,,Oilers,TPS,https://fliiga.com/ottelut/miehet/oilers-tps-11-9-2026/,14,3
+929706,2026-09-12 16:00:00,2026-2027,Runkosarja,,SPV,OLS,https://fliiga.com/ottelut/miehet/spv-ols-12-9-2026/,7,6
+929717,2026-09-12 16:00:00,2026-2027,Runkosarja,,Hawks,EräViikingit,https://fliiga.com/ottelut/miehet/hawks-eraviikingit-12-9-2026/,3,2
+929695,2026-09-12 17:00:00,2026-2027,Runkosarja,,Indians,O2-Jyväskylä,https://fliiga.com/ottelut/miehet/indians-o2-jyvaskyla-12-9-2026/,6,5
+929684,2026-09-13 16:00:00,2026-2027,Runkosarja,,Jymy,OLS,https://fliiga.com/ottelut/miehet/jymy-ols-13-9-2026/,5,7
+929673,2026-09-13 17:00:00,2026-2027,Runkosarja,,LASB,SPV,https://fliiga.com/ottelut/miehet/lasb-spv-13-9-2026/,0,6
+929662,2026-09-16 18:30:00,2026-2027,Runkosarja,,TPS,Nokian KrP,https://fliiga.com/ottelut/miehet/tps-nokian-krp-16-9-2026/,4,8
+929651,2026-09-18 18:30:00,2026-2027,Runkosarja,,Oilers,Hawks,https://fliiga.com/ottelut/miehet/oilers-hawks-18-9-2026/,10,4

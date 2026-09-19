@@ -1,0 +1,3 @@
+collected_at,bookmaker,event_id,event_start,home_team,away_team,total_line,side,decimal_odds,source_url
+2026-09-19T12:00:00+00:00,EsimerkkiBook,929785,2026-09-20T17:00:00+03:00,Nokian KrP,LASB,10.5,over,1.95,https://example.com
+2026-09-19T12:00:00+00:00,EsimerkkiBook,929785,2026-09-20T17:00:00+03:00,Nokian KrP,LASB,10.5,under,1.85,https://example.com
