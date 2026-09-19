@@ -5,6 +5,7 @@ from fliiga_model.odds import (
     expected_value_with_push,
     fractional_kelly,
     market_anchored_total_probabilities,
+    market_anchored_two_way_probabilities,
     proportional_devig,
     two_way_devig,
 )
@@ -37,3 +38,11 @@ def test_market_anchor_follows_reliability():
     assert np.isclose(low_data_over, market_over)
     assert np.isclose(low_data_over + low_data_under, 1.0)
     assert np.isclose(full_model_over, 0.83)
+
+
+def test_generic_market_anchor_supports_handicap_push():
+    first, second = market_anchored_two_way_probabilities(
+        0.45, 0.10, 1.90, 1.90, reliability=0.0
+    )
+    assert np.isclose(first, 0.45)
+    assert np.isclose(second, 0.45)

@@ -69,3 +69,24 @@ def test_match_reliability_is_bounded_and_uses_effective_games():
     reliability = model.match_reliability("Alpha", "Beta")
     assert 0 < reliability < 1
     assert model.team_effective_games_["Alpha"] > 0
+
+
+def test_half_goal_handicap_probabilities_sum_to_one_without_push():
+    model = PoissonStrengthModel().fit(synthetic_games())
+    prediction = model.predict_handicap("Alpha", "Beta", -1.5)
+    assert np.isclose(
+        prediction.home_cover_probability + prediction.away_cover_probability, 1.0
+    )
+    assert prediction.push_probability == 0
+
+
+def test_integer_handicap_has_push_probability():
+    model = PoissonStrengthModel().fit(synthetic_games())
+    prediction = model.predict_handicap("Alpha", "Beta", -1.0)
+    assert prediction.push_probability > 0
+    assert np.isclose(
+        prediction.home_cover_probability
+        + prediction.push_probability
+        + prediction.away_cover_probability,
+        1.0,
+    )
