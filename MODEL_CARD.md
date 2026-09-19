@@ -1,9 +1,10 @@
-# Model card – F-liiga Value Model 0.6.0
+# Model card – F-liiga Value Model 0.7.0
 
 ## Käyttötarkoitus
 
-Malli arvioi miesten F-liigan otteluiden varsinaisen peliajan maalimääriä ja
-1X2-todennäköisyyksiä. Ensisijainen markkina on ottelun kokonaismaalimäärä.
+Malli arvioi miesten F-liigan otteluiden varsinaisen peliajan maalimääriä,
+kahden suunnan tasoituksia ja 1X2-todennäköisyyksiä. Ensisijaiset markkinat ovat
+ottelun kokonaismaalimäärä ja maaliin perustuva tasoitus.
 Mallia ei pidä käyttää automaattisena vedonlyöntibottina tai voiton takeena.
 
 ## Data
@@ -26,6 +27,8 @@ kun samasta kohteesta on tallennettu päätöskerroin.
 - L2-regularisointi pienille otoksille
 - eksponentiaalinen tuoreuspainotus, oletuspuoliintumisaika 120 päivää
 - 1X2-jakauma riippumattomista Poisson-maaleista
+- tasoitusjakauma riippumattomien Poisson-maalien erotuksesta eli
+  Skellam-jakaumasta; kokonaislukutasoituksissa mukana push
 - totals-jakauma Poissonista tai negatiivisesta binomijakaumasta aineistosta
   estimoidun ylidispersion mukaan
 - joukkueparin dataluotettavuus määräytyy heikomman joukkueen tuoreuspainotetusta

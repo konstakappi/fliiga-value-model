@@ -13,6 +13,7 @@ from fliiga_model.odds import (
     expected_value_with_push,
     fair_odds_with_push,
     market_anchored_total_probabilities,
+    market_anchored_two_way_probabilities,
 )
 from fliiga_model.predict import predict_fixtures
 
@@ -87,8 +88,14 @@ if upcoming.empty:
 labels = {fixture_label(row): index for index, row in upcoming.iterrows()}
 league_total_prior = float((games.tail(250)["home_goals"] + games.tail(250)["away_goals"]).mean())
 
-calculator_tab, compare_tab, bets_tab, data_tab = st.tabs(
-    ["🎯 Pikalaskuri", "⚖️ Vertaa vedonvälittäjiä", "🧾 Vedot ja CLV", "🔄 Data"]
+calculator_tab, compare_tab, handicap_tab, bets_tab, data_tab = st.tabs(
+    [
+        "🎯 Pikalaskuri",
+        "⚖️ Maalimäärävertailu",
+        "➕ Tasoitukset",
+        "🧾 Vedot ja CLV",
+        "🔄 Data",
+    ]
 )
 
 with calculator_tab:
@@ -300,6 +307,121 @@ with compare_tab:
                         "Todennäköisyys": "{:.1%}",
                         "EV": "{:+.1%}",
                         "Dataluotettavuus": "{:.0%}",
+                    }
+                ),
+                width="stretch",
+                hide_index=True,
+            )
+
+with handicap_tab:
+    st.subheader("Tasoitusvetojen vertailu")
+    st.write(
+        "Tasoitus lisätään kotijoukkueen lopputulokseen. Esimerkiksi −1,5 vaatii "
+        "kotijoukkueelta vähintään kahden maalin voiton. Syötä saman rajan molemmat "
+        "kertoimet. Kokonaislukurajassa tasan osuminen palauttaa panoksen."
+    )
+    handicap_label = st.selectbox("Ottelu", list(labels), key="handicap_fixture")
+    handicap_fixture = upcoming.loc[labels[handicap_label]]
+    handicap_home = str(handicap_fixture["home_team"])
+    handicap_away = str(handicap_fixture["away_team"])
+    handicap_reliability = model.match_reliability(handicap_home, handicap_away)
+    handicap_home_xg, handicap_away_xg = model.expected_goals(
+        handicap_home, handicap_away
+    )
+    suggested_handicap = round(
+        -(handicap_home_xg - handicap_away_xg) * 2
+    ) / 2
+
+    handicap_grid = pd.DataFrame(
+        {
+            "Vedonvälittäjä": BOOKMAKERS,
+            "Kotitasoitus": [suggested_handicap] * len(BOOKMAKERS),
+            "Koti": [None] * len(BOOKMAKERS),
+            "Vieras": [None] * len(BOOKMAKERS),
+        }
+    )
+    edited_handicaps = st.data_editor(
+        handicap_grid,
+        width="stretch",
+        hide_index=True,
+        disabled=["Vedonvälittäjä"],
+        column_config={
+            "Kotitasoitus": st.column_config.NumberColumn(step=0.5),
+            "Koti": st.column_config.NumberColumn(min_value=1.01, step=0.01),
+            "Vieras": st.column_config.NumberColumn(min_value=1.01, step=0.01),
+        },
+        key=f"handicaps_{handicap_home}_{handicap_away}",
+    )
+
+    st.caption(
+        f"Raakamallin maaliodotus: {handicap_home} {handicap_home_xg:.2f} – "
+        f"{handicap_away_xg:.2f} {handicap_away}. "
+        f"Dataluotettavuus {handicap_reliability:.0%}."
+    )
+    if handicap_reliability < 0.25:
+        st.warning(
+            "Dataluotettavuus on matala, joten tasoitusarvio ankkuroidaan vahvasti "
+            "markkinan marginaalittomaan todennäköisyyteen."
+        )
+
+    if st.button("Laske tasoitusvedot", type="primary", width="stretch"):
+        handicap_rows: list[dict[str, object]] = []
+        for quote in edited_handicaps.itertuples(index=False):
+            line = pd.to_numeric(quote.Kotitasoitus, errors="coerce")
+            home_odds = pd.to_numeric(quote.Koti, errors="coerce")
+            away_odds = pd.to_numeric(quote.Vieras, errors="coerce")
+            if pd.isna(line) or pd.isna(home_odds) or pd.isna(away_odds):
+                continue
+            if float(home_odds) <= 1.0 or float(away_odds) <= 1.0:
+                continue
+            handicap = model.predict_handicap(
+                handicap_home, handicap_away, float(line)
+            )
+            adjusted_home, adjusted_away = market_anchored_two_way_probabilities(
+                handicap.home_cover_probability,
+                handicap.push_probability,
+                float(home_odds),
+                float(away_odds),
+                handicap_reliability,
+            )
+            sides = (
+                (handicap_home, float(line), float(home_odds), adjusted_home),
+                (handicap_away, -float(line), float(away_odds), adjusted_away),
+            )
+            for team, team_line, odds, probability in sides:
+                ev = expected_value_with_push(
+                    probability, handicap.push_probability, odds
+                )
+                handicap_rows.append(
+                    {
+                        "Vedonvälittäjä": quote.Vedonvälittäjä,
+                        "Kohde": f"{team} {team_line:+g}",
+                        "Kerroin": odds,
+                        "Todennäköisyys": probability,
+                        "Push": handicap.push_probability,
+                        "Reilu kerroin": fair_odds_with_push(
+                            probability, handicap.push_probability
+                        ),
+                        "EV": ev,
+                    }
+                )
+        if not handicap_rows:
+            st.warning("Lisää vähintään yhden vedonvälittäjän molemmat kertoimet.")
+        else:
+            handicap_comparison = pd.DataFrame(handicap_rows).sort_values(
+                "EV", ascending=False
+            )
+            handicap_comparison.insert(
+                0, "Value", handicap_comparison["EV"] >= ev_limit
+            )
+            st.dataframe(
+                handicap_comparison.style.format(
+                    {
+                        "Kerroin": "{:.2f}",
+                        "Todennäköisyys": "{:.1%}",
+                        "Push": "{:.1%}",
+                        "Reilu kerroin": "{:.2f}",
+                        "EV": "{:+.1%}",
                     }
                 ),
                 width="stretch",
