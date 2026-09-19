@@ -1,4 +1,4 @@
-# F-liiga Value Model v0.5
+# F-liiga Value Model v0.5.1
 
 GitHub-valmis miesten F-liigan maalimäärä- ja 1X2-todennäköisyyksien arviointiin.
 Malli sovittaa ottelutuloksiin joukkuekohtaiset hyökkäys- ja puolustusvahvuudet,
@@ -42,7 +42,9 @@ Katso aineisto, validointitulokset ja tunnetut rajoitukset tiedostosta
 3. Kaksoisklikkaa tiedostoa **`KAYNNISTA_WINDOWS.bat`**.
 
 Ensimmäinen käynnistys asentaa tarvittavat paketit automaattisesti. Seuraavilla
-kerroilla kaksoisklikkaa samaa tiedostoa. Tarvitset Python 3.11:n tai uudemman.
+kerroilla kaksoisklikkaa samaa tiedostoa. Selain avautuu automaattisesti osoitteeseen
+`http://localhost:8501`. Pidä musta käynnistysikkuna avoinna käytön ajan ja sulje
+se, kun haluat pysäyttää sovelluksen. Tarvitset Python 3.11:n tai uudemman.
 
 ### macOS ja Linux
 

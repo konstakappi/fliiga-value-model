@@ -1,6 +1,7 @@
 @echo off
 setlocal
 cd /d "%~dp0"
+title F-liiga vedonlyontiapuri - pida tama ikkuna auki
 
 echo.
 echo ========================================
@@ -30,7 +31,8 @@ if errorlevel 1 goto :error
 if errorlevel 1 goto :error
 
 echo Kaynnistetaan sovellus selaimeen...
-".venv\Scripts\python.exe" -m streamlit run app.py
+start "" powershell.exe -NoProfile -WindowStyle Hidden -Command "Start-Sleep -Seconds 3; Start-Process 'http://localhost:8501'"
+".venv\Scripts\python.exe" -m streamlit run app.py --server.headless true
 exit /b 0
 
 :error
