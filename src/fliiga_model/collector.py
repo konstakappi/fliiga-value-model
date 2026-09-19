@@ -40,7 +40,7 @@ class FliigaCollector:
             allowed_methods=("GET",),
         )
         self.session.mount("https://", HTTPAdapter(max_retries=retries))
-        self.session.headers.update({"User-Agent": "fliiga-value-model/0.4.0 (+research)"})
+        self.session.headers.update({"User-Agent": "fliiga-value-model/0.5.0 (+research)"})
 
     def _page(self, page: int) -> tuple[list[dict[str, Any]], int]:
         response = self.session.get(
