@@ -61,3 +61,11 @@ def test_integer_total_has_push_probability():
     model = PoissonStrengthModel().fit(synthetic_games())
     prediction = model.predict_total("Alpha", "Beta", 12.0)
     assert prediction.push_probability > 0
+
+
+def test_match_reliability_is_bounded_and_uses_effective_games():
+    games = synthetic_games()
+    model = PoissonStrengthModel(half_life_days=30).fit(games)
+    reliability = model.match_reliability("Alpha", "Beta")
+    assert 0 < reliability < 1
+    assert model.team_effective_games_["Alpha"] > 0

@@ -27,10 +27,22 @@ def test_totals_backtest_selects_one_best_offer_per_match():
             "decimal_odds": 2.20,
         },
         {
+            "collected_at": target.date - pd.Timedelta(hours=2), "bookmaker": "Book A",
+            "event_start": target.date, "home_team": target.home_team,
+            "away_team": target.away_team, "total_line": 9.5, "side": "under",
+            "decimal_odds": 1.70,
+        },
+        {
             "collected_at": target.date - pd.Timedelta(hours=2), "bookmaker": "Book B",
             "event_start": target.date, "home_team": target.home_team,
             "away_team": target.away_team, "total_line": 9.5, "side": "over",
             "decimal_odds": 2.30,
+        },
+        {
+            "collected_at": target.date - pd.Timedelta(hours=2), "bookmaker": "Book B",
+            "event_start": target.date, "home_team": target.home_team,
+            "away_team": target.away_team, "total_line": 9.5, "side": "under",
+            "decimal_odds": 1.65,
         },
     ])
     results, metrics = totals_odds_backtest(
