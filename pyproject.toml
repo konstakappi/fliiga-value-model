@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fliiga-value-model"
-version = "0.5.1"
+version = "0.6.0"
 description = "Transparent Poisson baseline for F-liiga 1X2 probabilities and value betting research"
 readme = "README.md"
 requires-python = ">=3.11"

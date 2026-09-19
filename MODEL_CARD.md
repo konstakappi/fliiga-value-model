@@ -1,4 +1,4 @@
-# Model card – F-liiga Value Model 0.5.1
+# Model card – F-liiga Value Model 0.6.0
 
 ## Käyttötarkoitus
 
@@ -28,6 +28,10 @@ kun samasta kohteesta on tallennettu päätöskerroin.
 - 1X2-jakauma riippumattomista Poisson-maaleista
 - totals-jakauma Poissonista tai negatiivisesta binomijakaumasta aineistosta
   estimoidun ylidispersion mukaan
+- joukkueparin dataluotettavuus määräytyy heikomman joukkueen tuoreuspainotetusta
+  ottelumäärästä: `n / (n + 12)`
+- vedonlyöntipäätöksen totals-todennäköisyys yhdistää raakamallin ja
+  vedonvälittäjän marginaalittoman arvion dataluotettavuuden painoilla
 
 ## Walk-forward-validointi
 
@@ -54,6 +58,8 @@ tämä ei vielä osoita vedonlyöntietua.
 - ei varmistettuja kokoonpanoja tai aloittavia maalivahteja
 - ei lepo-, matkustus-, laukaus- tai tyhjän maalin tietoja
 - nousijajoukkueista on kauden alussa erittäin vähän dataa
+- markkina-ankkurointi vähentää pienen otoksen ylireagointia, mutta tekee arviosta
+  osittain riippuvaisen käytetystä vedonvälittäjästä ja sen hinnoittelusta
 - runkosarjan ja pudotuspelien erot ovat lähdedatassa osittain epätäydellisiä
 - julkisen rajapinnan kentät voivat muuttua ilman ennakkoilmoitusta
 

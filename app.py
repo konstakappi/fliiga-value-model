@@ -9,6 +9,11 @@ from fliiga_model.collector import FliigaCollector
 from fliiga_model.data import load_fixtures, load_games
 from fliiga_model.market import OddsDatabase
 from fliiga_model.model import PoissonStrengthModel
+from fliiga_model.odds import (
+    expected_value_with_push,
+    fair_odds_with_push,
+    market_anchored_total_probabilities,
+)
 from fliiga_model.predict import predict_fixtures
 
 ROOT = Path(__file__).parent
@@ -67,8 +72,8 @@ except (OSError, RuntimeError, ValueError) as error:
     st.error(f"Mallia ei voitu käynnistää: {error}")
     st.stop()
 
-today = pd.Timestamp.now().normalize()
-upcoming = fixtures[fixtures["date"] >= today].copy()
+now_in_finland = pd.Timestamp.now(tz="Europe/Helsinki").tz_localize(None)
+upcoming = fixtures[fixtures["date"] > now_in_finland].copy()
 upcoming = upcoming[
     upcoming["home_team"].isin(model.team_index)
     & upcoming["away_team"].isin(model.team_index)
@@ -80,6 +85,7 @@ if upcoming.empty:
     st.stop()
 
 labels = {fixture_label(row): index for index, row in upcoming.iterrows()}
+league_total_prior = float((games.tail(250)["home_goals"] + games.tail(250)["away_goals"]).mean())
 
 calculator_tab, compare_tab, bets_tab, data_tab = st.tabs(
     ["🎯 Pikalaskuri", "⚖️ Vertaa vedonvälittäjiä", "🧾 Vedot ja CLV", "🔄 Data"]
@@ -94,7 +100,12 @@ with calculator_tab:
     event_date = pd.Timestamp(selected["date"])
 
     expected_home, expected_away = model.expected_goals(home_team, away_team)
-    suggested_line = round(expected_home + expected_away - 0.5) + 0.5
+    reliability = model.match_reliability(home_team, away_team)
+    adjusted_total_mean = (
+        reliability * (expected_home + expected_away)
+        + (1.0 - reliability) * league_total_prior
+    )
+    suggested_line = round(adjusted_total_mean - 0.5) + 0.5
 
     bookmaker_col, line_col, over_col, under_col = st.columns(4)
     with bookmaker_col:
@@ -112,7 +123,7 @@ with calculator_tab:
             "Under-kerroin", min_value=1.01, value=1.90, step=0.01
         )
 
-    single = prediction_row(
+    raw_single = prediction_row(
         model,
         event_date,
         home_team,
@@ -121,20 +132,42 @@ with calculator_tab:
         over_odds,
         under_odds,
     )
-    best_side = "Over" if single.over_ev >= single.under_ev else "Under"
-    best_ev = float(max(single.over_ev, single.under_ev))
+    adjusted_over, adjusted_under = market_anchored_total_probabilities(
+        raw_single.over_probability,
+        raw_single.push_probability,
+        over_odds,
+        under_odds,
+        reliability,
+    )
+    adjusted_over_ev = expected_value_with_push(
+        adjusted_over, raw_single.push_probability, over_odds
+    )
+    adjusted_under_ev = expected_value_with_push(
+        adjusted_under, raw_single.push_probability, under_odds
+    )
+    adjusted_over_fair = fair_odds_with_push(adjusted_over, raw_single.push_probability)
+    adjusted_under_fair = fair_odds_with_push(adjusted_under, raw_single.push_probability)
+    best_side = "Over" if adjusted_over_ev >= adjusted_under_ev else "Under"
+    best_ev = float(max(adjusted_over_ev, adjusted_under_ev))
 
     st.divider()
     metrics = st.columns(5)
-    metrics[0].metric("Maaliodotus", f"{single.expected_total_goals:.2f}")
+    metrics[0].metric("Säädetty maaliodotus", f"{adjusted_total_mean:.2f}")
     metrics[1].metric(
-        "Over", f"{single.over_probability:.1%}", f"EV {single.over_ev:+.1%}"
+        "Over", f"{adjusted_over:.1%}", f"{adjusted_over_ev:+.1%}"
     )
     metrics[2].metric(
-        "Under", f"{single.under_probability:.1%}", f"EV {single.under_ev:+.1%}"
+        "Under", f"{adjusted_under:.1%}", f"{adjusted_under_ev:+.1%}"
     )
-    metrics[3].metric("Reilu Over", f"{single.over_fair_odds:.2f}")
-    metrics[4].metric("Reilu Under", f"{single.under_fair_odds:.2f}")
+    metrics[3].metric("Reilu Over", f"{adjusted_over_fair:.2f}")
+    metrics[4].metric("Reilu Under", f"{adjusted_under_fair:.2f}")
+
+    if reliability < 0.25:
+        st.warning(
+            "Tämän ottelun dataluotettavuus on matala. Arvio on ankkuroitu vahvasti "
+            "markkinan marginaalittomaan todennäköisyyteen, jotta pieni ottelumäärä "
+            "ei synnytä epärealistisia value-signaaleja."
+        )
 
     if best_ev >= ev_limit:
         st.success(
@@ -144,10 +177,14 @@ with calculator_tab:
     else:
         st.info(f"Ei value-rajan ylittävää vetoa. Paras EV on {best_ev:+.1%}.")
 
-    st.caption(
-        f"Maaliennuste: {home_team} {expected_home:.2f} – "
-        f"{expected_away:.2f} {away_team}."
-    )
+    with st.expander("Näytä raakamallin arvio"):
+        st.write(
+            f"Raakamallin maaliodotus on {raw_single.expected_total_goals:.2f} "
+            f"({home_team} {expected_home:.2f} – {expected_away:.2f} {away_team}). "
+            f"Raakamallin Over-arvio on {raw_single.over_probability:.1%}. "
+            "Näitä lukuja ei käytetä sellaisenaan EV-päätökseen, jos joukkueesta "
+            "on vähän tuoretta dataa."
+        )
 
 with compare_tab:
     st.subheader("Vertaa neljää vedonvälittäjää samalla kertaa")
@@ -161,7 +198,12 @@ with compare_tab:
     compare_away = str(compare_fixture["away_team"])
     compare_date = pd.Timestamp(compare_fixture["date"])
     compare_home_goals, compare_away_goals = model.expected_goals(compare_home, compare_away)
-    compare_line = round(compare_home_goals + compare_away_goals - 0.5) + 0.5
+    compare_reliability = model.match_reliability(compare_home, compare_away)
+    compare_total_mean = (
+        compare_reliability * (compare_home_goals + compare_away_goals)
+        + (1.0 - compare_reliability) * league_total_prior
+    )
+    compare_line = round(compare_total_mean - 0.5) + 0.5
 
     odds_grid = pd.DataFrame(
         {
@@ -203,6 +245,19 @@ with compare_tab:
                 float(over),
                 float(under),
             )
+            adjusted_over, adjusted_under = market_anchored_total_probabilities(
+                prediction.over_probability,
+                prediction.push_probability,
+                float(over),
+                float(under),
+                compare_reliability,
+            )
+            adjusted_over_ev = expected_value_with_push(
+                adjusted_over, prediction.push_probability, float(over)
+            )
+            adjusted_under_ev = expected_value_with_push(
+                adjusted_under, prediction.push_probability, float(under)
+            )
             rows.extend(
                 [
                     {
@@ -210,18 +265,24 @@ with compare_tab:
                         "Puoli": "Over",
                         "Raja": line,
                         "Kerroin": over,
-                        "Reilu kerroin": prediction.over_fair_odds,
-                        "Todennäköisyys": prediction.over_probability,
-                        "EV": prediction.over_ev,
+                        "Reilu kerroin": fair_odds_with_push(
+                            adjusted_over, prediction.push_probability
+                        ),
+                        "Todennäköisyys": adjusted_over,
+                        "EV": adjusted_over_ev,
+                        "Dataluotettavuus": compare_reliability,
                     },
                     {
                         "Vedonvälittäjä": quote.Vedonvälittäjä,
                         "Puoli": "Under",
                         "Raja": line,
                         "Kerroin": under,
-                        "Reilu kerroin": prediction.under_fair_odds,
-                        "Todennäköisyys": prediction.under_probability,
-                        "EV": prediction.under_ev,
+                        "Reilu kerroin": fair_odds_with_push(
+                            adjusted_under, prediction.push_probability
+                        ),
+                        "Todennäköisyys": adjusted_under,
+                        "EV": adjusted_under_ev,
+                        "Dataluotettavuus": compare_reliability,
                     },
                 ]
             )
@@ -238,6 +299,7 @@ with compare_tab:
                         "Reilu kerroin": "{:.2f}",
                         "Todennäköisyys": "{:.1%}",
                         "EV": "{:+.1%}",
+                        "Dataluotettavuus": "{:.0%}",
                     }
                 ),
                 width="stretch",

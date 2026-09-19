@@ -1,4 +1,4 @@
-# F-liiga Value Model v0.5.1
+# F-liiga Value Model v0.6.0
 
 GitHub-valmis miesten F-liigan maalimäärä- ja 1X2-todennäköisyyksien arviointiin.
 Malli sovittaa ottelutuloksiin joukkuekohtaiset hyökkäys- ja puolustusvahvuudet,
@@ -23,6 +23,7 @@ Katso aineisto, validointitulokset ja tunnetut rajoitukset tiedostosta
 - over/under-todennäköisyydet, reilut kertoimet ja push-tuki
 - 1X2-tulosjakauma 60 minuutin tulokselle
 - suhteellinen marginaalin poisto vedonvälittäjän kertoimista
+- pienen otoksen dataluotettavuus ja markkina-ankkurointi totals-arvioille
 - reilu kerroin, markkinaero, EV ja murto-Kelly
 - aikajärjestyksessä tehtävä walk-forward-backtest
 - selainkäyttöliittymä Streamlitillä
@@ -85,8 +86,10 @@ streamlit run app.py
 
 Sovellus käyttää oletuksena mukana tulevaa oikeaa F-liiga-historiadataa. Valitse
 joukkueet, syötä vedonvälittäjän totals-raja ja over/under-kertoimet. Sovellus
-laskee todennäköisyydet, reilut kertoimet ja EV:n. Oman historian ja usean
-ottelun kerrointiedoston voi ladata CSV:nä.
+laskee todennäköisyydet, reilut kertoimet ja EV:n. Jos jommastakummasta
+joukkueesta on vähän tuoretta dataa, sovellus pienentää raakamallin painoa ja
+ankkuroi arvion vedonvälittäjän marginaalittomaan markkina-arvioon. Siksi sekä
+Over- että Under-kerroin tarvitaan luotettavaan vertailuun.
 
 ## Päivitä F-liiga-data
 
@@ -129,7 +132,9 @@ fliiga-model value-report \
 
 Raportti valitsee jokaiselle ottelulle, rajalle ja puolelle parhaan tarjolla olevan
 kertoimen. `ev` on mallin odotusarvo per panosyksikkö ja `kelly_20pct` varovainen
-panososuus pelikassasta. Se ei huomioi vetokohtaisia panosrajoja.
+panososuus pelikassasta. Markkina-ankkurointi edellyttää saman vedonvälittäjän
+saman rajan Over- ja Under-kertoimia. Raportti ohittaa yksipuoliset tarjoukset.
+Se ei huomioi vetokohtaisia panosrajoja.
 
 ### 3. Kirjaa veto
 
@@ -196,6 +201,8 @@ Rajaa tulos halutessasi yhteen yhtiöön esimerkiksi `--bookmaker Coolbet`.
 Testi käyttää vain ennen kutakin ottelua pelattuja tuloksia ja vain ennen
 alkamisaikaa kerättyjä kertoimia. Se valitsee korkeintaan yhden, suurimman EV:n
 vedon ottelua kohti ja raportoi tasapanos-ROI:n.
+Backtest käyttää samaa dataluotettavuuteen perustuvaa markkina-ankkurointia kuin
+käyttöliittymä ja vaatii jokaiselle testattavalle rajalle molemmat kertoimet.
 
 ## CSV-rakenne
 
