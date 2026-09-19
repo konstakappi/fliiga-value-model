@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import minimize
 from scipy.special import gammaln
-from scipy.stats import nbinom, poisson
+from scipy.stats import nbinom, poisson, skellam
 
 
 @dataclass(frozen=True)
@@ -28,6 +28,15 @@ class TotalPrediction:
     push_probability: float
     under_probability: float
     dispersion: float
+
+
+@dataclass(frozen=True)
+class HandicapPrediction:
+    home_handicap: float
+    expected_goal_difference: float
+    home_cover_probability: float
+    push_probability: float
+    away_cover_probability: float
 
 
 class PoissonStrengthModel:
@@ -210,4 +219,34 @@ class PoissonStrengthModel:
             push_probability=push,
             under_probability=under,
             dispersion=alpha,
+        )
+
+    def predict_handicap(
+        self, home_team: str, away_team: str, home_handicap: float
+    ) -> HandicapPrediction:
+        """Predict a two-way handicap where the line is added to the home score."""
+        if not np.isfinite(home_handicap):
+            raise ValueError("Home handicap must be finite")
+        if not np.isclose(home_handicap * 2, round(home_handicap * 2)):
+            raise ValueError("Home handicap must use whole or half goals")
+
+        home_xg, away_xg = self.expected_goals(home_team, away_team)
+        boundary = -float(home_handicap)
+        if np.isclose(boundary, round(boundary)):
+            integer_boundary = round(boundary)
+            away_cover = float(skellam.cdf(integer_boundary - 1, home_xg, away_xg))
+            push = float(skellam.pmf(integer_boundary, home_xg, away_xg))
+            home_cover = float(skellam.sf(integer_boundary, home_xg, away_xg))
+        else:
+            integer_boundary = int(np.floor(boundary))
+            away_cover = float(skellam.cdf(integer_boundary, home_xg, away_xg))
+            push = 0.0
+            home_cover = float(skellam.sf(integer_boundary, home_xg, away_xg))
+
+        return HandicapPrediction(
+            home_handicap=float(home_handicap),
+            expected_goal_difference=home_xg - away_xg,
+            home_cover_probability=home_cover,
+            push_probability=push,
+            away_cover_probability=away_cover,
         )

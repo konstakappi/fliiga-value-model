@@ -32,21 +32,38 @@ def market_anchored_total_probabilities(
     reliability: float,
 ) -> tuple[float, float]:
     """Blend a totals model with the no-vig market when team data is sparse."""
+    return market_anchored_two_way_probabilities(
+        model_over,
+        push_probability,
+        over_odds,
+        under_odds,
+        reliability,
+    )
+
+
+def market_anchored_two_way_probabilities(
+    model_first: float,
+    push_probability: float,
+    first_odds: float,
+    second_odds: float,
+    reliability: float,
+) -> tuple[float, float]:
+    """Blend any two-way model with the no-vig market when data is sparse."""
     if not 0 <= reliability <= 1:
         raise ValueError("Reliability must be between 0 and 1")
     if not 0 <= push_probability < 1:
         raise ValueError("Push probability must be between 0 and 1")
     non_push = 1.0 - push_probability
-    if not 0 <= model_over <= non_push:
-        raise ValueError("Model over probability is inconsistent with push probability")
-    market_over, _ = two_way_devig(over_odds, under_odds)
-    model_over_conditional = model_over / non_push
-    blended_over_conditional = (
-        reliability * model_over_conditional + (1.0 - reliability) * market_over
+    if not 0 <= model_first <= non_push:
+        raise ValueError("Model probability is inconsistent with push probability")
+    market_first, _ = two_way_devig(first_odds, second_odds)
+    model_first_conditional = model_first / non_push
+    blended_first_conditional = (
+        reliability * model_first_conditional + (1.0 - reliability) * market_first
     )
-    over = blended_over_conditional * non_push
-    under = (1.0 - blended_over_conditional) * non_push
-    return over, under
+    first = blended_first_conditional * non_push
+    second = (1.0 - blended_first_conditional) * non_push
+    return first, second
 
 
 def expected_value(probability: float, decimal_odds: float) -> float:
