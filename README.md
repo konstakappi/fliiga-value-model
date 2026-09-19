@@ -1,4 +1,4 @@
-# F-liiga Value Model v0.4
+# F-liiga Value Model v0.5
 
 GitHub-valmis miesten F-liigan maalimäärä- ja 1X2-todennäköisyyksien arviointiin.
 Malli sovittaa ottelutuloksiin joukkuekohtaiset hyökkäys- ja puolustusvahvuudet,
@@ -33,7 +33,29 @@ Katso aineisto, validointitulokset ja tunnetut rajoitukset tiedostosta
 - vetoloki ja päätöskertoimeen perustuva CLV-seuranta
 - maksuton ajastus GitHub Actionsilla
 
-## Asennus
+## Helpoin käynnistys
+
+### Windows
+
+1. Lataa projekti GitHubista valitsemalla **Code → Download ZIP**.
+2. Pura ZIP-paketti.
+3. Kaksoisklikkaa tiedostoa **`KAYNNISTA_WINDOWS.bat`**.
+
+Ensimmäinen käynnistys asentaa tarvittavat paketit automaattisesti. Seuraavilla
+kerroilla kaksoisklikkaa samaa tiedostoa. Tarvitset Python 3.11:n tai uudemman.
+
+### macOS ja Linux
+
+```bash
+chmod +x kaynnista_mac_linux.sh
+./kaynnista_mac_linux.sh
+```
+
+Käyttöliittymässä tuleva ottelu valitaan suoraan listasta. Neljän vedonvälittäjän
+kertoimet voi liittää samaan taulukkoon kerralla, minkä jälkeen ohjelma järjestää
+Over- ja Under-vaihtoehdot odotusarvon mukaan.
+
+## Kehittäjän asennus
 
 ```bash
 git clone <oman-reposi-url>

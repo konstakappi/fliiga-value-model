@@ -5,184 +5,307 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
+from fliiga_model.collector import FliigaCollector
 from fliiga_model.data import load_fixtures, load_games
-from fliiga_model.market import OddsDatabase, build_value_report
+from fliiga_model.market import OddsDatabase
 from fliiga_model.model import PoissonStrengthModel
 from fliiga_model.predict import predict_fixtures
 
-st.set_page_config(page_title="F-liiga Value Model", page_icon="📊", layout="wide")
-st.title("F-liiga Value Model")
-st.caption("Miesten F-liigan totals- ja 1X2-todennäköisyydet sekä EV-laskenta.")
+ROOT = Path(__file__).parent
+GAMES_PATH = ROOT / "data" / "fliiga_men_history.csv"
+FIXTURES_PATH = ROOT / "data" / "fliiga_men_fixtures.csv"
+ODDS_DB_PATH = ROOT / "data" / "odds.db"
+BOOKMAKERS = ["Coolbet", "Unibet", "bet365", "Paf"]
+
+
+def fixture_label(row: pd.Series) -> str:
+    return f"{row['date']:%d.%m. klo %H:%M} — {row['home_team']} – {row['away_team']}"
+
+
+def prediction_row(
+    model: PoissonStrengthModel,
+    date: pd.Timestamp,
+    home_team: str,
+    away_team: str,
+    line: float,
+    over_odds: float,
+    under_odds: float,
+) -> pd.Series:
+    fixture = pd.DataFrame(
+        [
+            {
+                "date": date,
+                "home_team": home_team,
+                "away_team": away_team,
+                "total_line": line,
+                "over_odds": over_odds,
+                "under_odds": under_odds,
+            }
+        ]
+    )
+    return predict_fixtures(model, fixture).iloc[0]
+
+
+st.set_page_config(page_title="F-liiga vedonlyöntiapuri", page_icon="🥅", layout="wide")
+st.title("🥅 F-liiga vedonlyöntiapuri")
+st.caption("Valitse ottelu, lisää näkyvät kertoimet ja vertaa niitä mallin arvioon.")
 
 with st.sidebar:
-    st.header("Mallin asetukset")
-    half_life = st.slider("Puoliintumisaika (päivää)", 30, 365, 120)
-    l2 = st.slider("Regularisointi", 0.0, 10.0, 1.0, 0.1)
-    ev_limit = st.slider("Näytettävä minimi-EV", 0.0, 0.25, 0.05, 0.01)
-
-st.subheader("1. Data")
-games_file = st.file_uploader("Korvaa historiadata omalla games.csv-tiedostolla", type="csv")
-fixtures_file = st.file_uploader("Lataa bulk-ennusteiden fixtures.csv", type="csv")
-
-bundled_games = Path(__file__).parent / "data" / "fliiga_men_history.csv"
-bundled_fixtures = Path(__file__).parent / "data" / "fliiga_men_fixtures.csv"
-games_source = games_file if games_file is not None else bundled_games
+    st.header("Kolme vaihetta")
+    st.markdown("1. Valitse ottelu.\n2. Lisää kertoimet.\n3. Tarkista EV.")
+    st.warning("Malli ei takaa voittoa. Tarkista aina kokoonpanot ja maalivahdit.")
+    with st.expander("Mallin lisäasetukset"):
+        half_life = st.slider("Puoliintumisaika (päivää)", 30, 365, 120)
+        l2 = st.slider("Regularisointi", 0.0, 10.0, 1.0, 0.1)
+        ev_limit = st.slider("Value-raja", 0.0, 0.25, 0.05, 0.01)
 
 try:
-    games = load_games(games_source)
+    games = load_games(GAMES_PATH)
+    fixtures = load_fixtures(FIXTURES_PATH)
     model = PoissonStrengthModel(half_life_days=half_life, l2=l2).fit(games)
-    st.success(
-        f"Käytössä {len(games)} miesten F-liigaottelua ja {len(model.teams)} joukkuetta. "
-        f"Totals-dispersio: {model.total_dispersion_:.3f}."
-    )
 except (OSError, RuntimeError, ValueError) as error:
-    st.error(str(error))
+    st.error(f"Mallia ei voitu käynnistää: {error}")
     st.stop()
 
-st.subheader("2. Yksittäisen totals-kohteen arvio")
-current_teams = model.teams
-if bundled_fixtures.exists():
-    current_fixture_data = load_fixtures(bundled_fixtures)
-    fixture_teams = sorted(
-        set(current_fixture_data["home_team"]) | set(current_fixture_data["away_team"])
+today = pd.Timestamp.now().normalize()
+upcoming = fixtures[fixtures["date"] >= today].copy()
+upcoming = upcoming[
+    upcoming["home_team"].isin(model.team_index)
+    & upcoming["away_team"].isin(model.team_index)
+]
+upcoming = upcoming.sort_values("date").reset_index(drop=True)
+
+if upcoming.empty:
+    st.error("Tulevia otteluita ei löytynyt. Päivitä data Data-välilehdeltä.")
+    st.stop()
+
+labels = {fixture_label(row): index for index, row in upcoming.iterrows()}
+
+calculator_tab, compare_tab, bets_tab, data_tab = st.tabs(
+    ["🎯 Pikalaskuri", "⚖️ Vertaa vedonvälittäjiä", "🧾 Vedot ja CLV", "🔄 Data"]
+)
+
+with calculator_tab:
+    st.subheader("Yhden kohteen pikalaskuri")
+    selected_label = st.selectbox("Ottelu", list(labels), key="single_fixture")
+    selected = upcoming.loc[labels[selected_label]]
+    home_team = str(selected["home_team"])
+    away_team = str(selected["away_team"])
+    event_date = pd.Timestamp(selected["date"])
+
+    expected_home, expected_away = model.expected_goals(home_team, away_team)
+    suggested_line = round(expected_home + expected_away - 0.5) + 0.5
+
+    bookmaker_col, line_col, over_col, under_col = st.columns(4)
+    with bookmaker_col:
+        bookmaker = st.selectbox("Vedonvälittäjä", BOOKMAKERS)
+    with line_col:
+        total_line = st.number_input(
+            "Maaliraja", min_value=0.5, value=float(suggested_line), step=0.5
+        )
+    with over_col:
+        over_odds = st.number_input(
+            "Over-kerroin", min_value=1.01, value=1.90, step=0.01
+        )
+    with under_col:
+        under_odds = st.number_input(
+            "Under-kerroin", min_value=1.01, value=1.90, step=0.01
+        )
+
+    single = prediction_row(
+        model,
+        event_date,
+        home_team,
+        away_team,
+        total_line,
+        over_odds,
+        under_odds,
     )
-    current_teams = [team for team in fixture_teams if team in model.team_index]
-left, right = st.columns(2)
-with left:
-    home_team = st.selectbox("Kotijoukkue", current_teams, index=0)
-with right:
-    away_options = [team for team in current_teams if team != home_team]
-    away_team = st.selectbox("Vierasjoukkue", away_options, index=0)
+    best_side = "Over" if single.over_ev >= single.under_ev else "Under"
+    best_ev = float(max(single.over_ev, single.under_ev))
 
-expected_home, expected_away = model.expected_goals(home_team, away_team)
-suggested_line = round(expected_home + expected_away - 0.5) + 0.5
-line_col, over_col, under_col = st.columns(3)
-with line_col:
-    total_line = st.number_input("Maaliraja", min_value=0.5, value=float(suggested_line), step=0.5)
-with over_col:
-    over_odds = st.number_input("Over-kerroin", min_value=1.01, value=1.90, step=0.01)
-with under_col:
-    under_odds = st.number_input("Under-kerroin", min_value=1.01, value=1.90, step=0.01)
+    st.divider()
+    metrics = st.columns(5)
+    metrics[0].metric("Maaliodotus", f"{single.expected_total_goals:.2f}")
+    metrics[1].metric(
+        "Over", f"{single.over_probability:.1%}", f"EV {single.over_ev:+.1%}"
+    )
+    metrics[2].metric(
+        "Under", f"{single.under_probability:.1%}", f"EV {single.under_ev:+.1%}"
+    )
+    metrics[3].metric("Reilu Over", f"{single.over_fair_odds:.2f}")
+    metrics[4].metric("Reilu Under", f"{single.under_fair_odds:.2f}")
 
-single_fixture = pd.DataFrame(
-    [
-        {
-            "date": pd.Timestamp.now(),
-            "home_team": home_team,
-            "away_team": away_team,
-            "total_line": total_line,
-            "over_odds": over_odds,
-            "under_odds": under_odds,
-        }
-    ]
-)
-single = predict_fixtures(model, single_fixture).iloc[0]
-metric_columns = st.columns(4)
-metric_columns[0].metric("Odotetut maalit", f"{single.expected_total_goals:.2f}")
-metric_columns[1].metric("Over", f"{100 * single.over_probability:.1f} %", f"EV {100 * single.over_ev:.1f} %")
-metric_columns[2].metric("Under", f"{100 * single.under_probability:.1f} %", f"EV {100 * single.under_ev:.1f} %")
-best_side = "Over" if single.over_ev >= single.under_ev else "Under"
-best_ev = max(single.over_ev, single.under_ev)
-metric_columns[3].metric("Paras puoli", best_side, f"EV {100 * best_ev:.1f} %")
-
-st.caption(
-    f"Mallin maaliennuste: {home_team} {expected_home:.2f} – {expected_away:.2f} {away_team}. "
-    "Pelaa vain, jos ero kestää kokoonpano- ja maalivahtitarkistuksen."
-)
-
-if fixtures_file:
-    try:
-        fixtures = load_fixtures(fixtures_file)
-        predictions = predict_fixtures(model, fixtures)
-        st.subheader("3. Bulk-ennusteet")
-        ev_columns = [column for column in predictions if column.endswith("_ev")]
-        if ev_columns:
-            predictions["best_ev"] = predictions[ev_columns].max(axis=1)
-            filtered = predictions[predictions["best_ev"] >= ev_limit]
-            st.subheader("Mallin tunnistamat ehdokkaat")
-            st.dataframe(filtered, use_container_width=True, hide_index=True)
-        else:
-            st.info("Lisää fixtures.csv-tiedostoon home_odds, draw_odds ja away_odds EV-laskentaa varten.")
-            st.dataframe(predictions, use_container_width=True, hide_index=True)
-
-        st.download_button(
-            "Lataa kaikki ennusteet CSV:nä",
-            predictions.to_csv(index=False).encode("utf-8"),
-            "predictions.csv",
-            "text/csv",
+    if best_ev >= ev_limit:
+        st.success(
+            f"Mahdollinen value: {best_side} {total_line:g} ({bookmaker}). "
+            f"Mallin EV {best_ev:+.1%}."
         )
-    except (OSError, RuntimeError, ValueError) as error:
-        st.error(str(error))
-else:
-    st.info("Bulk-ennusteita varten lataa fixtures.csv. Yksittäinen totals-laskuri toimii yllä ilman tiedostoa.")
-
-st.divider()
-st.subheader("4. Kerroinhistoria ja päivän value-lista")
-odds_database = Path(__file__).parent / "data" / "odds.db"
-odds_upload = st.file_uploader(
-    "Tuo vedonvälittäjien totals-kertoimet", type="csv", key="odds_upload"
-)
-if odds_upload is not None and st.button("Tallenna kertoimet tietokantaan"):
-    try:
-        with OddsDatabase(odds_database) as database:
-            imported = database.import_csv(odds_upload)
-        st.success(f"Tallennettiin {imported} uutta kerroinhavaintoa.")
-    except (OSError, ValueError) as error:
-        st.error(str(error))
-
-if st.button("Laske päivän value-lista"):
-    try:
-        with OddsDatabase(odds_database) as database:
-            value_report = build_value_report(
-                database, bundled_games, bundled_fixtures, min_ev=ev_limit,
-                half_life=half_life, l2=l2,
-            )
-        if value_report.empty:
-            st.info("Nykyisistä kerroinhavainnoista ei löytynyt rajan ylittävää kohdetta.")
-        else:
-            st.dataframe(value_report, use_container_width=True, hide_index=True)
-            st.download_button(
-                "Lataa value-lista CSV:nä", value_report.to_csv(index=False).encode("utf-8"),
-                "daily_value.csv", "text/csv",
-            )
-    except (OSError, RuntimeError, ValueError) as error:
-        st.error(str(error))
-
-st.subheader("5. Vedon kirjaus ja CLV")
-with st.form("bet_form"):
-    bet_bookmaker = st.text_input("Vedonvälittäjä")
-    bet_home = st.text_input("Kotijoukkue")
-    bet_away = st.text_input("Vierasjoukkue")
-    bet_start = st.text_input("Alkamisaika", placeholder="2026-09-20T17:00:00+03:00")
-    bet_line, bet_odds, bet_stake = st.columns(3)
-    with bet_line:
-        recorded_line = st.number_input("Totals-raja", min_value=0.5, value=10.5, step=0.5)
-    with bet_odds:
-        recorded_odds = st.number_input("Saatu kerroin", min_value=1.01, value=1.90, step=0.01)
-    with bet_stake:
-        recorded_stake = st.number_input("Panos", min_value=0.01, value=10.0, step=1.0)
-    recorded_side = st.selectbox("Puoli", ["over", "under"])
-    bet_submitted = st.form_submit_button("Kirjaa veto")
-if bet_submitted:
-    try:
-        with OddsDatabase(odds_database) as database:
-            bet_id = database.record_bet(
-                bookmaker=bet_bookmaker, event_start=bet_start, home_team=bet_home,
-                away_team=bet_away, total_line=recorded_line, side=recorded_side,
-                decimal_odds=recorded_odds, stake=recorded_stake,
-            )
-        st.success(f"Veto {bet_id} kirjattiin.")
-    except (OSError, ValueError) as error:
-        st.error(str(error))
-
-if st.button("Näytä CLV-raportti"):
-    with OddsDatabase(odds_database) as database:
-        clv_report = database.clv_report()
-    if clv_report.empty:
-        st.info("Ei vielä kirjattuja vetoja tai päätöskertoimia.")
     else:
-        st.dataframe(clv_report, use_container_width=True, hide_index=True)
-        st.download_button(
-            "Lataa CLV-raportti CSV:nä", clv_report.to_csv(index=False).encode("utf-8"),
-            "clv_report.csv", "text/csv",
-        )
+        st.info(f"Ei value-rajan ylittävää vetoa. Paras EV on {best_ev:+.1%}.")
+
+    st.caption(
+        f"Maaliennuste: {home_team} {expected_home:.2f} – "
+        f"{expected_away:.2f} {away_team}."
+    )
+
+with compare_tab:
+    st.subheader("Vertaa neljää vedonvälittäjää samalla kertaa")
+    st.write(
+        "Valitse ottelu ja liitä kertoimet taulukkoon. Voit kopioida useita "
+        "Excel-/CSV-soluja ja liittää ne taulukkoon yhdellä Ctrl+V-painalluksella."
+    )
+    compare_label = st.selectbox("Ottelu", list(labels), key="compare_fixture")
+    compare_fixture = upcoming.loc[labels[compare_label]]
+    compare_home = str(compare_fixture["home_team"])
+    compare_away = str(compare_fixture["away_team"])
+    compare_date = pd.Timestamp(compare_fixture["date"])
+    compare_home_goals, compare_away_goals = model.expected_goals(compare_home, compare_away)
+    compare_line = round(compare_home_goals + compare_away_goals - 0.5) + 0.5
+
+    odds_grid = pd.DataFrame(
+        {
+            "Vedonvälittäjä": BOOKMAKERS,
+            "Maaliraja": [compare_line] * len(BOOKMAKERS),
+            "Over": [None] * len(BOOKMAKERS),
+            "Under": [None] * len(BOOKMAKERS),
+        }
+    )
+    edited_odds = st.data_editor(
+        odds_grid,
+        width="stretch",
+        hide_index=True,
+        disabled=["Vedonvälittäjä"],
+        column_config={
+            "Maaliraja": st.column_config.NumberColumn(min_value=0.5, step=0.5),
+            "Over": st.column_config.NumberColumn(min_value=1.01, step=0.01),
+            "Under": st.column_config.NumberColumn(min_value=1.01, step=0.01),
+        },
+        key=f"odds_{compare_home}_{compare_away}",
+    )
+
+    if st.button("Laske ja järjestä parhaat", type="primary", width="stretch"):
+        rows: list[dict[str, object]] = []
+        for quote in edited_odds.itertuples(index=False):
+            line = pd.to_numeric(quote.Maaliraja, errors="coerce")
+            over = pd.to_numeric(quote.Over, errors="coerce")
+            under = pd.to_numeric(quote.Under, errors="coerce")
+            if pd.isna(line) or pd.isna(over) or pd.isna(under):
+                continue
+            if float(over) <= 1.0 or float(under) <= 1.0:
+                continue
+            prediction = prediction_row(
+                model,
+                compare_date,
+                compare_home,
+                compare_away,
+                float(line),
+                float(over),
+                float(under),
+            )
+            rows.extend(
+                [
+                    {
+                        "Vedonvälittäjä": quote.Vedonvälittäjä,
+                        "Puoli": "Over",
+                        "Raja": line,
+                        "Kerroin": over,
+                        "Reilu kerroin": prediction.over_fair_odds,
+                        "Todennäköisyys": prediction.over_probability,
+                        "EV": prediction.over_ev,
+                    },
+                    {
+                        "Vedonvälittäjä": quote.Vedonvälittäjä,
+                        "Puoli": "Under",
+                        "Raja": line,
+                        "Kerroin": under,
+                        "Reilu kerroin": prediction.under_fair_odds,
+                        "Todennäköisyys": prediction.under_probability,
+                        "EV": prediction.under_ev,
+                    },
+                ]
+            )
+        if not rows:
+            st.warning("Lisää vähintään yhden vedonvälittäjän Over- ja Under-kertoimet.")
+        else:
+            comparison = pd.DataFrame(rows).sort_values("EV", ascending=False)
+            comparison.insert(0, "Value", comparison["EV"] >= ev_limit)
+            st.dataframe(
+                comparison.style.format(
+                    {
+                        "Raja": "{:.1f}",
+                        "Kerroin": "{:.2f}",
+                        "Reilu kerroin": "{:.2f}",
+                        "Todennäköisyys": "{:.1%}",
+                        "EV": "{:+.1%}",
+                    }
+                ),
+                width="stretch",
+                hide_index=True,
+            )
+
+with bets_tab:
+    st.subheader("Vedon kirjaus")
+    with st.form("bet_form"):
+        bet_bookmaker = st.selectbox("Vedonvälittäjä", BOOKMAKERS, key="bet_book")
+        bet_fixture = st.selectbox("Ottelu", list(labels), key="bet_fixture")
+        bet_selected = upcoming.loc[labels[bet_fixture]]
+        bet_columns = st.columns(4)
+        with bet_columns[0]:
+            bet_line = st.number_input("Raja", min_value=0.5, value=10.5, step=0.5)
+        with bet_columns[1]:
+            bet_side = st.selectbox("Puoli", ["over", "under"])
+        with bet_columns[2]:
+            bet_odds = st.number_input("Kerroin", min_value=1.01, value=1.90, step=0.01)
+        with bet_columns[3]:
+            bet_stake = st.number_input("Panos", min_value=0.01, value=10.0, step=1.0)
+        submitted = st.form_submit_button("Kirjaa veto", type="primary")
+    if submitted:
+        try:
+            with OddsDatabase(ODDS_DB_PATH) as database:
+                bet_id = database.record_bet(
+                    bookmaker=bet_bookmaker,
+                    event_start=pd.Timestamp(bet_selected["date"]).isoformat(),
+                    home_team=str(bet_selected["home_team"]),
+                    away_team=str(bet_selected["away_team"]),
+                    total_line=bet_line,
+                    side=bet_side,
+                    decimal_odds=bet_odds,
+                    stake=bet_stake,
+                )
+            st.success(f"Veto {bet_id} kirjattiin.")
+        except (OSError, ValueError) as error:
+            st.error(str(error))
+
+    if st.button("Näytä CLV-raportti"):
+        with OddsDatabase(ODDS_DB_PATH) as database:
+            clv_report = database.clv_report()
+        if clv_report.empty:
+            st.info("Ei vielä kirjattuja vetoja tai päätöskertoimia.")
+        else:
+            st.dataframe(clv_report, width="stretch", hide_index=True)
+
+with data_tab:
+    st.subheader("Päivitä F-liigan ottelutiedot")
+    st.write(
+        f"Käytössä {len(games)} tulosta ja {len(upcoming)} tulevaa ottelua. "
+        "Päivitys hakee ottelut F-liigan julkisesta rajapinnasta."
+    )
+    if st.button("Päivitä ottelut nyt", type="primary"):
+        with st.spinner("Haetaan F-liigan otteluita..."):
+            try:
+                collected = FliigaCollector().collect()
+                collected.completed.to_csv(GAMES_PATH, index=False)
+                collected.fixtures.to_csv(FIXTURES_PATH, index=False)
+                st.success(
+                    f"Päivitetty: {len(collected.completed)} tulosta ja "
+                    f"{len(collected.fixtures)} tulevaa ottelua. Käynnistä sivu uudelleen."
+                )
+            except (OSError, RuntimeError, ValueError) as error:
+                st.error(f"Päivitys epäonnistui: {error}")
+
+    st.divider()
+    st.caption(
+        "Täysin automaattinen vedonvälittäjäkohtaisten kertoimien haku vaatii "
+        "lisensoidun odds-API:n. Ilmainen versio ei kierrä kirjautumisia tai bottisuojauksia."
+    )
