@@ -5,7 +5,11 @@ import pandas as pd
 
 from .market import ODDS_COLUMNS, normalize_team
 from .model import PoissonStrengthModel
-from .odds import expected_value, expected_value_with_push
+from .odds import (
+    expected_value,
+    expected_value_with_push,
+    market_anchored_total_probabilities,
+)
 
 
 def walk_forward_backtest(
@@ -172,12 +176,30 @@ def totals_odds_backtest(
         if game.home_team not in model.team_index or game.away_team not in model.team_index:
             continue
 
+        price_lookup = {
+            (offer.bookmaker, float(offer.total_line), offer.side): float(offer.decimal_odds)
+            for offer in offers.itertuples(index=False)
+        }
+        reliability = model.match_reliability(game.home_team, game.away_team)
         evaluated: list[dict[str, object]] = []
         for offer in offers.itertuples(index=False):
-            total = model.predict_total(game.home_team, game.away_team, offer.total_line)
-            probability = (
-                total.over_probability if offer.side == "over" else total.under_probability
+            opposite_side = "under" if offer.side == "over" else "over"
+            opposite_odds = price_lookup.get(
+                (offer.bookmaker, float(offer.total_line), opposite_side)
             )
+            if opposite_odds is None:
+                continue
+            total = model.predict_total(game.home_team, game.away_team, offer.total_line)
+            over_odds = float(offer.decimal_odds) if offer.side == "over" else opposite_odds
+            under_odds = float(offer.decimal_odds) if offer.side == "under" else opposite_odds
+            over_probability, under_probability = market_anchored_total_probabilities(
+                total.over_probability,
+                total.push_probability,
+                over_odds,
+                under_odds,
+                reliability,
+            )
+            probability = over_probability if offer.side == "over" else under_probability
             ev = expected_value_with_push(
                 probability, total.push_probability, offer.decimal_odds
             )
@@ -195,6 +217,7 @@ def totals_odds_backtest(
                     "model_probability": probability,
                     "push_probability": total.push_probability,
                     "expected_total_goals": total.expected_total_goals,
+                    "data_reliability": reliability,
                     "ev": ev,
                     "collected_at": offer.collected_at
                     if hasattr(offer, "collected_at") else None,
